@@ -53,4 +53,3 @@ const IndexPage = () => {
 
 export default IndexPage
 
-// another test
