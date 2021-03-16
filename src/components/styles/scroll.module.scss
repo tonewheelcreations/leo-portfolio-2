@@ -1,0 +1,36 @@
+@use 'breakpoints';
+
+.scrollTop {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: var(--space-xxxl);
+
+    a {
+        color: black;
+        font-weight: 600;
+    }
+
+    a:link {
+        color: black;
+    }
+
+    a:focus {
+        color: #d85945;
+    }
+
+    a:hover {
+        color: #d85945;
+    }
+}
+
+@include breakpoints.breakpoint(md) {
+    .scrollTop {
+        justify-content: flex-end;
+        margin: auto;
+
+        a {
+            margin: var(--space-xxxl);
+        }
+    }
+}

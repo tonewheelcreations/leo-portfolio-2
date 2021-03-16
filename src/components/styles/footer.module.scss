@@ -1,0 +1,25 @@
+/* Footer styles */
+
+@use 'breakpoints';
+@use 'global';
+
+.footer {
+    max-width: 1440px;
+    margin: var(--space-xxxl);
+
+    p {
+        text-align: center;
+        font-size: var(--type-xs);
+    }
+}
+
+@include breakpoints.breakpoint(md) {
+    .footer {
+        margin: auto;
+
+        p {
+            text-align: right;
+            margin: var(--space-xxxxl);
+        }
+    }
+}

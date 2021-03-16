@@ -1,29 +1,56 @@
-import * as React from "react"
+import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
+import { topModule, projects, image } from "../components/styles/home.module.scss"
 import SEO from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image";
+import Project from "../components/project-card"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <div className={topModule}>
+        <h1>Hi, I'm Leo</h1>
+        <h2>I'm a <Link to="/about/#design">UX Designer</Link> with roots in <Link to="/about/#music">jazz composition</Link> and <Link to="/about/#video">video production</Link>.</h2>
+      </div>
+
+      <div className={projects}>
+        <Project
+          link={"/house2home/"}
+          title={"Beating decision anxiety on a budget"}
+          description={"Read case study"}
+        >
+          <StaticImage
+            src="../images/design-sprint/ds-cover.jpg"
+            alt="House2Home Case Study"
+            className={image}
+            style={{ display: "block" }}
+            placeholder="blurred"
+          />
+
+        </Project>
+        <Project
+          link={"/onstage/"}
+          title={"Onstage music live-streaming app"}
+          description={"Read case study"}
+        >
+          <StaticImage
+            src="../images/c1/c1-cover.jpg"
+            alt="Onstage Case Study"
+            className={image}
+            style={{ display: "block" }}
+            placeholder="blurred"
+          />
+
+        </Project>
+      </div >
+
+
+    </Layout >
+  );
+}
 
 export default IndexPage
+
+// another test

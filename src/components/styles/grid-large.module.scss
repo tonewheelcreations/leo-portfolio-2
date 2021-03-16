@@ -1,0 +1,56 @@
+@use 'breakpoints';
+
+.grid-large {
+    margin: var(--space-md) var(--space-xxxl);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: var(--space-xxxl);
+
+    p {
+        font-size: var(--type-xs);
+        // font-style: italic;
+    }
+
+    .left {
+        grid-column: 1 / 13;
+        // margin: var(--space-xxxl) 0 0 0;
+    }
+
+    .right {
+        grid-column: 1 / 13;
+        // margin: var(--space-xxxl) 0 0 0;
+    }
+
+    .one,
+    .two,
+    .three {
+        // margin: var(--space-xxxl) 0;
+        grid-column: span 12;
+    }
+}
+
+@include breakpoints.breakpoint(xl) {
+    .grid-large {
+        grid-gap: var(--space-xxxl);
+
+        .left {
+            grid-column: 1 / 7;
+        }
+
+        .right {
+            grid-column: 7 / 13;
+        }
+
+        .one {
+            grid-column: 1 / 5;
+        }
+
+        .two {
+            grid-column: 5 / 9;
+        }
+
+        .three {
+            grid-column: 9 / 13;
+        }
+    }
+}

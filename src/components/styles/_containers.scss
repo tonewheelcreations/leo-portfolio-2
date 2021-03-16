@@ -1,0 +1,32 @@
+@use 'breakpoints';
+@use 'spacers';
+
+// body {
+//     margin: auto;
+// }
+
+.page-container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.main {
+    margin-left: var(--space-xxxl);
+    margin-right: var(--space-xxxl);
+}
+
+// .content {
+//     flex: 1 0 auto;
+//     margin-bottom: var(--space-xxl);
+// }
+
+.footer {
+    flex-shrink: 0;
+}
+
+// @include breakpoints.breakpoint(md) {
+//     .content {
+//         margin-left: var(--space-xxxl);
+//         margin-right: var(--space-xxxl);
+//     }
+// }

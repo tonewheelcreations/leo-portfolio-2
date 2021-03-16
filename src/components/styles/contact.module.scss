@@ -1,0 +1,57 @@
+@use 'breakpoints';
+@use 'colors';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--space-xxxl);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--space-xs);
+
+    h1 {
+        margin: var(--space-xs) 0;
+        font-size: var(--type-lg);
+    }
+
+    textarea {
+        resize: vertical;
+        line-height: 1.8;
+    }
+
+    button {
+        background-color: colors.$active;
+        border-color: colors.$active;
+        color: white;
+        margin-top: var(--space-xs);
+        padding: var(--space-xxxxs) 0;
+    }
+
+    input {
+        line-height: 1.8;
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .image {
+            flex: 1;
+            margin-left: var(--space-sm);
+        }
+
+        .form {
+            flex: 1;
+            margin-right: var(--space-sm);
+
+            h1 {
+                margin-top: 0;
+            }
+        }
+    }
+}

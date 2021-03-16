@@ -1,0 +1,36 @@
+@use 'breakpoints';
+
+h2:first-child,
+h3:first-child,
+h4:first-child,
+p:first-child {
+    margin-top: 0;
+}
+
+.title {
+    margin: auto;
+    max-width: 1440px;
+
+    .headings {
+        margin: 0 var(--space-xxxl);
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            margin-top: var(--space-xxs);
+            font-weight: 400;
+        }
+    }
+}
+
+/*** Media Queries ***/
+
+@include breakpoints.breakpoint(xl) {
+    .title {
+        h1 {
+            font-size: var(--type-xxxl);
+        }
+    }
+}

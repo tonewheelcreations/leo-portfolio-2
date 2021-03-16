@@ -1,0 +1,36 @@
+// @use 'breakpoints';
+
+.image {
+    grid-column: span 12;
+    margin: auto;
+    max-width: 1440px;
+    padding: var(--space-xl) var(--space-xxxl);
+
+    video {
+        max-width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        font-size: var(--type-xs);
+        // font-style: italic;
+    }
+}
+
+.image-full {
+    grid-column: span 12;
+    // padding: var(--space-xxxl) 0;
+    margin: auto;
+
+    video {
+        max-width: 100%;
+    }
+
+    h5 {
+        margin: var(--space-sm) 0;
+        font-weight: 500;
+    }
+}

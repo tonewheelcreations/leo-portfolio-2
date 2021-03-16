@@ -1,0 +1,233 @@
+@use 'breakpoints';
+
+:root {
+  // font family
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Noto Sans JP", sans-serif;
+
+  // type scale
+  --base-size: 1em; // based on minor 2nd ratio
+  --scale-ratio: 1.25; // based on major 3rd ratio
+
+  // type sizes
+  --type-xxxxl: calc(var(--type-xxl) * var(--scale-ratio));
+  --type-xxxl: calc(var(--type-xxl) * var(--scale-ratio));
+  --type-xxl: calc(var(--type-xl) * var(--scale-ratio));
+  --type-xl: calc(var(--type-lg) * var(--scale-ratio));
+  --type-lg: calc(var(--type-md) * var(--scale-ratio));
+  --type-md: calc(var(--type-sm) * var(--scale-ratio));
+  --type-sm: calc(var(--base-size) * var(--scale-ratio));
+  --type-xs: calc(var(--base-size) / var(--scale-ratio));
+}
+
+/*** Headings and body ***/
+
+h1 {
+  margin: 0;
+  min-width: 0;
+  font-size: var(--type-lg);
+  font-family: var(--font-secondary);
+  line-height: 1.25;
+  font-weight: 800;
+  margin-top: var(--space-xxxs);
+  margin-bottom: var(--space-xxxs);
+}
+
+h2 {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--type-md);
+  line-height: 1.2;
+  font-weight: 600;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-xxs);
+}
+
+h3 {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--type-sm);
+  line-height: 1.4;
+  font-weight: 500;
+  margin-top: var(--space-xxxxs);
+  margin-bottom: var(--space-xxxxs);
+}
+
+h4 {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--base-size);
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xxxs);
+}
+
+h5 {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--base-size);
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: var(--space-xxxxs);
+  margin-bottom: var(--space-xxxxs);
+}
+
+h6 {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-secondary);
+  font-size: var(--type-sm);
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: var(--space-xxxxs);
+  margin-bottom: var(--space-xxxxs);
+}
+
+body {
+  margin: 0;
+  min-width: 0;
+  font-size: var(--base-size);
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+p {
+  margin: var(--space-md) 0;
+}
+
+/*** Media Queries ***/
+
+@include breakpoints.breakpoint(md) {
+  h1 {
+    line-height: 1.2;
+  }
+
+  h2 {
+    line-height: 1.3;
+  }
+
+  h3 {
+    line-height: 1.45;
+  }
+
+  p {
+    margin: var(--space-sm) 0;
+  }
+}
+
+@include breakpoints.breakpoint(lg) {
+  h1 {
+    line-height: 1.15;
+    font-size: var(--type-xl);
+  }
+
+  h2 {
+    line-height: 1.2;
+    font-size: var(--type-lg);
+    margin-top: var(--space-md);
+    margin-bottom: var(--space-xxxs);
+  }
+
+  h3 {
+    line-height: 1.5;
+  }
+  p {
+    margin: var(--space-xs) 0;
+  }
+}
+
+@include breakpoints.breakpoint(xl) {
+  h1 {
+    // line-height: 1.15;
+    font-size: var(--type-xxl);
+  }
+
+  h2 {
+    // line-height: 1.5;
+    font-size: var(--type-xl);
+    margin-top: var(--space-sm);
+    margin-bottom: var(--space-xxxxs);
+  }
+
+  h3 {
+    font-size: var(--type-md);
+  }
+
+  p {
+    margin: var(--space-xs) 0;
+  }
+}
+
+/*** Fonts ***/
+
+// Noto Sans JP
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: local("Noto Sans JP Light"), url("../../fonts/NotoSansJP-Light-Alphabetic.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: local("Noto Sans JP Bold"), url("../../fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: local("Noto Sans JP Medium"), url("../../fonts/NotoSansJP-Medium-Alphabetic.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: local("Noto Sans JP Regular"), url("../../fonts/NotoSansJP-Regular-Alphabetic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Open Sans
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light"), url("../../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Regular"), url("../../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Italic"), url("../../fonts/OpenSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold"), url("../../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

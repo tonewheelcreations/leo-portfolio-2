@@ -1,0 +1,77 @@
+@use 'breakpoints';
+
+.flex,
+.flex-reverse,
+.flex-info {
+    margin: auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex,
+.flex-reverse {
+    div {
+        flex: 1;
+    }
+
+    > div:nth-child(-n + 2) {
+        margin: var(--space-md) 0;
+    }
+}
+
+.flex-info {
+    div {
+        margin: var(--space-xl) var(--space-xxxl);
+    }
+
+    h3 {
+        font-size: var(--base-size);
+    }
+
+    p {
+        margin-top: var(--space-xxs) 0;
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .flex,
+    .flex-reverse {
+        > div:nth-child(-n + 2) {
+            margin: var(--space-md) 0;
+        }
+    }
+
+    .flex-info {
+        flex-direction: row-reverse;
+
+        div:first-child {
+            flex: 2;
+        }
+
+        div:last-child {
+            flex: 3;
+        }
+
+        h3 {
+            font-size: var(--type-sm);
+        }
+    }
+}
+
+@include breakpoints.breakpoint(xl) {
+    .flex {
+        flex-direction: row;
+    }
+
+    .flex-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex-info {
+        h2 {
+            font-size: var(--type-lg);
+        }
+    }
+}

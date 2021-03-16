@@ -1,32 +1,32 @@
-import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import React from "react"
+import { selected, header, headerDiv, logo, svg, pageLink } from "./styles/header.module.scss"
+import siteLogo from "../svg/logo.svg"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+
+const NavLink = (props) => {
+  return (
+    <li>
+      <Link activeClassName={selected} to={props.to}>{props.children}</Link>
+    </li>
+  )
+}
+
+const Header = () => (
+  <header className={header}>
+    <div className={headerDiv}>
+      <Link className={logo} to="/">
+        <img className={svg} src={siteLogo} alt="logo" />
+        <span>Leo Sherman</span>
+      </Link>
+      <nav>
+        <ul>
+          <NavLink className={pageLink} to="/">Portfolio</NavLink>
+          <NavLink className={pageLink} to="/about/">About</NavLink>
+          <NavLink className={pageLink} to="/contact/">Contact</NavLink>
+        </ul>
+      </nav>
     </div>
   </header>
 )
