@@ -7,8 +7,8 @@ import { GridLarge, Left, Right } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
-import Usability from "../images/design-sprint/ds-usability-test.mp4"
-import Prototype from "../images/design-sprint/ds-final-prototype2.mp4"
+import Usability from "../assets/design-sprint/ds-usability-test.mp4"
+import Prototype from "../assets/design-sprint/ds-final-prototype2.mp4"
 import { Video } from "../components/video"
 
 const House2Home = () => {
