@@ -138,7 +138,7 @@ const House2Home = () => {
                src="../images/design-sprint/ds-persona-ally.png"
                alt="Ally, the customer persona"
                // layout="fullWidth"
-               quality={80}
+               quality={100}
                placeholder="blurred"
             />
          </Image>
@@ -167,13 +167,16 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
-         <ImageFull>
+           <ImageFull>
             <StaticImage
                src="../images/design-sprint/ds-ux-map.jpg"
                alt="Ally's user experience map"
                placeholder="blurred"
+               layout="fullWidth"
+               quality={100}
             />
-         </ImageFull>
+         </ImageFull> 
+       
 
          <Grid>
             <CenterCol>
@@ -315,7 +318,7 @@ const House2Home = () => {
             <CenterCol>
 
                <p>
-                  I added additional steps to the initial experience map since it included several LargeCol actions that needed to be
+                  I added additional steps to the initial experience map since it included several actions that needed to be
                   broken down:
                </p>
                <ul>

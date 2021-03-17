@@ -3,7 +3,7 @@ module.exports = {
     title: `Leo Sherman, UX Designer`,
     description: `This is Leo Sherman's UX Design Portfolio.`,
     author: `Leo Sherman`,
-    siteUrl: `https://leosherman.com`
+    siteUrl: `https://www.leosherman.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -12,6 +12,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
+        host: 'https://www.leosherman.com',
+        sitemap: 'https://www.leosherman.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },

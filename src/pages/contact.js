@@ -15,6 +15,7 @@ const Contact = () => {
                         src="../images/contact.png"
                         alt="Me again, Leo"
                         placeholder="blurred"
+                        quality={80}
                     />
                 </div>
                 <section className={form}>

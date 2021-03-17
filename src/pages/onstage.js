@@ -28,7 +28,7 @@ const Onstage = () => {
             <Grid>
                 <Image>
                     <StaticImage
-                        src="../images/c1/c1-cover.jpg"
+                        src="../images/c1/c1-cover.png"
                         alt="Onstage app login page"
                         placeholder='blurred'
                     />
@@ -79,7 +79,7 @@ const Onstage = () => {
                 </CenterCol>
                 <Image>
                     <StaticImage
-                        src="../images/c1/twitch-metrics.jpg"
+                        src="../images/c1/twitch-metrics.png"
                         alt="Music and Performances ranked #20 on Twitch"
                     />
                 </Image>
@@ -186,11 +186,6 @@ const Onstage = () => {
                         />
                     </Video>
 
-                    {/* <StaticImage
-                        src="../images/ideation-1.jpg"
-                        alt="Early sketching of possible solutions"
-                        placeholder='blurred'
-                    /> */}
                 </Image>
 
                 <CenterCol>
@@ -200,9 +195,10 @@ const Onstage = () => {
                 </CenterCol>
                 <Image>
                     <StaticImage
-                        src="../images/user-stories.jpg"
+                        src="../images/user-stories.png"
                         alt="User stories"
                         placeholder='blurred'
+                        quality={70}
                     />
                 </Image>
                 <CenterCol>

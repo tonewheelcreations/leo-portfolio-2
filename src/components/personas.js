@@ -19,6 +19,7 @@ const Personas = () => {
               childImageSharp {
                 gatsbyImageData (
                   placeholder: BLURRED
+                  quality: 100
                 )
               }
             }

@@ -68,7 +68,7 @@
 
             a.selected {
                 border-bottom: 1px solid;
-                color: #d85945;
+                color: colors.$active;
             }
         }
 
@@ -78,11 +78,11 @@
     }
 }
 
-@include breakpoints.breakpoint(sm) {
-    .svg {
-        width: 25%;
-    }
-}
+// @include breakpoints.breakpoint(sm) {
+//     .svg {
+//         width: 25%;
+//     }
+// }
 
 @include breakpoints.breakpoint(md) {
     .svg {

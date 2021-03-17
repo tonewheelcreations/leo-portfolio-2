@@ -36,7 +36,7 @@ const IndexPage = () => {
           description={"Read case study"}
         >
           <StaticImage
-            src="../images/c1/c1-cover.jpg"
+            src="../images/c1/c1-cover.png"
             alt="Onstage Case Study"
             className={image}
             style={{ display: "block" }}

@@ -170,14 +170,6 @@ p {
 
 @font-face {
   font-family: "Noto Sans JP";
-  src: local("Noto Sans JP Light"), url("../../fonts/NotoSansJP-Light-Alphabetic.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Noto Sans JP";
   src: local("Noto Sans JP Bold"), url("../../fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff");
   font-weight: bold;
   font-style: normal;

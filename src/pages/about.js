@@ -16,6 +16,7 @@ const About = () => {
                         src="../images/about-2.png"
                         alt="Me, Leo Sherman"
                         placeholder="blurred"
+                        quality={80}
                     />
                 </div>
                 <div className={textBio}>
