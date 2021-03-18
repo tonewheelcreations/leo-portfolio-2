@@ -59,19 +59,19 @@ const Contact = () => {
                         <form onSubmit={handleOnSubmit} id="contact" form action="https://getform.io/f/710c753b-0e22-4533-8d54-b9374b8077a9" method="POST">
                             <label className={form}>
                                 Name
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="name" required />
                             </label>
                             <label className={form}>
                                 Email
-                            <input type="email" name="email" id="email" />
+                            <input type="email" name="email" required />
                             </label>
                             <label className={form}>
                                 Subject
-                            <input type="text" name="subject" id="subject" />
+                            <input type="text" name="subject" required />
                             </label>
                             <label className={form}>
                                 Message
-                            <textarea name="message" id="message" rows="5" />
+                            <input type="text" name="message" required />
                             </label>
                             <div className={form}>
                                 <button type="submit">Send</button>
