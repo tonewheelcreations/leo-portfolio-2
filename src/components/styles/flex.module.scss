@@ -1,7 +1,7 @@
 @use 'breakpoints';
 
-.flex,
-.flex-reverse,
+// .flex,
+// .flex-reverse,
 .flex-info {
     margin: auto;
     max-width: 1440px;
@@ -10,16 +10,16 @@
     justify-content: space-between;
 }
 
-.flex,
-.flex-reverse {
-    div {
-        flex: 1;
-    }
+// .flex,
+// .flex-reverse {
+//     div {
+//         flex: 1;
+//     }
 
-    > div:nth-child(-n + 2) {
-        margin: var(--space-md) 0;
-    }
-}
+//     > div:nth-child(-n + 2) {
+//         margin: var(--space-md) 0;
+//     }
+// }
 
 .flex-info {
     div {
@@ -28,6 +28,7 @@
 
     h3 {
         font-size: var(--base-size);
+        font-weight: 600;
     }
 
     p {
@@ -36,12 +37,12 @@
 }
 
 @include breakpoints.breakpoint(lg) {
-    .flex,
-    .flex-reverse {
-        > div:nth-child(-n + 2) {
-            margin: var(--space-md) 0;
-        }
-    }
+    // .flex,
+    // .flex-reverse {
+    //     > div:nth-child(-n + 2) {
+    //         margin: var(--space-md) 0;
+    //     }
+    // }
 
     .flex-info {
         flex-direction: row-reverse;
@@ -61,13 +62,13 @@
 }
 
 @include breakpoints.breakpoint(xl) {
-    .flex {
-        flex-direction: row;
-    }
+    // .flex {
+    //     flex-direction: row;
+    // }
 
-    .flex-reverse {
-        flex-direction: row-reverse;
-    }
+    // .flex-reverse {
+    //     flex-direction: row-reverse;
+    // }
 
     .flex-info {
         h2 {

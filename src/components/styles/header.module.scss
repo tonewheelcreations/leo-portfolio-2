@@ -22,7 +22,8 @@
 }
 
 .svg {
-    width: 40%;
+    width: var(--type-md);
+    height: var(--type-md);
 }
 
 .header {
@@ -86,7 +87,8 @@
 
 @include breakpoints.breakpoint(md) {
     .svg {
-        width: 10%;
+        width: var(--type-lg);
+        height: var(--type-lg);
     }
 
     .logo {

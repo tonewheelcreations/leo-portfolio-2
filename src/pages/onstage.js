@@ -432,14 +432,14 @@ const Onstage = () => {
                     <h4>Staying true to the fans with more usability testing</h4>
 
                     <p>I was getting close to the end of the project and all that was left was to test and iterate on the high fidelity design. I built another prototype, this time with animations and more complex interactions to add delight to all of the functionality. There were 2 usability tests with a total of 13 participants. The critical prioritized recommendations were: to make artist and genre preferences easier to find, redesign the search flow to make it clearer, and to make audio and video settings easier to access from the video player. I made these adjustments before delivering the final prototype.</p>
+                </CenterCol>
 
-                    <div>
-                        <h2>The end of the story, for now</h2>
+                <CenterCol>
+                    <h2>The end of the story, for now</h2>
 
-                        <h3>Outcome and lessons</h3>
+                    <h3>Outcome and lessons</h3>
 
-                        <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
-                    </div>
+                    <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
                 </CenterCol>
             </Grid>
 
@@ -460,7 +460,6 @@ const Onstage = () => {
                     <h4>Next steps</h4>
                     <p>I would certainly like to develop a working app in the future and hope that the virtual concerts of tomorrow will support live music fans and artists alike. Let’s see what happens. </p>
                 </CenterCol>
-
             </Grid>
         </ProjectLayout >
     )

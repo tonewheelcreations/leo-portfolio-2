@@ -78,8 +78,15 @@
 @include breakpoints.breakpoint(md) {
     .container-bio,
     .container-music {
-        margin-left: auto;
-        margin-right: auto;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .container-bio,
+    .container-music {
+        width: 70%;
     }
 }
 
@@ -100,7 +107,7 @@
     .container-music {
         flex-direction: row;
         flex-flow: row-reverse;
-        max-width: 100%;
+        width: 100%;
     }
 
     .profile,
