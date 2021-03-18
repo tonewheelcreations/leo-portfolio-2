@@ -1,4 +1,5 @@
 @use 'breakpoints';
+@use 'colors';
 
 .scrollTop {
     max-width: 1440px;
@@ -7,20 +8,20 @@
     margin: var(--space-xxxl);
 
     a {
-        color: black;
+        color: colors.$default;
         font-weight: 600;
     }
 
     a:link {
-        color: black;
+        color: colors.$default;
     }
 
     a:focus {
-        color: #d85945;
+        color: colors.$active;
     }
 
     a:hover {
-        color: #d85945;
+        color: colors.$active;
     }
 }
 

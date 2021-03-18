@@ -1,9 +1,12 @@
+@use 'breakpoints';
+
 .previous {
     position: absolute;
     top: 50%;
     left: 1%;
     transform: translate(0, -50%);
-    height: 10%;
+    width: var(--type-lg);
+    height: var(--type-lg);
     cursor: pointer;
 }
 
@@ -12,7 +15,8 @@
     top: 50%;
     right: 1%;
     transform: translate(0, -50%);
-    height: 10%;
+    width: var(--type-lg);
+    height: var(--type-lg);
     cursor: pointer;
 }
 
@@ -58,5 +62,21 @@
         .hover-title {
             color: white;
         }
+    }
+}
+
+@include breakpoints.breakpoint(md) {
+    .previous,
+    .next {
+        width: var(--type-xl);
+        height: var(--type-xl);
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .previous,
+    .next {
+        width: var(--type-xxl);
+        height: var(--type-xxl);
     }
 }

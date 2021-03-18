@@ -10,7 +10,7 @@ import Title from "../components/title.js"
 import PaperPrototype from "../assets/paper-prototype-web.mp4"
 import AffinityMap from "../assets/affinity-map.mp4"
 import Ideation1 from "../assets/Ideation-1.mp4"
-import FinalPrototype from "../assets/Onstage-final-prototype.mp4"
+import FinalPrototype from "../assets/onstage-final-prototype-v4.mp4"
 import Styleguide from "../components/styleguide"
 import Personas from "../components/personas"
 import { Video } from "../components/video"
@@ -47,10 +47,10 @@ const Onstage = () => {
                 <div>
                     <h2>State of live-streaming</h2>
                     <p>
-                        Live-streaming has taken over the way we consume media. Only 25% of the population in the U.S. had live-streamed online content back in 2017. At the time of writing this project, in 2020, that number approached 80%. This massive increase was due in part to the COVID-19 pandemic, which forced people to move many real-world experiences into the digital. One of these experiences was attending a live concert. I wanted to explore the music live-streaming space and see how concert goers were faring during the pandemic.</p>
+                        Live-streaming has taken over the way we consume media. Only 25% of the population in the U.S. had live-streamed online content back in 2017. At the time of writing this project, in 2020, that number approached 80%. This massive increase was due in part to the COVID-19 pandemic, which forced people to move many real-world experiences into the digital. One of these experiences was attending a live concert. I wanted to explore the music live-streaming space and see how concertgoers were faring during the pandemic.</p>
                     <h2>The challenge</h2>
                     <p>
-                        Live music was on pause due to COVID-19 and concert goers could no longer go out to get their concert fix. While live-streaming doubled between 2019 and 2020 due to COVD-19, fans of live music performances accounted for only a fraction of viewership.
+                        Live music was on pause due to COVID-19 and concertgoers could no longer go out to get their concert fix. While live-streaming doubled between 2019 and 2020 due to COVD-19, fans of live music performances accounted for only a fraction of viewership.
                      </p>
                     <p>My high level goals were to:</p>
                     <ul>
@@ -73,7 +73,7 @@ const Onstage = () => {
 
                     <h4>A look at the industry</h4>
 
-                    <p>To better understand what concert goers were dealing with, I started researching the live-streaming space. How did music live-streaming fit in specifically? The numbers were astounding. According to a <a href="https://www.forbes.com/sites/paultassi/2020/05/16/report-livestream-viewership-grew-99-in-lockdown-microsofts-mixer-grew-02/?sh=33db6cf076cb" target="_blank" rel="noreferrer noopener">report by Forbes</a>, live-streaming increased by 99% between 2019 and 2020 — nearly doubling in one year! COVID-19 played a big part in this, accelerating the shift of real world content to digital which had already been happening. </p>
+                    <p>To better understand what concertgoers were dealing with, I started researching the live-streaming space. How did music live-streaming fit in specifically? The numbers were astounding. According to a <a href="https://www.forbes.com/sites/paultassi/2020/05/16/report-livestream-viewership-grew-99-in-lockdown-microsofts-mixer-grew-02/?sh=33db6cf076cb" target="_blank" rel="noreferrer noopener">report by Forbes</a>, live-streaming increased by 99% between 2019 and 2020 — nearly doubling in one year! COVID-19 played a big part in this, accelerating the shift of real world content to digital which had already been happening. </p>
 
                     <p>But the numbers didn’t look so good for musical content. Live music performances ranked toward the bottom of the most popular live-streaming platforms. For instance, <em>Music and Performances</em> ranked #20 on Twitch at the time of research, with just 25,944 total viewers per channel.</p>
                 </CenterCol>
@@ -85,12 +85,12 @@ const Onstage = () => {
                 </Image>
 
                 <CenterCol>
-                    <p>And while <a href="https://gobranded.com/branded-poll-millennials-driving-growth-in-live-music-industry/#:~:text=Roughly%2089%20percent%20of%20Millennials,Silent%20Generation%20(age%2070%2B)." target="_blank" rel="noreferrer noopener">studies</a> proved that millennials — <em>Twitch</em>'s largest demographic — were also the largest group of concertgoers, there was still an entire range of people over 40 to account for. Only 20% of people over 40 even had a live-streaming subscription of some kind. Statistics like these suggested that there was a problem with engaging concert goers through current live-streaming offerings.</p>
+                    <p>And while <a href="https://gobranded.com/branded-poll-millennials-driving-growth-in-live-music-industry/#:~:text=Roughly%2089%20percent%20of%20Millennials,Silent%20Generation%20(age%2070%2B)." target="_blank" rel="noreferrer noopener">studies</a> proved that millennials — <em>Twitch</em>'s largest demographic — were also the largest group of concertgoers, there was still an entire range of people over 40 to account for. Only 20% of people over 40 even had a live-streaming subscription of some kind. Statistics like these suggested that there was a problem with engaging concertgoers through current live-streaming offerings.</p>
                 </CenterCol>
 
                 <LargeCol>
                     <div>
-                        <h4>Getting to know concert goers</h4>
+                        <h4>Getting to know concertgoers</h4>
 
                         <p>I sent out a survey to find out about general music preferences, live concert attendance, and experience with regular streaming and live-streaming. 38 fans of live music responded, ranging from people in their early 20’s to those in their 70’s. Their top genres were jazz, classical, pop, rock, and world music. People were surprisingly experienced — nearly 80% had live-streamed music before. A larger sample might’ve resulted in a different set of top genres and live-streaming know-how.</p>
                     </div>
@@ -132,7 +132,7 @@ const Onstage = () => {
                     </Video>
                 </LargeCol>
                 <SmallCol>
-                    <p>This helped confirm what I noticed people pointing out during the interviews: they wanted something that felt “live,” felt personalized, was easy to navigate, and had a variety of content. I wanted to focus on these points and their accompanying desires and frustrations even more. Because these concert goers were sharing so many common points, I created 4 personas to represent them.</p>
+                    <p>This helped confirm what I noticed people pointing out during the interviews: they wanted something that felt <em>live</em>, felt personalized, was easy to navigate, and had a variety of content. I wanted to focus on these points and their accompanying desires and frustrations even more. Because these concertgoers were sharing so many common points, I created 4 personas to represent them.</p>
                 </SmallCol>
 
 
@@ -155,7 +155,7 @@ const Onstage = () => {
                         <li>They prefered to organize their music by favorite artist and genre</li>
                     </ul>
 
-                    <p>This helped shape the problem space: how might we engage concert goers with more immersive live-streaming offerings?</p>
+                    <p>This helped shape the problem space: how might we engage concertgoers with more immersive live-streaming offerings?</p>
 
                     <h2>Letting the imagination run wild</h2>
 
@@ -174,7 +174,7 @@ const Onstage = () => {
 
                         <li>3D audio and video settings</li>
                     </ul>
-                    <p>One of the thoughts that kept coming back: how could we keep concert live-streaming as immersive as its real-life counterpart?</p>
+                    <p>These were some of the many ways that concert live-streaming could resemble its real-life counterpart.</p>
                 </CenterCol>
 
                 <Image>
@@ -220,7 +220,7 @@ const Onstage = () => {
 
                     <h4>Staying organized</h4>
 
-                    <p>Before moving on to visual design, I had to ensure that all of these features could flow in a logical way. I grouped the critical features into 3 red routes: personalize account, buy a concert ticket, and watch a concert. I would later change the wording of these routes as I went back over the designs. For now, this was enough to create user flows for the upcoming design.</p>
+                    <p>Before moving on to visual design, I had to ensure that all of these features flowed in a logical way. I grouped the critical features into 3 red routes: personalize account, buy a concert ticket, and watch a concert. I would later change the wording of these routes as I went back over the designs. For now, this was enough to create user flows for the upcoming design.</p>
                 </CenterCol>
             </Grid>
 
@@ -366,7 +366,7 @@ const Onstage = () => {
 
                     <p>Like previous parts of the project, having a foundation before making a big design decision was crucial. Even though I fixed the major usability issues for each red route and the logic checked out, the design still didn’t have an identity; it was still a concept and not a product. </p>
 
-                    <p>I approached this by creating a branding and style guide. This was a large endeavor that included 8 unique parts: a brand platform, logo and logotype, color palette, typography, grid system, icons, components, and images. The idea was to bring the design to life and give it a vision that concert goers could align with. The result was Onstage, an app which brought the live concert experience to users in their home. This connected full circle with the initial discovery of the problem space by extending live concert streaming offerings to a wider range of concert goers, based on their preferences and needs.</p>
+                    <p>I approached this by creating a branding and style guide. This was a large endeavor that included 8 unique parts: a brand platform, logo and logotype, color palette, typography, grid system, icons, components, and images. The idea was to bring the design to life and give it a vision that concertgoers could align with. The result was Onstage, an app which brought the live concert experience to users in their home. This connected full circle with the initial discovery of the problem space by extending live concert streaming offerings to a wider range of concertgoers, based on their preferences and needs.</p>
 
                     <p>The entire style guide was a hefty 33-page affair, but here are some of the critical parts:</p>
                 </CenterCol>
@@ -381,7 +381,7 @@ const Onstage = () => {
                 <CenterCol>
                     <h4>Leveling up to high fidelity</h4>
 
-                    <p>Using the style guide, I created high fidelity screens for the red routes.</p>
+                    <p>Using the style guide, I created high fidelity screens for the red routes:</p>
                 </CenterCol>
             </Grid>
             <GridLarge>
@@ -458,7 +458,7 @@ const Onstage = () => {
                     </ul>
 
                     <h4>Next steps</h4>
-                    <p>I would certainly like to develop a working app in the future and hope that the virtual concerts of tomorrow will support live music fans and artists alike. Let’s see what happens. </p>
+                    <p>I would certainly like to develop a working product in the future and hope that the virtual concerts of tomorrow will support live music fans and artists alike. Let’s see what happens. </p>
                 </CenterCol>
             </Grid>
         </ProjectLayout >

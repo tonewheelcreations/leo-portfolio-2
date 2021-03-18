@@ -41,7 +41,7 @@ const House2Home = () => {
               <div>
                <h2>What is House2Home?</h2>
                <p>
-                  House2Home is an e-commerce site that sells small home decor and accessories. Most of the items fall in the $10-50 range, which is perfect for their younger customer base of college graduates. Many of their customers were moving to new apartments but were struggling to find the look they wanted, on a small budget, after moving.</p>
+                  House2Home is an e-commerce site that sells small home decor and accessories. Most of the items fall in the $10-50 range, which is perfect for their younger customer base of college graduates. Many of their customers were moving to new apartments but were struggling to find the look they wanted — on a small budget — after moving.</p>
                   
                <h2>The challenge</h2>
                <p>
@@ -105,7 +105,7 @@ const House2Home = () => {
                <p>
                   I created an empathy map to visualize this shopper and get closer to their needs. <a href="https://boagworld.com/usability/adapting-empathy-maps-for-ux-design" target="_blank" rel="noreferrer noopener"> Paul Boag’s</a> model was helpful
                   here because it provided a more focused look at the user experience. By adding tasks and influences, there was more
-                  real-world conTitle for what the shopper wanted to accomplish and who or what was influencing them. The overall goal
+                  real-world context for what the shopper wanted to accomplish and who or what was influencing them. The overall goal
                   would ensure that I stayed aligned with the shopper’s mission.
                </p>
             </CenterCol>       
@@ -162,8 +162,8 @@ const House2Home = () => {
                <p>
                   There was a common denominator to each solution idea — an augmented reality (AR) simulation of a customer’s empty
                   room with starter kit items populated in it. This idea was bold but got to the core of Ally’s decision anxiety by
-                  letting her see multiple items, matched based on her tastes, inside her actual apartment. I chose the second map
-                  because it felt the least burdensome with determining style, making it even easier for Ally.
+                  letting her see multiple items, matched with her tastes, inside her actual apartment. I chose the second map
+                  because it felt the least burdensome for determining style, making it even easier for Ally.
                </p>
             </CenterCol>
          </Grid>
@@ -186,7 +186,7 @@ const House2Home = () => {
                <h3>Exploring and sketching</h3>
                <p>
                   On day 2 of the sprint, I sketched the core of the design. I started by looking at a bunch of House2Home’s
-                  competitors to see how they handled helping customers choose multiple home decor items. 4 examples felt like they
+                  competitors to see how they handled helping customers choose multiple home decor items. There were 4 examples that felt like they
                   would make it easiest for Ally to find the items she wanted:
                </p>
             </CenterCol>
@@ -425,7 +425,7 @@ const House2Home = () => {
                <p>
                   There were two recommendations that were critical to helping Ally get through the decorating process easily: having
                   distinct images of room styles when choosing her favorite look and having clear descriptions for each step, not just
-                  a Title.
+                  a title.
                </p>
 
                <h2>Delivering the solution</h2>
@@ -460,7 +460,7 @@ const House2Home = () => {
                <p>
                   Simulating AR is intensive visual design — something to take into account when exploring such designs in a
                   time-sensitive work environment. I would refine the AR simulation if I could, making it more prominent and appearing
-                  earlier in the flow.
+                  at the beginning of the design flow. This would delight customers earlier in their user experience and likely lead to even more starter kit conversions for House2Home.
                </p>
             </CenterCol>
          </Grid>
