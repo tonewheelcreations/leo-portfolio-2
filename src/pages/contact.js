@@ -63,7 +63,7 @@ const Contact = () => {
                             </label>
                             <label className={form}>
                                 Email
-                            <input type="email" name="_replyto" id="email" />
+                            <input type="email" name="email" id="email" />
                             </label>
                             <label className={form}>
                                 Subject
