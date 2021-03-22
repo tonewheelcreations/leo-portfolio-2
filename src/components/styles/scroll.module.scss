@@ -16,11 +16,19 @@
         color: colors.$default;
     }
 
+    a:visited {
+        color: colors.$default;
+    }
+
     a:focus {
-        color: colors.$active;
+        color: colors.$default;
     }
 
     a:hover {
+        color: colors.$active;
+    }
+
+    a:active {
         color: colors.$active;
     }
 }

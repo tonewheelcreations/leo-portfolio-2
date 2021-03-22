@@ -113,7 +113,7 @@ const House2Home = () => {
          <Image>
             <StaticImage
                src="../images/design-sprint/ds-empathy-map.png"
-               alt="Empathy showing the persona's tasks, influences, feelings, pain points, and overall goal"
+               alt="Empathy map showing the persona's tasks, influences, feelings, pain points, and overall goal"
                placeholder="blurred"
             />
          </Image>
@@ -137,7 +137,6 @@ const House2Home = () => {
             <StaticImage
                src="../images/design-sprint/ds-persona-ally.png"
                alt="Ally, the customer persona"
-               // layout="fullWidth"
                quality={100}
                placeholder="blurred"
             />
@@ -197,10 +196,8 @@ const House2Home = () => {
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-pinterest.png"
-                     alt="Pinterest"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     alt="Pinterest UI"
+                     placeholder="blurred"
                   />
                   <p>
                      With Pinterest, you can see an entire interior decoration and the item-by-item breakdown. Ally was used to this
@@ -213,10 +210,8 @@ const House2Home = () => {
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-living-spaces.png"
-                     alt="Pinterest"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     alt="Living Spaces UI"
+                     placeholder="blurred"
                   />
 
                   <p>
@@ -230,10 +225,8 @@ const House2Home = () => {
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-modsy.png"
-                     alt="Pinterest"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     alt="Modsy UI"
+                     placeholder="blurred"
                   />
 
                   <p>
@@ -247,10 +240,8 @@ const House2Home = () => {
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
-                     alt="Pinterest"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     alt="Mailchimp UI"
+                     placeholder="blurred"
                   />
 
                   <p>
@@ -266,9 +257,7 @@ const House2Home = () => {
                <StaticImage
                   src="../images/design-sprint/ds-crazy-8s.png"
                   alt="8 sketches of the most critical screen of Ally's user experience"
-               // layout="fullWidth"
-               // quality={100}
-               placeholder="blurred"
+                  placeholder="blurred"
                />
             </LargeCol>
             <SmallCol>
@@ -299,9 +288,7 @@ const House2Home = () => {
                <StaticImage
                   src="../images/design-sprint/ds-storyboard-steps2.png"
                   alt="Post-it notes providing the written plot of Ally's user experience"
-               // layout="fullWidth"
-               // quality={100}
-               placeholder="blurred"
+                  placeholder="blurred"
                />
             </SmallCol>
         
@@ -309,9 +296,7 @@ const House2Home = () => {
             <StaticImage
                src="../images/design-sprint/ds-storyboard.png"
                alt="A 13-panel storyboard showing Ally's user experience"
-            // layout="fullWidth"
-            // quality={100}
-            placeholder="blurred"
+               placeholder="blurred"
             />
          </Image>
  
@@ -346,9 +331,7 @@ const House2Home = () => {
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-room.png"
                      alt="Choose a room to decorate"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     placeholder="blurred"
                   />
                   <p>
                      I started with room selection, using a simple dropdown over a clean background image.
@@ -361,8 +344,6 @@ const House2Home = () => {
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-style.png"
                      alt="Choose three images of styles you like"
-                  // layout="fullWidth"
-                  // quality={100}
                   />
                      <p>
                         Then I moved on to a set of images Ally would choose from to visually determine her style.
@@ -374,9 +355,7 @@ const House2Home = () => {
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-photos.png"
                      alt="Upload photos of your empty rooms"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     placeholder="blurred"
                   />
                  
                      <p>
@@ -390,10 +369,8 @@ const House2Home = () => {
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-results.png"
-                     alt="Empty rooms populated with decor items"
-                  // layout="fullWidth"
-                  // quality={100}
-                  placeholder="blurred"
+                     alt="Empty rooms populated with decor items using AR"
+                     placeholder="blurred"
                   />
                      <p>
                         Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s

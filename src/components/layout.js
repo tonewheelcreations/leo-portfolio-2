@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 
       <main className="main">{children}</main>
       <div className={scrollTop}>
-        <a href="#top">Top</a>
+        <a href="#top">&#8679; Top</a>
 
       </div>
       <Footer />

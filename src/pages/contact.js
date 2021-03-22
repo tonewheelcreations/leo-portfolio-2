@@ -5,9 +5,14 @@ import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { container, image, form } from "../components/styles/contact.module.scss"
 import "../components/styles/global.scss"
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3'
+import {
+    GoogleReCaptchaProvider,
+    GoogleReCaptcha
+} from "react-google-recaptcha-v3"
 
 const Contact = () => {
+    const [token, setToken] = useState()
+
     const [serverState, setServerState] = useState({
         submitting: false,
         status: null
@@ -21,14 +26,20 @@ const Contact = () => {
             form.reset()
         }
     }
+
     const handleOnSubmit = e => {
         e.preventDefault()
         const form = e.target
         setServerState({ submitting: true })
+        const data = new FormData(form)
+        data.append("g-recaptcha-response", token)
+
+        console.log(data, "data")
+
         axios({
             method: "post",
             url: "https://getform.io/f/710c753b-0e22-4533-8d54-b9374b8077a9",
-            data: new FormData(form)
+            data
         })
             .then(r => {
                 handleServerResponse(true, "Thanks!", form)
@@ -40,23 +51,23 @@ const Contact = () => {
 
     return (
         <Layout>
-            <GoogleReCaptchaProvider reCaptchaKey="6LdX2IQaAAAAAJ22R0U8gRXzKlDHBBiH0lmPbF6O">
-                <SEO title="Contact" />
-                <div className={container}>
 
-                    <div className={image}>
-                        <StaticImage
-                            src="../images/contact.png"
-                            alt="Me again, Leo"
-                            placeholder="blurred"
-                            quality={80}
-                        />
-                    </div>
-                    <section className={form}>
+            <SEO title="Contact" />
+            <div className={container}>
 
-                        <h1>Let's make contact</h1>
+                <div className={image}>
+                    <StaticImage
+                        src="../images/contact.png"
+                        alt="Me again, Leo"
+                        placeholder="blurred"
+                        quality={80}
+                    />
+                </div>
+                <section className={form}>
 
-                        <form onSubmit={handleOnSubmit} id="contact" form action="https://getform.io/f/710c753b-0e22-4533-8d54-b9374b8077a9" method="POST">
+                    <h1>Let's make contact</h1>
+                    <GoogleReCaptchaProvider reCaptchaKey="6LdX2IQaAAAAAJ22R0U8gRXzKlDHBBiH0lmPbF6O">
+                        <form onSubmit={handleOnSubmit}>
                             <label className={form}>
                                 Name
                             <input type="text" name="name" required />
@@ -76,12 +87,15 @@ const Contact = () => {
                             <div className={form}>
                                 <button type="submit">Send</button>
                             </div>
+                            <GoogleReCaptcha
+                                onVerify={token => {
+                                    setToken(token)
+                                }}
+                            />
                         </form>
-
-                    </section>
-
-                </div>
-            </GoogleReCaptchaProvider>
+                    </GoogleReCaptchaProvider>
+                </section>
+            </div>
         </Layout>
     )
 }

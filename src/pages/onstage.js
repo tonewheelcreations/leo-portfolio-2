@@ -196,7 +196,7 @@ const Onstage = () => {
                 <Image>
                     <StaticImage
                         src="../images/user-stories.png"
-                        alt="User stories"
+                        alt="User stories showing basic features of the design"
                         placeholder='blurred'
                         quality={70}
                     />
