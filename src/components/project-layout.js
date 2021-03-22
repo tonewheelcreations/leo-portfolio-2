@@ -25,7 +25,7 @@ const ProjectLayout = ({ children }) => {
           {children}
         </main>
         <div className={scrollTop}>
-          <a href="#top">Top</a>
+          <a href="#top">&#8679; Top</a>
         </div>
       </div>
       <Footer />
