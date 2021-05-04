@@ -9,7 +9,7 @@ import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
 import Usability from "../assets/ds-usability-test.mp4"
 import Prototype from "../assets/ds-final-prototype2.mp4"
-import { Video, VideoFullBlack } from "../components/video"
+import { VideoFullBlack } from "../components/video"
 
 const House2Home = () => {
    return (
@@ -236,7 +236,6 @@ const House2Home = () => {
             </LargeCol>
 
             <SmallCol>
-               <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
                      alt="Mailchimp UI"
@@ -247,7 +246,6 @@ const House2Home = () => {
                      Mailchimp was the outlier but I was inspired by the clarity of the progress bar during onboarding. This was another
                      way to make the style selection process easy for the shopper.
                   </p>
-               </div>
             </SmallCol>
         
             <LargeCol>

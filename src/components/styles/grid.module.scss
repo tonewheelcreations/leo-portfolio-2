@@ -5,7 +5,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-row-gap: var(--space-xxl);
+    grid-row-gap: var(--space-xxxl);
 
     .large-col,
     .small-col,
@@ -27,6 +27,11 @@
         max-width: 100%;
     }
 
+    h2 {
+        margin-bottom: var(--space-xxxxs);
+        font-weight: 600;
+    }
+
     h3 {
         margin-top: 0;
         margin-bottom: var(--space-md);
@@ -39,11 +44,6 @@
     p:last-child {
         margin-bottom: 0;
     }
-}
-
-h2 {
-    margin-bottom: 0;
-    font-weight: 600;
 }
 
 // h3 {

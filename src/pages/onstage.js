@@ -426,22 +426,18 @@ const Onstage = () => {
 
                     <p>I was getting close to the end of the project and all that was left was to test and iterate on the high fidelity design. I built another prototype, this time with animations and more complex interactions to add delight to all of the functionality. There were 2 usability tests with a total of 13 participants. The critical prioritized recommendations were: to make artist and genre preferences easier to find, redesign the search flow to make it clearer, and to make audio and video settings easier to access from the video player. I made these adjustments before delivering the final prototype.</p>
                 </CenterCol>
-
+            </Grid>
+            <VideoFullBlack>
+                <source src={FinalPrototype} type="video/mp4" />
+            </VideoFullBlack>
+            <Grid>
                 <CenterCol>
                     <h2>The end of the story, for now</h2>
 
                     <h3>Outcome and lessons</h3>
 
                     <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
-                </CenterCol>
-            </Grid>
 
-            <VideoFullBlack>
-                <source src={FinalPrototype} type="video/mp4" />
-            </VideoFullBlack>
-
-            <Grid>
-                <CenterCol>
                     <p>There were also some important lessons to address: </p>
 
                     <ul>
