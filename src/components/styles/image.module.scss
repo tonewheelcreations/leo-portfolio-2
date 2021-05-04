@@ -4,10 +4,20 @@
     grid-column: span 12;
     margin: auto;
     max-width: 1440px;
-    padding: var(--space-xl) var(--space-xxxl);
+    padding: 0 var(--space-xxxl);
 
     video {
         max-width: 100%;
+    }
+
+    h5 {
+        text-align: center;
+        margin: var(--space-xxl) 0 var(--space-lg) 0;
+        font-weight: 500;
+    }
+
+    h5:first-child {
+        margin: 0 0 var(--space-lg) 0;
     }
 
     a {
@@ -22,8 +32,9 @@
 
 .image-full {
     grid-column: span 12;
-    // padding: var(--space-xxxl) 0;
-    margin: auto;
+    // padding: 0 var(--space-xxxl);
+    margin: var(--space-xxxl) 0;
+    // max-width: 1440px;
 
     video {
         max-width: 100%;

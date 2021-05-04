@@ -3,13 +3,13 @@ import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { Grid, LargeCol, SmallCol, CenterCol } from "../components/grid.js"
-import { GridLarge, Left, Right } from "../components/grid-large.js"
+// import { GridLarge, Left, Right } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
 import Usability from "../assets/ds-usability-test.mp4"
 import Prototype from "../assets/ds-final-prototype2.mp4"
-import { Video } from "../components/video"
+import { Video, VideoFullBlack } from "../components/video"
 
 const House2Home = () => {
    return (
@@ -26,17 +26,18 @@ const House2Home = () => {
                src="../images/design-sprint/ds-header-image2.png"
                alt="home decor landing page on laptop"
                placeholder="blurred"
+               quality={100}
             />
          </Image>
          </Grid>
        <FlexInfo>
           <div>
                <h3>When was it?</h3>
-               <p>Feb 8-13, 2021</p>
+               <p>February 2021</p>
                <h3>What did I do?</h3>
                <p>User research, storyboarding, visual design, prototyping, usability testing</p>
                <h3>What did I use?</h3>
-               <p>Figma, Adobe Photoshop, pen and paper </p>
+               <p>Figma, Miro, Adobe Photoshop</p>
             </div>
               <div>
                <h2>What is House2Home?</h2>
@@ -189,10 +190,8 @@ const House2Home = () => {
                   would make it easiest for Ally to find the items she wanted:
                </p>
             </CenterCol>
-         </Grid>
-
-         <GridLarge>
-            <Left>
+        
+            <LargeCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-pinterest.png"
@@ -204,9 +203,9 @@ const House2Home = () => {
                      layout and it would be a great way to present a starter kit of items all at once.
                   </p>
                </div>
-            </Left>
+            </LargeCol>
 
-            <Right>
+            <SmallCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-living-spaces.png"
@@ -219,9 +218,9 @@ const House2Home = () => {
                      This provided inspiration for what an empty room with AR-populated items could look like.
                   </p>
                </div>
-            </Right>
+            </SmallCol>
 
-            <Left>
+            <LargeCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-modsy.png"
@@ -234,9 +233,9 @@ const House2Home = () => {
                      image-based, a great way to ensure that Ally doesn’t get overwhelmed when selecting her style.
                   </p>
                </div>
-            </Left>
+            </LargeCol>
 
-            <Right>
+            <SmallCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
@@ -249,10 +248,8 @@ const House2Home = () => {
                      way to make the style selection process easy for the shopper.
                   </p>
                </div>
-            </Right>
-         </GridLarge>
-
-         <Grid>
+            </SmallCol>
+        
             <LargeCol>
                <StaticImage
                   src="../images/design-sprint/ds-crazy-8s.png"
@@ -324,9 +321,8 @@ const House2Home = () => {
                   with a prototype. Below are some of the main screens; the full prototype is available at the end of the case study.
                </p>
             </CenterCol>
-         </Grid>
-         <GridLarge>
-            <Left>
+       
+            <LargeCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-room.png"
@@ -337,9 +333,9 @@ const House2Home = () => {
                      I started with room selection, using a simple dropdown over a clean background image.
                   </p>
                </div>
-            </Left>
+            </LargeCol>
 
-            <Right>
+            <SmallCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-style.png"
@@ -349,8 +345,8 @@ const House2Home = () => {
                         Then I moved on to a set of images Ally would choose from to visually determine her style.
                   </p>
                </div>
-            </Right>
-            <Left>
+            </SmallCol>
+            <LargeCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-photos.png"
@@ -363,9 +359,9 @@ const House2Home = () => {
                
                   </p>
                </div>
-            </Left>
+            </LargeCol>
 
-            <Right>
+            <SmallCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-results.png"
@@ -379,10 +375,8 @@ const House2Home = () => {
             
                   </p>
                </div>
-            </Right>
-         </GridLarge>
-
-         <Grid>
+            </SmallCol>
+         
             <CenterCol>
 
                <h2>Getting feedback</h2>
@@ -393,9 +387,9 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
-            <Video>
+            <VideoFullBlack>
                 <source src={Usability} type="video/mp4" />
-            </Video>
+            </VideoFullBlack>
          <Grid>
             <CenterCol>
 
@@ -418,9 +412,9 @@ const House2Home = () => {
             </CenterCol>
          </Grid>
          
-         <Video>
+         <VideoFullBlack>
                 <source src={Prototype} type="video/mp4" />
-            </Video>
+            </VideoFullBlack>
 
          <Grid>
             <CenterCol>

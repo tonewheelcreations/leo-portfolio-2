@@ -1,7 +1,9 @@
 @use 'breakpoints';
 
 .grid-large {
-    margin: var(--space-md) var(--space-xxxl);
+    max-width: 1440px;
+    margin: auto;
+    // margin: var(--space-md) var(--space-xxxl);
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-row-gap: var(--space-xxxl);
@@ -11,27 +13,37 @@
         // font-style: italic;
     }
 
-    .left {
-        grid-column: 1 / 13;
-        // margin: var(--space-xxxl) 0 0 0;
-    }
+    // .left {
+    //     grid-column: 1 / 13;
+    //     // margin: var(--space-xxxl) 0 0 0;
+    // }
 
-    .right {
-        grid-column: 1 / 13;
-        // margin: var(--space-xxxl) 0 0 0;
-    }
+    // .right {
+    //     grid-column: 1 / 13;
+    //     // margin: var(--space-xxxl) 0 0 0;
+    // }
 
     .one,
     .two,
     .three {
-        // margin: var(--space-xxxl) 0;
+        margin: 0 var(--space-xxxl);
         grid-column: span 12;
+        align-self: end;
+    }
+
+    .one {
+        margin-top: var(--space-xxxl);
+    }
+
+    .three {
+        margin-bottom: var(--space-xxxl);
     }
 }
 
 @include breakpoints.breakpoint(xl) {
     .grid-large {
-        grid-gap: var(--space-xxxl);
+        grid-column-gap: var(--space-xl);
+        grid-row-gap: var(--space-xxxl);
 
         .left {
             grid-column: 1 / 7;
@@ -39,6 +51,12 @@
 
         .right {
             grid-column: 7 / 13;
+        }
+
+        .one,
+        .two,
+        .three {
+            margin: var(--space-xxxl) 0;
         }
 
         .one {
