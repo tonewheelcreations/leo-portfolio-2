@@ -14,16 +14,6 @@
         text-align: center;
     }
 
-    // .left {
-    //     grid-column: 1 / 13;
-    //     // margin: var(--space-xxxl) 0 0 0;
-    // }
-
-    // .right {
-    //     grid-column: 1 / 13;
-    //     // margin: var(--space-xxxl) 0 0 0;
-    // }
-
     .one,
     .two,
     .three {
@@ -46,13 +36,13 @@
         grid-column-gap: var(--space-xl);
         grid-row-gap: var(--space-xxxl);
 
-        .left {
-            grid-column: 1 / 7;
-        }
+        // .left {
+        //     grid-column: 1 / 7;
+        // }
 
-        .right {
-            grid-column: 7 / 13;
-        }
+        // .right {
+        //     grid-column: 7 / 13;
+        // }
 
         .one,
         .two,
