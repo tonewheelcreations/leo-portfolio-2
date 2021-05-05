@@ -236,6 +236,7 @@ const House2Home = () => {
             </LargeCol>
 
             <SmallCol>
+               <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
                      alt="Mailchimp UI"
@@ -246,6 +247,7 @@ const House2Home = () => {
                      Mailchimp was the outlier but I was inspired by the clarity of the progress bar during onboarding. This was another
                      way to make the style selection process easy for the shopper.
                   </p>
+                  </div>
             </SmallCol>
         
            
@@ -362,7 +364,7 @@ const House2Home = () => {
             <SmallCol>
                <div>
                   <StaticImage
-                     src="../images/design-sprint/ds-prototype-results.png"
+                     src="../images/design-sprint/ds-prototype-results-2.png"
                      alt="Empty rooms populated with decor items using AR"
                      placeholder="blurred"
                   />
