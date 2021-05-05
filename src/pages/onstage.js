@@ -2,7 +2,7 @@ import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Grid, LargeCol, SmallCol, CenterCol } from "../components/grid.js"
+import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
 import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
@@ -89,11 +89,11 @@ const Onstage = () => {
                 </CenterCol>
 
                 <LargeCol>
-                    <div>
-                        <h4>Getting to know concertgoers</h4>
 
-                        <p>I sent out a survey to find out about general music preferences, live concert attendance, and experience with regular streaming and live-streaming. 38 fans of live music responded, ranging from people in their early 20’s to those in their 70’s. Their top genres were jazz, classical, pop, rock, and world music. People were surprisingly experienced — nearly 80% had live-streamed music before. A larger sample might’ve resulted in a different set of top genres and live-streaming know-how.</p>
-                    </div>
+                    <h4>Getting to know concertgoers</h4>
+
+                    <p>I sent out a survey to find out about general music preferences, live concert attendance, and experience with regular streaming and live-streaming. 38 fans of live music responded, ranging from people in their early 20’s to those in their 70’s. Their top genres were jazz, classical, pop, rock, and world music. People were surprisingly experienced — nearly 80% had live-streamed music before. A larger sample might’ve resulted in a different set of top genres and live-streaming know-how.</p>
+
                 </LargeCol>
 
                 <SmallCol>
@@ -110,12 +110,14 @@ const Onstage = () => {
 
                     <h4>Early insights</h4>
 
-                    <p>Participants were passionate and outspoken. The responses to my interview questions were powerful. When asked what being at a live concert felt like, one person responded:</p>
-
+                    <p>Participants were passionate and outspoken. The responses to my interview questions were powerful. When asked what being at a live concert felt like, one person responded, "just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</p>
+                </CenterCol>
+                <FullCol>
                     <blockquote>
                         <p><em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em></p>
                     </blockquote>
-
+                </FullCol>
+                <CenterCol>
                     <h4>With music live-streaming, people had a lot in common</h4>
 
                     <p>When asked specifically — what would you look for in a music live-streaming service — people pointed out similar things: something that would have good categories mapped out, a variety of music, and being able to customize music preferences.</p>
@@ -434,7 +436,7 @@ const Onstage = () => {
 
                     <h3>Outcome and lessons</h3>
 
-                    <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
+                    <p>The project ended with a final prototype of the app, Onstage. You can give it a test-drive <a href="https://www.figma.com/proto/ZUhCngnY6FfXipmS059Ja6/Onstage-Development-File?page-id=367%3A11476&node-id=383%3A1651&viewport=981%2C749%2C0.08178168535232544&scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
 
                     <p>There were also some important lessons to address: </p>
 

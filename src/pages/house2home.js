@@ -2,7 +2,7 @@ import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Grid, LargeCol, SmallCol, CenterCol } from "../components/grid.js"
+import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
 // import { GridLarge, Left, Right } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
@@ -236,6 +236,7 @@ const House2Home = () => {
             </LargeCol>
 
             <SmallCol>
+               <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
                      alt="Mailchimp UI"
@@ -246,6 +247,7 @@ const House2Home = () => {
                      Mailchimp was the outlier but I was inspired by the clarity of the progress bar during onboarding. This was another
                      way to make the style selection process easy for the shopper.
                   </p>
+                  </div>
             </SmallCol>
         
            
@@ -362,7 +364,7 @@ const House2Home = () => {
             <SmallCol>
                <div>
                   <StaticImage
-                     src="../images/design-sprint/ds-prototype-results.png"
+                     src="../images/design-sprint/ds-prototype-results-2.png"
                      alt="Empty rooms populated with decor items using AR"
                      placeholder="blurred"
                   />
@@ -418,12 +420,17 @@ const House2Home = () => {
             <CenterCol>
 
                <p>
-                  People who viewed the second iteration responded positively, saying that the AR-populated images felt convincing.
+                  People who viewed the second iteration responded positively, saying that the AR-populated images felt convincing. You can try it out for yourself <a href="https://www.figma.com/proto/mbTK2kr6ruGYEm5z0W3U2E/House2Home?page-id=185%3A8&node-id=185%3A9&viewport=564%2C368%2C0.21305200457572937&scaling=min-zoom" target="_blank" rel="noreferrer noopener">here</a>.
                </p>
-               <p>
-
-                  “These items look like they belong inside of the photo of my apartment living room!”
-               </p>
+               </CenterCol>
+               
+               <FullCol>
+                    <blockquote>
+                        <p><em>“These items look like they belong inside of the photo of my apartment living room!”</em></p>
+                    </blockquote>
+                </FullCol>
+                  
+                <CenterCol>
                <h4>Next steps</h4>
 
                <p>

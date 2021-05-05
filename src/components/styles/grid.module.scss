@@ -1,4 +1,5 @@
 @use 'breakpoints';
+@use 'colors';
 
 .grid {
     max-width: 1440px;
@@ -14,14 +15,24 @@
         grid-column: 1 /13;
     }
 
-    // .large-col {
-    //     margin-left: var(--space-xxxl);
-    //     grid-column: 1 / 13;
-    // }
+    .large-col,
+    .small-col {
+        div {
+            p {
+                font-size: var(--type-xs);
+            }
+        }
+    }
 
-    // .small-col {
-    //     margin-right: var(--space-xxxl);
-    //     grid-column: 1 /13;
+    .full-col {
+        grid-column: 1 /13;
+
+        blockquote {
+            text-align: center;
+            font-size: var(--type-md);
+            color: colors.$secondary;
+        }
+    }
 
     video {
         max-width: 100%;
@@ -36,6 +47,11 @@
     h3 {
         margin-top: 0;
         margin-bottom: var(--space-md);
+        // color: colors.$secondary;
+        // font-weight: 600;
+        // text-decoration: overline;
+        // text-underline-offset: var(--space-xxxxs);
+        // text-decoration-thickness: 5%;
     }
 
     p {
