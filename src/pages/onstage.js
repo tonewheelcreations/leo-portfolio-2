@@ -436,7 +436,7 @@ const Onstage = () => {
 
                     <h3>Outcome and lessons</h3>
 
-                    <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
+                    <p>The project ended with a final prototype of the app, Onstage. You can give it a test-drive <a href="https://www.figma.com/proto/ZUhCngnY6FfXipmS059Ja6/Onstage-Development-File?page-id=367%3A11476&node-id=383%3A1651&viewport=981%2C749%2C0.08178168535232544&scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
 
                     <p>There were also some important lessons to address: </p>
 
