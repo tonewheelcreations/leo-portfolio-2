@@ -82,7 +82,7 @@ const Contact = () => {
                             </label>
                             <label className={form}>
                                 Message
-                            <input type="text" name="message" required />
+                            <textarea name="message" rows="5" required />
                             </label>
                             <div className={form}>
                                 <button type="submit">Send</button>

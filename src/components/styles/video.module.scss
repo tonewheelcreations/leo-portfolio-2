@@ -1,5 +1,24 @@
+.container-black {
+    margin: var(--space-xxxl) 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.container-white {
+    margin: var(--space-xxxl) 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
 .video {
-    video {
-        width: 100%;
-    }
+    max-width: 1440px;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.25));
+}
+
+.video-full {
+    max-width: 1440px;
+    width: 100%;
 }

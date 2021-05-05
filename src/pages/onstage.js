@@ -5,7 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Grid, LargeCol, SmallCol, CenterCol } from "../components/grid.js"
 import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
-import { Image, ImageFull } from "../components/image.js"
+import { Image } from "../components/image.js"
 import Title from "../components/title.js"
 import PaperPrototype from "../assets/paper-prototype-web.mp4"
 import AffinityMap from "../assets/affinity-map.mp4"
@@ -13,7 +13,7 @@ import Ideation1 from "../assets/Ideation-1.mp4"
 import FinalPrototype from "../assets/onstage-final-prototype-v4.mp4"
 import Styleguide from "../components/styleguide"
 import Personas from "../components/personas"
-import { Video } from "../components/video"
+import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
 
 const Onstage = () => {
     return (
@@ -42,7 +42,7 @@ const Onstage = () => {
                     <h3>What did I do?</h3>
                     <p>Discovery, ideation, visual design, prototyping, usability testing</p>
                     <h3>What did I use?</h3>
-                    <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, pen and paper </p>
+                    <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, Miro </p>
                 </div>
                 <div>
                     <h2>State of live-streaming</h2>
@@ -77,13 +77,13 @@ const Onstage = () => {
 
                     <p>But the numbers didn’t look so good for musical content. Live music performances ranked toward the bottom of the most popular live-streaming platforms. For instance, <em>Music and Performances</em> ranked #20 on Twitch at the time of research, with just 25,944 total viewers per channel.</p>
                 </CenterCol>
-                <Image>
+
+                <CenterCol>
                     <StaticImage
-                        src="../images/c1/twitch-metrics.png"
+                        src="../images/c1/c1-twitch-metrics.png"
                         alt="Music and Performances ranked #20 on Twitch"
                     />
-                </Image>
-
+                </CenterCol>
                 <CenterCol>
                     <p>And while <a href="https://gobranded.com/branded-poll-millennials-driving-growth-in-live-music-industry/#:~:text=Roughly%2089%20percent%20of%20Millennials,Silent%20Generation%20(age%2070%2B)." target="_blank" rel="noreferrer noopener">studies</a> proved that millennials — <em>Twitch</em>'s largest demographic — were also the largest group of concertgoers, there was still an entire range of people over 40 to account for. Only 20% of people over 40 even had a live-streaming subscription of some kind. Statistics like these suggested that there was a problem with engaging concertgoers through current live-streaming offerings.</p>
                 </CenterCol>
@@ -98,7 +98,7 @@ const Onstage = () => {
 
                 <SmallCol>
                     <StaticImage
-                        src="../images/screener-data.png"
+                        src="../images/c1/c1-screener-data.png"
                         alt="Live-streaming growth from 2019 to 2020"
                         placeholder='blurred'
                     />
@@ -116,7 +116,7 @@ const Onstage = () => {
                         <p><em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em></p>
                     </blockquote>
 
-                    <h4>When it came to music live-streaming, people had a lot in common</h4>
+                    <h4>With music live-streaming, people had a lot in common</h4>
 
                     <p>When asked specifically — what would you look for in a music live-streaming service — people pointed out similar things: something that would have good categories mapped out, a variety of music, and being able to customize music preferences.</p>
 
@@ -195,10 +195,10 @@ const Onstage = () => {
                 </CenterCol>
                 <Image>
                     <StaticImage
-                        src="../images/user-stories.png"
+                        src="../images/c1/c1-user-stories.png"
                         alt="User stories showing basic features of the design"
                         placeholder='blurred'
-                        quality={70}
+                        quality={100}
                     />
                 </Image>
                 <CenterCol>
@@ -227,7 +227,7 @@ const Onstage = () => {
             <GridLarge>
                 <One>
                     <StaticImage
-                        src="../images/user-flow-1.2.png"
+                        src="../images/c1/c1-user-flow-1.png"
                         alt="Personalize account"
                         placeholder='blurred'
                     />
@@ -237,7 +237,7 @@ const Onstage = () => {
                 </One>
                 <Two>
                     <StaticImage
-                        src="../images/user-flow-2.2.png"
+                        src="../images/c1/c1-user-flow-2.png"
                         alt="Buy a concert ticket"
                         placeholder='blurred'
                     />
@@ -247,7 +247,7 @@ const Onstage = () => {
                 </Two>
                 <Three>
                     <StaticImage
-                        src="../images/user-flow-3.4.png"
+                        src="../images/c1/c1-user-flow-3.png"
                         alt="Watch a concert"
                         placeholder='blurred'
                     />
@@ -268,43 +268,41 @@ const Onstage = () => {
                     <p>I started by sketching out the 3 red routes based on the user flows: to sign up, find and purchase a concert, and watch a concert.</p>
                 </CenterCol>
 
-            </Grid>
-            <GridLarge>
-                <ImageFull>
+
+                <Image>
                     <h5>Sign Up</h5>
                     <StaticImage
-                        src="../images/c1/c1-sketch-personalize.png"
+                        src="../images/c1/c1-sketch-personalize-centered.png"
                         alt="Sign Up"
                         placeholder='blurred'
                     />
                     <h5>Find and purchase a concert</h5>
                     <StaticImage
-                        src="../images/c1/c1-sketch-buy.png"
+                        src="../images/c1/c1-sketch-buy-centered.png"
                         alt="Find and purchase a concert"
                         placeholder='blurred'
                     />
                     <h5>Watch a concert</h5>
                     <StaticImage
-                        src="../images/c1/c1-sketch-watch.png"
+                        src="../images/c1/c1-sketch-watch-centered.png"
                         alt="Watch a concert"
                         placeholder='blurred'
                     />
-                </ImageFull>
-            </GridLarge>
-            <Grid>
+                </Image>
+
                 <CenterCol>
                     <h4>A usability test is worth 1000 Figma auto-saves</h4>
 
                     <p>Before going any further, I wanted to test the usability of these initial routes. Marvel offered a great paper prototyping tool called POP, which I used to create an initial prototype. </p>
                 </CenterCol>
-                <Image>
-                    <Video>
-                        <source
-                            src={PaperPrototype}
-                            type="video/mp4"
-                        />
-                    </Video>
-                </Image>
+            </Grid>
+            <VideoFullWhite>
+                <source
+                    src={PaperPrototype}
+                    type="video/mp4"
+                />
+            </VideoFullWhite>
+            <Grid>
 
                 <CenterCol>
                     <p>I got 5 unsuspecting  participants to take the prototype for a test-drive. I’m glad I was able to test this early in the visual design stage — the results revealed some serious flaws. First, the app seemed like it was for buying tickets to actual live concerts instead of live-streams. Second, it wasn’t clear how the search functionality would work. Finally, participants weren’t sure when the concerts were “going live.” This was a good time for improvement and there were still several opportunities ahead to hone the design.</p>
@@ -313,40 +311,37 @@ const Onstage = () => {
 
                     <p>Using the findings from guerrilla testing, I moved on to wireframing the design.  </p>
                 </CenterCol>
-            </Grid>
-            <GridLarge>
-                <ImageFull>
+
+                <Image>
                     <h5 id="signup">Sign Up</h5>
 
                     <StaticImage
-                        src="../images/wireframe-1.1.png"
+                        src="../images/c1/c1-wireframe-1.png"
                         alt="Wireframe of &quot;Sign Up&quot;"
                         placeholder='blurred'
                     />
-                </ImageFull>
+                </Image>
 
-                <ImageFull>
+                <Image>
                     <h5>Find and purchase a concert</h5>
 
                     <StaticImage
-                        src="../images/wireframe-2.1.png"
+                        src="../images/c1/c1-wireframe-2.png"
                         alt="Wireframe of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
                     />
-                </ImageFull>
+                </Image>
 
-                <ImageFull>
+                <Image>
                     <h5>Watch a concert</h5>
 
                     <StaticImage
-                        src="../images/wireframe-3.1.png"
+                        src="../images/c1/c1-wireframe-3.png"
                         alt="Wireframe of &quot;Watch a concert&quot;"
                         placeholder='blurred'
                     />
-                </ImageFull>
-            </GridLarge>
+                </Image>
 
-            <Grid>
                 <CenterCol>
                     <p>Some of the main features I added were:</p>
 
@@ -371,8 +366,6 @@ const Onstage = () => {
                     <p>The entire style guide was a hefty 33-page affair, but here are some of the critical parts:</p>
                 </CenterCol>
 
-
-
                 <Image>
                     <Styleguide />
 
@@ -383,13 +376,12 @@ const Onstage = () => {
 
                     <p>Using the style guide, I created high fidelity screens for the red routes:</p>
                 </CenterCol>
-            </Grid>
-            <GridLarge>
-                <ImageFull>
+
+                <Image>
                     <h5>Sign Up</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-1.1.png"
+                        src="../images/c1/c1-hi-fi-1.png"
                         alt="High fidelity screen of &quot;Sign Up&quot;"
                         placeholder='blurred'
                     />
@@ -397,7 +389,7 @@ const Onstage = () => {
                     <h5>Find and purchase a concert</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-2.1.png"
+                        src="../images/c1/c1-hi-fi-2.png"
                         alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
                     />
@@ -405,13 +397,12 @@ const Onstage = () => {
                     <h5>Watch a concert</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-3.1.png"
+                        src="../images/c1/c1-hi-fi-3.png"
                         alt="High fidelity screen of &quot;Watch a concert&quot;"
                         placeholder='blurred'
                     />
-                </ImageFull>
-            </GridLarge>
-            <Grid>
+                </Image>
+
                 <CenterCol>
                     <p>Some of the main features I added here were:</p>
 
@@ -433,22 +424,18 @@ const Onstage = () => {
 
                     <p>I was getting close to the end of the project and all that was left was to test and iterate on the high fidelity design. I built another prototype, this time with animations and more complex interactions to add delight to all of the functionality. There were 2 usability tests with a total of 13 participants. The critical prioritized recommendations were: to make artist and genre preferences easier to find, redesign the search flow to make it clearer, and to make audio and video settings easier to access from the video player. I made these adjustments before delivering the final prototype.</p>
                 </CenterCol>
-
+            </Grid>
+            <VideoFullBlack>
+                <source src={FinalPrototype} type="video/mp4" />
+            </VideoFullBlack>
+            <Grid>
                 <CenterCol>
                     <h2>The end of the story, for now</h2>
 
                     <h3>Outcome and lessons</h3>
 
                     <p>The project ended with a final prototype of the app, Onstage. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
-                </CenterCol>
-            </Grid>
 
-            <Video>
-                <source src={FinalPrototype} type="video/mp4" />
-            </Video>
-
-            <Grid>
-                <CenterCol>
                     <p>There were also some important lessons to address: </p>
 
                     <ul>

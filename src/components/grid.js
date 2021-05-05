@@ -24,3 +24,5 @@ export const CenterCol = ({ children }) => (
         {children}
     </div>
 )
+
+
