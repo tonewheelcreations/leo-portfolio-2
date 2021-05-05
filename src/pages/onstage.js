@@ -42,7 +42,7 @@ const Onstage = () => {
                     <h3>What did I do?</h3>
                     <p>Discovery, ideation, visual design, prototyping, usability testing</p>
                     <h3>What did I use?</h3>
-                    <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, pen and paper </p>
+                    <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, Miro </p>
                 </div>
                 <div>
                     <h2>State of live-streaming</h2>
@@ -80,7 +80,7 @@ const Onstage = () => {
 
                 <CenterCol>
                     <StaticImage
-                        src="../images/c1/twitch-metrics.png"
+                        src="../images/c1/c1-twitch-metrics.png"
                         alt="Music and Performances ranked #20 on Twitch"
                     />
                 </CenterCol>
@@ -98,7 +98,7 @@ const Onstage = () => {
 
                 <SmallCol>
                     <StaticImage
-                        src="../images/screener-data.png"
+                        src="../images/c1/c1-screener-data.png"
                         alt="Live-streaming growth from 2019 to 2020"
                         placeholder='blurred'
                     />
@@ -116,7 +116,7 @@ const Onstage = () => {
                         <p><em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em></p>
                     </blockquote>
 
-                    <h4>When it came to music live-streaming, people had a lot in common</h4>
+                    <h4>With music live-streaming, people had a lot in common</h4>
 
                     <p>When asked specifically — what would you look for in a music live-streaming service — people pointed out similar things: something that would have good categories mapped out, a variety of music, and being able to customize music preferences.</p>
 
@@ -195,10 +195,10 @@ const Onstage = () => {
                 </CenterCol>
                 <Image>
                     <StaticImage
-                        src="../images/user-stories.png"
+                        src="../images/c1/c1-user-stories.png"
                         alt="User stories showing basic features of the design"
                         placeholder='blurred'
-                        quality={70}
+                        quality={100}
                     />
                 </Image>
                 <CenterCol>
@@ -227,7 +227,7 @@ const Onstage = () => {
             <GridLarge>
                 <One>
                     <StaticImage
-                        src="../images/user-flow-1.2.png"
+                        src="../images/c1/c1-user-flow-1.png"
                         alt="Personalize account"
                         placeholder='blurred'
                     />
@@ -237,7 +237,7 @@ const Onstage = () => {
                 </One>
                 <Two>
                     <StaticImage
-                        src="../images/user-flow-2.2.png"
+                        src="../images/c1/c1-user-flow-2.png"
                         alt="Buy a concert ticket"
                         placeholder='blurred'
                     />
@@ -247,7 +247,7 @@ const Onstage = () => {
                 </Two>
                 <Three>
                     <StaticImage
-                        src="../images/user-flow-3.4.png"
+                        src="../images/c1/c1-user-flow-3.png"
                         alt="Watch a concert"
                         placeholder='blurred'
                     />
@@ -316,7 +316,7 @@ const Onstage = () => {
                     <h5 id="signup">Sign Up</h5>
 
                     <StaticImage
-                        src="../images/c1/c1-wireframe-1.1.png"
+                        src="../images/c1/c1-wireframe-1.png"
                         alt="Wireframe of &quot;Sign Up&quot;"
                         placeholder='blurred'
                     />
@@ -326,7 +326,7 @@ const Onstage = () => {
                     <h5>Find and purchase a concert</h5>
 
                     <StaticImage
-                        src="../images/c1/c1-wireframe-2.1.png"
+                        src="../images/c1/c1-wireframe-2.png"
                         alt="Wireframe of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
                     />
@@ -336,7 +336,7 @@ const Onstage = () => {
                     <h5>Watch a concert</h5>
 
                     <StaticImage
-                        src="../images/c1/c1-wireframe-3.1.png"
+                        src="../images/c1/c1-wireframe-3.png"
                         alt="Wireframe of &quot;Watch a concert&quot;"
                         placeholder='blurred'
                     />
@@ -366,8 +366,6 @@ const Onstage = () => {
                     <p>The entire style guide was a hefty 33-page affair, but here are some of the critical parts:</p>
                 </CenterCol>
 
-
-
                 <Image>
                     <Styleguide />
 
@@ -383,7 +381,7 @@ const Onstage = () => {
                     <h5>Sign Up</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-1.1.png"
+                        src="../images/c1/c1-hi-fi-1.png"
                         alt="High fidelity screen of &quot;Sign Up&quot;"
                         placeholder='blurred'
                     />
@@ -391,7 +389,7 @@ const Onstage = () => {
                     <h5>Find and purchase a concert</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-2.1.png"
+                        src="../images/c1/c1-hi-fi-2.png"
                         alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
                     />
@@ -399,7 +397,7 @@ const Onstage = () => {
                     <h5>Watch a concert</h5>
 
                     <StaticImage
-                        src="../images/hi-fi-3.1.png"
+                        src="../images/c1/c1-hi-fi-3.png"
                         alt="High fidelity screen of &quot;Watch a concert&quot;"
                         placeholder='blurred'
                     />

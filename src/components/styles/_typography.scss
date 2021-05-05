@@ -61,9 +61,9 @@ h4 {
   font-family: var(--font-secondary);
   font-size: var(--base-size);
   line-height: 1.4;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: var(--space-xl);
-  margin-bottom: var(--space-xxxs);
+  margin-bottom: var(--space-xxs);
 }
 
 h5 {
@@ -157,6 +157,10 @@ p {
 
   h3 {
     font-size: var(--type-md);
+  }
+
+  h4 {
+    font-size: var(--type-sm);
   }
 
   p {

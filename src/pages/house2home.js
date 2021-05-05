@@ -8,7 +8,7 @@ import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
 import Usability from "../assets/ds-usability-test.mp4"
-import Prototype from "../assets/ds-final-prototype2.mp4"
+import Prototype from "../assets/ds-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
 
 const House2Home = () => {
@@ -37,7 +37,7 @@ const House2Home = () => {
                <h3>What did I do?</h3>
                <p>User research, storyboarding, visual design, prototyping, usability testing</p>
                <h3>What did I use?</h3>
-               <p>Figma, Miro, Adobe Photoshop</p>
+               <p>Figma, Miro, Adobe Photoshop, Premiere</p>
             </div>
               <div>
                <h2>What is House2Home?</h2>
@@ -424,7 +424,7 @@ const House2Home = () => {
 
                   “These items look like they belong inside of the photo of my apartment living room!”
                </p>
-               <h4>Lessons learned and going forward</h4>
+               <h4>Next steps</h4>
 
                <p>
                   Simulating AR is intensive visual design — something to take into account when exploring such designs in a
