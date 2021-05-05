@@ -64,7 +64,7 @@ const House2Home = () => {
             </p>
             </CenterCol>
          
-            <LargeCol>
+            <CenterCol>
                <StaticImage
                   src="../images/design-sprint/ds-user-deena.png"
                   alt="Deena, a House2Home customer"
@@ -83,8 +83,8 @@ const House2Home = () => {
                   quality={100}
                   placeholder="blurred"
                />
-            </LargeCol>
-            <SmallCol>
+            </CenterCol>
+            <CenterCol>
                <p>Customers like Deena, Lauren, and Ron shared common frustrations:</p>
                <ul>
 
@@ -95,7 +95,7 @@ const House2Home = () => {
                   <li>Searching for items felt exhausting</li>
 
                </ul>
-            </SmallCol>
+            </CenterCol>
       
             <CenterCol>
             <h4>Empathizing with the common shopper</h4>
@@ -169,7 +169,7 @@ const House2Home = () => {
          </Grid>
            <ImageFull>
             <StaticImage
-               src="../images/design-sprint/ds-ux-map.jpg"
+               src="../images/design-sprint/ds-ux-map-2.jpg"
                alt="Ally's user experience map"
                placeholder="blurred"
                layout="fullWidth"
@@ -248,14 +248,8 @@ const House2Home = () => {
                   </p>
             </SmallCol>
         
+           
             <LargeCol>
-               <StaticImage
-                  src="../images/design-sprint/ds-crazy-8s.png"
-                  alt="8 sketches of the most critical screen of Ally's user experience"
-                  placeholder="blurred"
-               />
-            </LargeCol>
-            <SmallCol>
                <h4>Crazy 8’s</h4>
                <p>
                   Using these 4 examples for inspiration, I sketched 8 versions of the most critical step in Ally’s user experience:
@@ -266,9 +260,15 @@ const House2Home = () => {
                   apartment. I then created a 3-panel board with that screen, adding a photo upload screen to show how the AR would
                   work and a checkout screen indicating that Ally was happy with the items provided to her.
                </p>
-            </SmallCol>
-        
-            <LargeCol>
+                </LargeCol>
+                <SmallCol>
+               <StaticImage
+                  src="../images/design-sprint/ds-crazy-8s.png"
+                  alt="8 sketches of the most critical screen of Ally's user experience"
+                  placeholder="blurred"
+               />
+               </SmallCol>
+            <CenterCol>
                <h2>Image to story</h2>
                <h3>Deciding and storyboarding</h3>
                <p>
@@ -278,14 +278,14 @@ const House2Home = () => {
                <p>
                   I started by laying out the plot of Ally’s user experience to complete her goal. Then I turned the written plot into a storyboard, below. This was easier because the plot was clear before sketching.
                </p>
-            </LargeCol>
-            <SmallCol>
+               </CenterCol>
+            <CenterCol> 
                <StaticImage
                   src="../images/design-sprint/ds-storyboard-steps2.png"
                   alt="Post-it notes providing the written plot of Ally's user experience"
                   placeholder="blurred"
                />
-            </SmallCol>
+            </CenterCol>
         
          <Image>
             <StaticImage

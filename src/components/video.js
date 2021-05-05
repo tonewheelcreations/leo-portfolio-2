@@ -1,5 +1,5 @@
 import React from "react"
-import { containerBlack, containerWhite, video } from "./styles/video.module.scss"
+import { containerBlack, containerWhite, video, videoFull } from "./styles/video.module.scss"
 
 export const Video = ({ children }) => (
     <div>
@@ -13,7 +13,7 @@ export const Video = ({ children }) => (
 
 export const VideoFullBlack = ({ children }) => (
     <div className={containerBlack}>
-        <video className={video}
+        <video className={videoFull}
             autoPlay muted loop controls controlsList="nodownload"
         >
             {children}
@@ -23,7 +23,7 @@ export const VideoFullBlack = ({ children }) => (
 
 export const VideoFullWhite = ({ children }) => (
     <div className={containerWhite}>
-        <video className={video}
+        <video className={videoFull}
             autoPlay muted loop controls controlsList="nodownload"
         >
             {children}
