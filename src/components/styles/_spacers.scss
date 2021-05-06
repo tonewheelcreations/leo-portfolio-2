@@ -6,6 +6,7 @@
     --space-ratio: 1.25; // based on major 3rd ratio
 
     // space sizes
+    --space-xxxxxl: calc(var(--space-xxxxl) * var(--space-ratio));
     --space-xxxxl: calc(var(--space-xxxl) * var(--space-ratio));
     --space-xxxl: calc(var(--space-xxl) * var(--space-ratio));
     --space-xxl: calc(var(--space-xl) * var(--space-ratio));

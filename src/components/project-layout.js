@@ -21,7 +21,7 @@ const ProjectLayout = ({ children }) => {
     <div>
       <Header id="top" siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
-        <main>
+        <main className="main-projects">
           {children}
         </main>
         <div className={scrollTop}>

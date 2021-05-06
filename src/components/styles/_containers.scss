@@ -11,8 +11,13 @@
 }
 
 .main {
-    margin-left: var(--space-xxxl);
-    margin-right: var(--space-xxxl);
+    margin: var(--space-xxxl) var(--space-xxxl) 0 var(--space-xxxl);
+    padding-top: var(--space-xxxxs);
+}
+
+.main-projects {
+    margin-top: var(--space-xxxl);
+    padding-top: var(--space-xxxxs);
 }
 
 // .content {
