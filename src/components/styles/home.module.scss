@@ -50,7 +50,7 @@
 .projectInfo {
     h2 {
         padding-top: var(--space-xxxs);
-        // font-size: var(--type-lg);
+        font-size: var(--type-sm);
     }
 
     p {
@@ -128,6 +128,20 @@ a {
 
     .projects {
         column-gap: var(--space-xl);
+    }
+
+    .projectInfo {
+        h2 {
+            font-size: var(--type-md);
+        }
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .projectInfo {
+        h2 {
+            font-size: var(--type-lg);
+        }
     }
 }
 
