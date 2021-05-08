@@ -323,6 +323,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-1.png"
                         alt="Wireframe of &quot;Sign Up&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -333,6 +334,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-2.png"
                         alt="Wireframe of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -343,6 +345,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-3.png"
                         alt="Wireframe of &quot;Watch a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -388,6 +391,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-1.png"
                         alt="High fidelity screen of &quot;Sign Up&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
 
                     <h5>Find and purchase a concert</h5>
@@ -396,6 +400,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-2.png"
                         alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
 
                     <h5>Watch a concert</h5>
@@ -404,6 +409,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-3.png"
                         alt="High fidelity screen of &quot;Watch a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
