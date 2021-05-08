@@ -12,24 +12,10 @@ const IndexPage = () => {
       <SEO title="Home" />
       <div className={topModule}>
         <h1>Hi, I'm Leo</h1>
-        <h2>I'm a <Link to="/about/#design">UX Designer</Link> with roots in <Link to="/about/#music">jazz composition</Link> and <Link to="/about/#video">video production</Link>.</h2>
+        <h2>I'm a <Link to="/about/">UX Designer</Link> with roots in <Link to="/about/#music">jazz composition</Link> and <Link to="/about/#video">video production</Link>.</h2>
       </div>
 
       <div className={projects}>
-        <Project
-          link={"/house2home/"}
-          title={"Beating decision anxiety on a budget"}
-          description={"Read case study"}
-        >
-          <StaticImage
-            src="../images/design-sprint/ds-cover.jpg"
-            alt="House2Home Case Study"
-            className={image}
-            style={{ display: "block" }}
-            placeholder="blurred"
-          />
-
-        </Project>
         <Project
           link={"/onstage/"}
           title={"Onstage music live-streaming app"}
@@ -42,7 +28,20 @@ const IndexPage = () => {
             style={{ display: "block" }}
             placeholder="blurred"
           />
+        </Project>
 
+        <Project
+          link={"/house2home/"}
+          title={"Beating decision anxiety on a budget"}
+          description={"Read case study"}
+        >
+          <StaticImage
+            src="../images/design-sprint/ds-cover.jpg"
+            alt="House2Home Case Study"
+            className={image}
+            style={{ display: "block" }}
+            placeholder="blurred"
+          />
         </Project>
       </div >
 
