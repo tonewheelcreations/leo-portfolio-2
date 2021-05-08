@@ -22,12 +22,11 @@ const House2Home = () => {
          </Title>
          <Grid>
          <Image>
-            <StaticImage
+               <StaticImage
                src="../images/design-sprint/ds-header-image2.png"
                alt="home decor landing page on laptop"
                placeholder="blurred"
-               quality={100}
-            />
+               quality={100} />       
          </Image>
          </Grid>
        <FlexInfo>

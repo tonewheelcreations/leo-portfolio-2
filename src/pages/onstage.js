@@ -230,7 +230,7 @@ const Onstage = () => {
                 <One>
                     <StaticImage
                         src="../images/c1/c1-user-flow-1.png"
-                        alt="Personalize account"
+                        alt="'Personalize account' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -240,7 +240,7 @@ const Onstage = () => {
                 <Two>
                     <StaticImage
                         src="../images/c1/c1-user-flow-2.png"
-                        alt="Buy a concert ticket"
+                        alt="'Buy a concert ticket' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -250,7 +250,7 @@ const Onstage = () => {
                 <Three>
                     <StaticImage
                         src="../images/c1/c1-user-flow-3.png"
-                        alt="Watch a concert"
+                        alt="'Watch a concert' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -278,12 +278,14 @@ const Onstage = () => {
                         alt="Sign Up"
                         placeholder='blurred'
                     />
+
                     <h5>Find and purchase a concert</h5>
                     <StaticImage
                         src="../images/c1/c1-sketch-buy-centered.png"
                         alt="Find and purchase a concert"
                         placeholder='blurred'
                     />
+
                     <h5>Watch a concert</h5>
                     <StaticImage
                         src="../images/c1/c1-sketch-watch-centered.png"
@@ -321,6 +323,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-1.png"
                         alt="Wireframe of &quot;Sign Up&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -331,6 +334,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-2.png"
                         alt="Wireframe of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -341,6 +345,7 @@ const Onstage = () => {
                         src="../images/c1/c1-wireframe-3.png"
                         alt="Wireframe of &quot;Watch a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
@@ -386,6 +391,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-1.png"
                         alt="High fidelity screen of &quot;Sign Up&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
 
                     <h5>Find and purchase a concert</h5>
@@ -394,6 +400,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-2.png"
                         alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
 
                     <h5>Watch a concert</h5>
@@ -402,6 +409,7 @@ const Onstage = () => {
                         src="../images/c1/c1-hi-fi-3.png"
                         alt="High fidelity screen of &quot;Watch a concert&quot;"
                         placeholder='blurred'
+                        quality={100}
                     />
                 </Image>
 
