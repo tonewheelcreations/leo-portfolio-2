@@ -4,22 +4,46 @@
 @use 'global';
 
 .footer {
+    margin: auto;
     max-width: 1440px;
-    margin: var(--space-xxxl);
+
+    .footer-container {
+        margin: 0 var(--space-xxxl);
+        padding: var(--space-lg) 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     p {
-        text-align: center;
+        text-align: right;
         font-size: var(--type-xs);
+    }
+
+    .svg-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .svg {
+        width: var(--type-lg);
+        // height: var(--type-md);
+        margin-bottom: 0;
+        margin-right: var(--space-xxs);
     }
 }
 
 @include breakpoints.breakpoint(md) {
     .footer {
-        margin: auto;
+        // margin: auto;
+        .footer-container {
+            flex-direction: row;
+        }
 
         p {
             text-align: right;
-            margin: var(--space-xxxxl);
+            // margin: var(--space-xxxxl);
         }
     }
 }
