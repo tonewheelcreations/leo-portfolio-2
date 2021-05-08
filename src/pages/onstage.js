@@ -230,7 +230,7 @@ const Onstage = () => {
                 <One>
                     <StaticImage
                         src="../images/c1/c1-user-flow-1.png"
-                        alt="Personalize account"
+                        alt="'Personalize account' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -240,7 +240,7 @@ const Onstage = () => {
                 <Two>
                     <StaticImage
                         src="../images/c1/c1-user-flow-2.png"
-                        alt="Buy a concert ticket"
+                        alt="'Buy a concert ticket' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -250,7 +250,7 @@ const Onstage = () => {
                 <Three>
                     <StaticImage
                         src="../images/c1/c1-user-flow-3.png"
-                        alt="Watch a concert"
+                        alt="'Watch a concert' user flow"
                         placeholder='blurred'
                     />
                     <p>
@@ -278,12 +278,14 @@ const Onstage = () => {
                         alt="Sign Up"
                         placeholder='blurred'
                     />
+
                     <h5>Find and purchase a concert</h5>
                     <StaticImage
                         src="../images/c1/c1-sketch-buy-centered.png"
                         alt="Find and purchase a concert"
                         placeholder='blurred'
                     />
+
                     <h5>Watch a concert</h5>
                     <StaticImage
                         src="../images/c1/c1-sketch-watch-centered.png"
