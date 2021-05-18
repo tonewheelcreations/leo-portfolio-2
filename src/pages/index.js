@@ -31,6 +31,20 @@ const IndexPage = () => {
         </Project>
 
         <Project
+          link={"/keeps/"}
+          title={"Keeps subscription tracking"}
+          description={"Read case study"}
+        >
+          <StaticImage
+            src="../images/c2/c2-cover.png"
+            alt="Keeps Case Study"
+            className={image}
+            style={{ display: "block" }}
+            placeholder="blurred"
+          />
+        </Project>
+
+        <Project
           link={"/house2home/"}
           title={"Beating decision anxiety on a budget"}
           description={"Read case study"}
