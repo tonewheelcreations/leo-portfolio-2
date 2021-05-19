@@ -18,7 +18,7 @@ const IndexPage = () => {
       <div className={projects}>
         <Project
           link={"/onstage/"}
-          title={"Onstage music live-streaming app"}
+          title={"Onstage music live-streaming"}
           description={"Read case study"}
         >
           <StaticImage
@@ -32,11 +32,11 @@ const IndexPage = () => {
 
         <Project
           link={"/keeps/"}
-          title={"Keeps subscription tracking"}
+          title={"Subscription tracking made easy"}
           description={"Read case study"}
         >
           <StaticImage
-            src="../images/c2/c2-cover.png"
+            src="../images/c2/c2-home.png"
             alt="Keeps Case Study"
             className={image}
             style={{ display: "block" }}

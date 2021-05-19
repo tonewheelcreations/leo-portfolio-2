@@ -425,7 +425,7 @@ const House2Home = () => {
                
                <FullCol>
                     <blockquote>
-                        <p><em>“These items look like they belong inside of the photo of my apartment living room!”</em></p>
+                        <em>“These items look like they belong inside of the photo of my apartment living room!”</em>
                     </blockquote>
                 </FullCol>
                   

@@ -21,7 +21,7 @@ const Onstage = () => {
             <SEO title="Onstage" />
 
             <Title>
-                <h1>Onstage music live-streaming app</h1>
+                <h1>Onstage music live-streaming</h1>
                 <h2>Bringing the live concert experience to music fans — in the comfort of their homes</h2>
             </Title>
 
@@ -70,7 +70,6 @@ const Onstage = () => {
                     <h2>Getting started</h2>
 
                     <h3>Discovery</h3>
-
                     <h4>A look at the industry</h4>
 
                     <p>To better understand what concertgoers were dealing with, I started researching the live-streaming space. How did music live-streaming fit in specifically? The numbers were astounding. According to a <a href="https://www.forbes.com/sites/paultassi/2020/05/16/report-livestream-viewership-grew-99-in-lockdown-microsofts-mixer-grew-02/?sh=33db6cf076cb" target="_blank" rel="noreferrer noopener">report by Forbes</a>, live-streaming increased by 99% between 2019 and 2020 — nearly doubling in one year! COVID-19 played a big part in this, accelerating the shift of real world content to digital which had already been happening. </p>
@@ -114,7 +113,7 @@ const Onstage = () => {
                 </CenterCol>
                 <FullCol>
                     <blockquote>
-                        <p><em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em></p>
+                        <em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em>
                     </blockquote>
                 </FullCol>
                 <CenterCol>
@@ -317,7 +316,7 @@ const Onstage = () => {
                 </CenterCol>
 
                 <Image>
-                    <h5 id="signup">Sign Up</h5>
+                    <h5>Sign Up</h5>
 
                     <StaticImage
                         src="../images/c1/c1-wireframe-1.png"
