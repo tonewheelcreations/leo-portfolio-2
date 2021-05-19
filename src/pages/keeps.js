@@ -3,6 +3,7 @@ import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
+import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
 import Title from "../components/title.js"
@@ -145,14 +146,12 @@ const Keeps = () => {
                 <CenterCol>
                     <p>
                         Jorge closely represented <i>Keeps’s</i> target user and aligned with all of the business requirements. I was now solving a user-centered problem: how might we help Jorge see all his subscriptions in one place with a comprehensive view of spending, directly unsubscribe from a subscription, and only get notified when a subscription was about to auto-renew.
-                </p>
-
-                    <h2>Creating a blueprint</h2>
-                    <h3>Information architecture</h3>
+                    </p>
 
                     <p>
-                        Now I had to create an architecture that would help Jorge accomplish his goals. I created user stories to model the red route flows that Jorge would take.
+                        I created user stories to model the red route flows that Jorge would take to accomplish his goals. I started with 4 user epics but decided to combine viewing all subscriptions and getting a comprehensive look at spending into a single flow, since they were related and it would ensure the desired simplicity of the interface.
                     </p>
+
                 </CenterCol>
                 <Image>
                     <StaticImage
@@ -163,14 +162,55 @@ const Keeps = () => {
                     />
                 </Image>
                 <CenterCol>
+
+                    <h2>Creating a blueprint</h2>
+                    <h3>Information architecture</h3>
+
                     <p>
-                        I started with 4 user epics but decided to combine viewing all subscriptions and getting a comprehensive look at spending into a single flow, since they were related and it would ensure the desired simplicity of the interface. After consolidating the flows and determining the user stories needed to accomplish each of Jorge’s tasks, I created 3 user flows to model his paths through the interface
+                        Now, I had to create an architecture that would help Jorge accomplish his goals. After consolidating the user epics and determining the user stories needed to accomplish each of Jorge’s tasks, I created 3 user flows to model his paths through the interface:
                     </p>
+                </CenterCol>
+            </Grid>
 
-                    {/* pic of user flows */}
-
+            <GridLarge>
+                <One>
+                    <StaticImage
+                        src="../images/c2/c2-flow-1.png"
+                        alt="'View susbcriptions and spending' user flow"
+                        placeholder='blurred'
+                    />
                     <p>
-                        The last in putting together the architecture was to arrange the flows as a simplified interface outline. The idea was to use <i>Keeps’s</i> core account-linking functionality as a hub-and-spoke structure that would allow users to easily import subscriptions from their payment sources and manage them in one place within the app. The account-linking also meant being able to directly cancel a subscription in-app.
+                        <i>View subscriptions and spending</i> allowed users to see their subscriptions and spending in one place
+                    </p>
+                </One>
+
+                <Two>
+                    <StaticImage
+                        src="../images/c2/c2-flow-2.png"
+                        alt="'Get notified' user flow"
+                        placeholder='blurred'
+                    />
+                    <p>
+                        <i>Get notified</i> included setting and receiving reminders about upcoming subscription renewals
+                    </p>
+                </Two>
+
+                <Three>
+                    <StaticImage
+                        src="../images/c2/c2-flow-3.png"
+                        alt="'Cancel subscription' user flow"
+                        placeholder='blurred'
+                    />
+                    <p>
+                        <i>Cancel subscription</i> allowed users to definitively cancel a subscription and no longer get charged
+                    </p>
+                </Three>
+            </GridLarge>
+
+            <Grid>
+                <CenterCol>
+                    <p>
+                        The last step in putting together the architecture was to arrange the flows into simplified interface outline. The idea was to use <i>Keeps’s</i> core account-linking functionality as a hub-and-spoke structure that would allow users to easily import subscriptions from their payment sources and manage them in one place within the app. The account-linking also meant being able to directly cancel a subscription in-app.
                     </p>
                     <p>
                         I started with rough sketches and quickly moved into lo-fi wireframes. This helped move the project along within the short timeline and also provided an easier transition into the upcoming hi-fi designs. Since this was going to be an Android mobile app, I used an Android <a href="https://www.figma.com/community/file/900479694578549256" target="_blank" rel="noreferrer noopener">wireframe kit</a> in Figma to expedite the building process.
