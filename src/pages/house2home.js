@@ -3,7 +3,6 @@ import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
-// import { GridLarge, Left, Right } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
@@ -425,7 +424,7 @@ const House2Home = () => {
                
                <FullCol>
                     <blockquote>
-                        <p><em>“These items look like they belong inside of the photo of my apartment living room!”</em></p>
+                        <em>“These items look like they belong inside of the photo of my apartment living room!”</em>
                     </blockquote>
                 </FullCol>
                   
