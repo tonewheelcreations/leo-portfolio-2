@@ -2,7 +2,7 @@ import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
+import { Grid, LeftCol, RightCol, CenterCol, FullCol } from "../components/grid.js"
 import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
@@ -45,11 +45,11 @@ const Keeps = () => {
                 <div>
                     <h2>All about Keeps</h2>
                     <p>
-                        A startup had a product on the market called <i>Keeps</i>, which helped users keep track of all of their recurring subscription payments. Most of their users were over 30, middle class, and trying to be more budget conscious. Unlike its competitors, <i>Keeps</i> focused on subscriptions to products and services and didn’t include bills, utilities, or financial instruments. It provided basic information like a list of subscription names, billing cycles, and a calendar view of payment dates.
+                        A startup had a product on the market called Keeps, which helped users keep track of all of their recurring subscription payments. Most of their users were over 30, middle class, and trying to be more budget conscious. Unlike its competitors, Keeps focused on subscriptions to products and services and didn’t include bills, utilities, or financial instruments. It provided basic information like a list of subscription names, billing cycles, and a calendar view of payment dates.
                     </p>
                     <h2>The challenge</h2>
                     <p>
-                        At the time, the product was a web application that wasn't mobile-friendly. The company knew that half of their potential users were on mobile and wanted to increase their market reach. The goal was to develop an Android mobile app that addressed 3 business requirements:
+                        At the time, the product was a web application that wasn't mobile-friendly. The company knew that half of their potential users were on mobile and wanted to increase their market reach. The goal was to develop an Android mobile app that addressed three business requirements:
                     </p>
 
                     <ul>
@@ -72,7 +72,7 @@ const Keeps = () => {
                     <h3>Project planning</h3>
 
                     <p>
-                        In order to stick to the 90-hour timeline, I started with a project plan. This outlined the phases, deliverables, and design rationale throughout the project. Each phase had a completion date, which coincided with stakeholder meetings to show progress toward the final prototype. As you can see, a lot of time was spent in the discovery phase. It was important to understand the industry and its consumers in order to translate <i>Keeps's</i> business requirements to mobile in the most simple and effective way.
+                        In order to stick to the 90-hour timeline, I started with a project plan. This outlined the phases, deliverables, and design rationale throughout the project. After I completed each phase, I presented the deliverables at stakeholder meetings to show progress toward the final prototype. A lot of time was spent in the discovery phase. It was important to understand the industry and its consumers in order to translate Keeps's business requirements to mobile in the most simple and effective way.
                     </p>
                 </CenterCol>
                 <Image>
@@ -90,16 +90,16 @@ const Keeps = () => {
                     <h4>[Blank] as a service</h4>
 
                     <p>
-                        At the time of writing, May 2021, the Software as a Service (SaaS) business model was already a dominant force. The subscription-business industry had been growing at <a href="https://hbr.org/2017/12/subscription-businesses-are-booming-heres-how-to-value-them" target="_blank" rel="noreferrer noopener">200% annually since 2011</a>. This growth made sense; the recurring nature of subscriptions allowed SaaS to continually hone in on the customer experience, creating repeat customers who were loyal to the companies whose products they used.
+                        At the time of writing, May 2021, the Software as a Service (SaaS) business model was already a dominant force. The subscription-business industry had been growing at <a href="https://hbr.org/2017/12/subscription-businesses-are-booming-heres-how-to-value-them" target="_blank" rel="noreferrer noopener">200 percent annually since 2011</a>. This growth made sense; the recurring nature of subscriptions allowed SaaS to continually hone in on the customer experience, creating repeat customers who were loyal to the companies whose products they used.
                     </p>
                     <p>
-                        However, there was a dark side to these recurring payments — automatic renewals. According to a <a href="https://www.globenewswire.com/news-release/2016/03/21/1240985/0/en/Hiatus-Survey-62-of-Consumers-Waste-Money-on-Unwanted-Subscriptions-Because-They-Don-t-Cancel-Automatic-Renewals.html#:~:text=Key%20findings%20from%20the%20survey,was%20set%20for%20auto%2Drenewal." target="_blank" rel="noreferrer noopener">survey of 100 consumers</a> by fintech startup <i>Hiatus</i>, almost 62% were paying unwanted subscriptions because they forget about auto-renewal. And, over 50% didn’t know how many subscriptions they currently had.
+                        However, there was a dark side to these recurring payments — automatic renewals. According to a <a href="https://www.globenewswire.com/news-release/2016/03/21/1240985/0/en/Hiatus-Survey-62-of-Consumers-Waste-Money-on-Unwanted-Subscriptions-Because-They-Don-t-Cancel-Automatic-Renewals.html#:~:text=Key%20findings%20from%20the%20survey,was%20set%20for%20auto%2Drenewal." target="_blank" rel="noreferrer noopener">survey of 100 consumers</a> by fintech startup <i>Hiatus</i>, almost 62 percent were paying unwanted subscriptions because they forget about auto-renewal. And, over 50 percent didn’t know how many subscriptions they currently had.
                     </p>
 
                     <h4>Interviewing subscribers</h4>
 
                     <p>
-                        These findings helped shape the discovery process, especially when it came to user interviews. I interviewed 5 people with at least 5 subscriptions. We focused on 3 areas: checking expenses, managing subscriptions, and a contextual inquiry using an existing subscription tracking service called TrackMySubs. I then mapped the results:
+                        These findings helped shape the discovery process, especially when it came to user interviews. I interviewed five people with at least five subscriptions. We discussed tracking expenses and managing subscriptions and did a contextual inquiry using an existing subscription tracking service called TrackMySubs. I then mapped the results:
                     </p>
                 </CenterCol>
                 <Image>
@@ -115,13 +115,13 @@ const Keeps = () => {
                         The most common frustrations that participants shared when managing subscriptions were:
                     </p>
                     <ul>
-                        <li>Being able to easily cancel a subscription</li>
+                        <li>Not being able to easily cancel a subscription</li>
                         <li>Forgetting about which subscriptions they had because of automatic payments</li>
                         <li>Having subscriptions scattered among different bank accounts and credit cards</li>
                     </ul>
 
                     <p>
-                        But there was more. Participants were especially frustrated from being bombarded by marketing emails from their subscriptions and missing important notifications. Others lacked the time to decipher subscription charges within their expenses, especially parents.
+                        But there was more. Participants were especially frustrated from being bombarded by marketing emails from their subscriptions and missing important notifications. Others lacked the time to decipher subscription charges within their expenses.
                     </p>
                 </CenterCol>
                 <FullCol>
@@ -131,7 +131,7 @@ const Keeps = () => {
                 </FullCol>
                 <CenterCol>
                     <p>
-                        There were 2 types of users emerging: a parent lacking time to manage even a few subscriptions and an automator-type looking to simplify managing lots of subscriptions and reduce unnecessary communication. I created primary and secondary personas to reflect this.
+                        There were two types of users emerging: busy multitaskers lacking time to manage even a few subscriptions and an automator-type looking to simplify managing lots of subscriptions and reduce unnecessary communication. I created primary and secondary personas to reflect this.
                         </p>
                     <p>Meet Jorge, the primary persona:</p>
                 </CenterCol>
@@ -149,7 +149,7 @@ const Keeps = () => {
                     </p>
 
                     <p>
-                        I created user stories to model the red route flows that Jorge would take to accomplish his goals. I started with 4 user epics but decided to combine viewing all subscriptions and getting a comprehensive look at spending into a single flow, since they were related and it would ensure the desired simplicity of the interface.
+                        I created user stories to model the red route flows that Jorge would take to accomplish his goals. I started with four user epics but decided to combine viewing all subscriptions and getting a comprehensive look at spending into a single flow, since they were related and it would ensure the desired simplicity of the interface.
                     </p>
 
                 </CenterCol>
@@ -167,7 +167,7 @@ const Keeps = () => {
                     <h3>Information architecture</h3>
 
                     <p>
-                        Now, I had to create an architecture that would help Jorge accomplish his goals. After consolidating the user epics and determining the user stories needed to accomplish each of Jorge’s tasks, I created 3 user flows to model his paths through the interface:
+                        Now, I had to develop an architecture that would help Jorge accomplish his goals. After consolidating the user epics and determining the user stories needed to accomplish each of Jorge’s tasks, I created three user flows to model his paths through the interface:
                     </p>
                 </CenterCol>
             </Grid>
@@ -254,7 +254,7 @@ const Keeps = () => {
                     <h3>Low-fidelity testing</h3>
 
                     <p>
-                        Using the wireframes, I created a lo-fi prototype to test the initial structure and flows. I then conducted guerrilla testing with 5 participants. The context was that the participant was already a Keeps desktop web app user, Jorge in this case, and was trying out the mobile version for the first time. He already had an account and subscriptions linked to a credit card within the app. The tasks were:
+                        Using the wireframes, I created a lo-fi prototype to test the initial structure and flows. I then conducted guerrilla testing with five participants. The context was that the participant was already a Keeps desktop web app user, Jorge in this case, and was trying out the mobile version for the first time. He already had an account and subscriptions linked to a credit card within the app. The tasks were:
                     </p>
 
                     <ol>
@@ -299,7 +299,7 @@ const Keeps = () => {
                         In addition to addressing the prioritized recommendations for the low-fidelity testing, I had to move forward and create a light-weight style guide for the mobile design. This included a baseline color theme, typography, and core UI components. Keeps already had a brand platform, which I extended with logo design. I felt the castle imparted a sense of trustworthiness and care. To ensure that the design followed <a href="https://material.io/design/guidelines-overview" target="_blank" rel="noreferrer noopener">Material Guidelines</a>, I used the official <a href="https://www.figma.com/community/file/778763161265841481/Material-Baseline-Design-Kit" target="_blank" rel="noreferrer noopener">Material Baseline Design Kit</a> in Figma.
                         </p>
                 </CenterCol>
-                <LargeCol>
+                <LeftCol>
 
                     <StaticImage
                         src="../images/c2/c2-brand.png"
@@ -308,9 +308,9 @@ const Keeps = () => {
                     />
 
 
-                </LargeCol>
+                </LeftCol>
 
-                <SmallCol>
+                <RightCol>
 
                     <StaticImage
                         src="../images/c2/c2-colors.png"
@@ -319,9 +319,9 @@ const Keeps = () => {
                     />
 
 
-                </SmallCol>
+                </RightCol>
 
-                <LargeCol>
+                <LeftCol>
 
                     <StaticImage
                         src="../images/c2/c2-fonts.png"
@@ -330,9 +330,9 @@ const Keeps = () => {
                     />
 
 
-                </LargeCol>
+                </LeftCol>
 
-                <SmallCol>
+                <RightCol>
 
                     <StaticImage
                         src="../images/c2/c2-components.png"
@@ -340,7 +340,7 @@ const Keeps = () => {
                         placeholder="blurred"
                     />
 
-                </SmallCol>
+                </RightCol>
 
                 <CenterCol>
                     <p>
@@ -388,7 +388,7 @@ const Keeps = () => {
                     <h3>Prototype testing</h3>
 
                     <p>
-                        It was important to do another round of usability testing after revising the 4 critical issues. I wanted to validate the placement of the FAB on the Overview page and ensure that the modal bottom sheet it opened simplified the interface for Jorge. I also wanted to address the new icon for opening the comprehensive spending page, the copy for a canceled subscription, and the ease of setting a reminder. I followed essentially the same testing script since the scope of the business requirements hadn’t changed and only added 1 task — to set price change notifications.
+                        It was important to do another round of usability testing after revising the four critical issues. I wanted to validate the placement of the floating action button (FAB) on the Overview page and ensure that the modal bottom sheet it opened simplified the interface for Jorge. I also wanted to address the new icon for opening the comprehensive spending page, the copy for a canceled subscription, and the ease of setting a reminder. I followed essentially the same testing script since the scope of the business requirements hadn’t changed and only added one task — to set price change notifications.
                     </p>
                 </CenterCol>
             </Grid>
@@ -400,7 +400,7 @@ const Keeps = () => {
             <Grid>
                 <CenterCol>
                     <p>
-                        There were 2 critical issues this time around: it was not clear where to access notifications nor was it clear where to set reminders. Participants didn’t expect to go to Settings to change their notification preferences. They felt it would be easier if notifications and reminders were grouped together, since reminders were a type of notification. The same applied to setting the reminders themselves. Participants expected to find reminders on the Calendar page since reminders since both were time-related.
+                        There were two critical issues this time around: it was not clear where to access notifications nor was it clear where to set reminders. Participants didn’t expect to go to Settings to change their notification preferences. They felt it would be easier if notifications and reminders were grouped together, since reminders were a type of notification. The same applied to setting the reminders themselves. Participants expected to find reminders on the Calendar page since reminders since both were time-related.
                     </p>
 
                     <h2>The prototype: revised</h2>
@@ -421,7 +421,7 @@ const Keeps = () => {
                 </Image>
 
                 <CenterCol>
-                    <p>The main revisions were as follows:</p>
+                    <p>I made the follwing revisions:</p>
 
                     <ul>
                         <li>3: I added an account label for each subscription to indicate that it was imported from and tied to that payment source. I also added a “monthly” label under the grand total for clarity.</li>
@@ -437,7 +437,7 @@ const Keeps = () => {
                     <h3>Outcomes and lessons</h3>
 
                     <p>
-                        After making all of the revisions from the two usability tests, I wired together the final prototype, below. You can try it out yourself <a href="https://www.figma.com/proto/GSs8ri8C4hw3U7QbQ4PNR2/Material-Baseline-Design-Kit-Keeps?page-id=54%3A5829&amp;node-id=54%3A13775&amp;viewport=1258%2C618%2C0.08787628263235092&amp;scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. People enjoyed using the prototype and, above all, praised it for its simplicity. While this mobile version of the <i>Keeps</i> app met all of the company’s business requirements, there were still some challenges to address going forward.
+                        After making all of the revisions from the two usability tests, I wired together the final prototype, below. You can try it out yourself <a href="https://www.figma.com/proto/GSs8ri8C4hw3U7QbQ4PNR2/Material-Baseline-Design-Kit-Keeps?page-id=54%3A5829&amp;node-id=54%3A13775&amp;viewport=1258%2C618%2C0.08787628263235092&amp;scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. People enjoyed using the prototype and, above all, praised it for its simplicity. While this mobile version of the Keeps app met all of the company’s business requirements, there were still some challenges to address going forward.
                         </p>
                 </CenterCol>
             </Grid>
@@ -450,12 +450,12 @@ const Keeps = () => {
                 <CenterCol>
                     <h4>Lessons learned</h4>
 
-                    <p>Aside from operating within a tight timeframe, there were 2 important lessons learned:</p>
+                    <p>Aside from operating within a tight timeframe, there were two important lessons learned:</p>
 
                     <ul>
                         <li>Adhering to Material Guidelines: An extensive design system is a double-edged sword, on one side taking a lot of guesswork out of UI component specs but on the other side requiring granular perfection from the entire UI. Despite using Material’s design kit, it was still challenging to QA all of the designs with time limitations. It was nonetheless a great learning experience, strengthening one’s understanding of design patterns, interactions, animations and, well, the list goes on.</li>
 
-                        <li>User scenario and context: In order to avoid scope creep and stick to the project deadline, I chose to design for a return user. This made sense since <i>Keeps</i> already had an established user base. However, this created issues of clarity when inevitably testing with new users. There was no onboarding flow, so I frequently had to explain parts of the UI and reword usability test questions. Parts of the design, like linking a new account, understandably felt disconnected.</li>
+                        <li>User scenario and context: In order to avoid scope creep and stick to the project deadline, I chose to design for a return user. This made sense since Keeps already had an established user base. However, this created issues of clarity when inevitably testing with new users. There was no onboarding flow, so I frequently had to explain parts of the UI and reword usability test questions. Parts of the design, like linking a new account, understandably felt disconnected.</li>
                     </ul>
 
                     <h4>Next Steps</h4>

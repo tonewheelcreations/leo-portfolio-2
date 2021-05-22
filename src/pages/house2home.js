@@ -2,7 +2,7 @@ import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Grid, LargeCol, SmallCol, CenterCol, FullCol } from "../components/grid.js"
+import { Grid, LeftCol, RightCol, CenterCol, FullCol } from "../components/grid.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image, ImageFull } from "../components/image.js"
 import Title from "../components/title.js"
@@ -183,13 +183,13 @@ const House2Home = () => {
 
                <h3>Exploring and sketching</h3>
                <p>
-                  On day 2 of the sprint, I sketched the core of the design. I started by looking at a bunch of House2Home’s
-                  competitors to see how they handled helping customers choose multiple home decor items. There were 4 examples that felt like they
+                  On Day Two of the sprint, I sketched the core of the design. I started by looking at a bunch of House2Home’s
+                  competitors to see how they handled helping customers choose multiple home decor items. There were four examples that felt like they
                   would make it easiest for Ally to find the items she wanted:
                </p>
             </CenterCol>
         
-            <LargeCol>
+            <LeftCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-pinterest.png"
@@ -201,9 +201,9 @@ const House2Home = () => {
                      layout and it would be a great way to present a starter kit of items all at once.
                   </p>
                </div>
-            </LargeCol>
+            </LeftCol>
 
-            <SmallCol>
+            <RightCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-living-spaces.png"
@@ -216,9 +216,9 @@ const House2Home = () => {
                      This provided inspiration for what an empty room with AR-populated items could look like.
                   </p>
                </div>
-            </SmallCol>
+            </RightCol>
 
-            <LargeCol>
+            <LeftCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-modsy.png"
@@ -231,9 +231,9 @@ const House2Home = () => {
                      image-based, a great way to ensure that Ally doesn’t get overwhelmed when selecting her style.
                   </p>
                </div>
-            </LargeCol>
+            </LeftCol>
 
-            <SmallCol>
+            <RightCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-mailchimp.png"
@@ -246,13 +246,13 @@ const House2Home = () => {
                      way to make the style selection process easy for the shopper.
                   </p>
                   </div>
-            </SmallCol>
+            </RightCol>
         
            
-            <LargeCol>
+            <LeftCol>
                <h4>Crazy 8’s</h4>
                <p>
-                  Using these 4 examples for inspiration, I sketched 8 versions of the most critical step in Ally’s user experience:
+                  Using these four examples for inspiration, I sketched 8 versions of the most critical step in Ally’s user experience:
                   browsing through the AR-populated starter kits. This was the point at which the shoppers felt they got their
                   personalized assortment of items; it had to be clear and immersive or else they wouldn’t buy the items.</p>
                <p>
@@ -260,19 +260,19 @@ const House2Home = () => {
                   apartment. I then created a 3-panel board with that screen, adding a photo upload screen to show how the AR would
                   work and a checkout screen indicating that Ally was happy with the items provided to her.
                </p>
-                </LargeCol>
-                <SmallCol>
+                </LeftCol>
+                <RightCol>
                <StaticImage
                   src="../images/design-sprint/ds-crazy-8s.png"
                   alt="8 sketches of the most critical screen of Ally's user experience"
                   placeholder="blurred"
                />
-               </SmallCol>
+               </RightCol>
             <CenterCol>
                <h2>Image to story</h2>
                <h3>Deciding and storyboarding</h3>
                <p>
-                  On day 3, I turned Ally’s user experience into a visual story. I created a storyboard that narrated the path she
+                  On Day Three, I turned Ally’s user experience into a visual story. I created a storyboard that narrated the path she
                   would take to complete her goal. This was essentially a light-weight wireframe for the upcoming prototype.
                </p>
                <p>
@@ -315,12 +315,12 @@ const House2Home = () => {
                <h2>Bringing the story to life</h2>
                <h3>Prototyping</h3>
                <p>
-                  It was day 4, and with a storyboard of Ally completing her goal, I brought her journey of finding home decor to life
+                  It was Day Four, and with a storyboard of Ally completing her goal, I brought her journey of finding home decor to life
                   with a prototype. Below are some of the main screens; the full prototype is available at the end of the case study.
                </p>
             </CenterCol>
        
-            <LargeCol>
+            <LeftCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-room.png"
@@ -331,9 +331,9 @@ const House2Home = () => {
                      I started with room selection, using a simple dropdown over a clean background image.
                   </p>
                </div>
-            </LargeCol>
+            </LeftCol>
 
-            <SmallCol>
+            <RightCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-style.png"
@@ -343,8 +343,8 @@ const House2Home = () => {
                         Then I moved on to a set of images Ally would choose from to visually determine her style.
                   </p>
                </div>
-            </SmallCol>
-            <LargeCol>
+            </RightCol>
+            <LeftCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-photos.png"
@@ -357,9 +357,9 @@ const House2Home = () => {
                
                   </p>
                </div>
-            </LargeCol>
+            </LeftCol>
 
-            <SmallCol>
+            <RightCol>
                <div>
                   <StaticImage
                      src="../images/design-sprint/ds-prototype-results-2.png"
@@ -373,14 +373,14 @@ const House2Home = () => {
             
                   </p>
                </div>
-            </SmallCol>
+            </RightCol>
          
             <CenterCol>
 
                <h2>Getting feedback</h2>
                <h3>Testing</h3>
                <p>
-                  On the last day of the sprint, I was ready to test the prototype. I conducted 5 usability tests, about 15 minutes
+                  On the last day of the sprint, I was ready to test the prototype. I conducted five usability tests, about 15 minutes
                   each. The snipet below shows feedback about the dropdown menu to select which room to decorate, at the beginning of the prototype.
                </p>
             </CenterCol>

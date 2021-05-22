@@ -1,5 +1,5 @@
 import React from "react"
-import { grid, largeCol, smallCol, centerCol, fullCol } from "./styles/grid.module.scss"
+import { grid, leftCol, rightCol, centerCol, fullCol } from "./styles/grid.module.scss"
 
 export const Grid = ({ children }) => (
     <div className={grid}>
@@ -7,14 +7,14 @@ export const Grid = ({ children }) => (
     </div>
 )
 
-export const LargeCol = ({ children }) => (
-    <div className={largeCol}>
+export const LeftCol = ({ children }) => (
+    <div className={leftCol}>
         {children}
     </div>
 )
 
-export const SmallCol = ({ children }) => (
-    <div className={smallCol}>
+export const RightCol = ({ children }) => (
+    <div className={rightCol}>
         {children}
     </div>
 )
