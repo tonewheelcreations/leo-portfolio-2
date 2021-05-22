@@ -8,15 +8,15 @@
     grid-template-columns: repeat(12, 1fr);
     grid-row-gap: var(--space-xxxl);
 
-    .large-col,
-    .small-col,
+    .left-col,
+    .right-col,
     .center-col {
         margin: 0 var(--space-xxxl);
         grid-column: 1 /13;
     }
 
-    .large-col,
-    .small-col {
+    .left-col,
+    .right-col {
         div {
             p {
                 font-size: var(--type-xs);
@@ -104,7 +104,7 @@
     .grid {
         grid-column-gap: var(--space-xl);
 
-        .large-col {
+        .left-col {
             grid-column: 1 / 7;
             margin-right: 0;
 
@@ -113,7 +113,7 @@
             }
         }
 
-        .small-col {
+        .right-col {
             grid-column: 7 / 13;
             margin-left: 0;
         }
@@ -142,8 +142,8 @@
         }
     }
 
-    .large,
-    .small,
+    .left-col,
+    .right-col,
     .center-col {
         h2 {
             font-size: var(--type-lg);
