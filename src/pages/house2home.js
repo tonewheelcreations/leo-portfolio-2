@@ -9,6 +9,7 @@ import Title from "../components/title.js"
 import Usability from "../assets/ds-usability-test.mp4"
 import Prototype from "../assets/ds-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
+import Next from "../components/next-project"
 
 const House2Home = () => {
    return (
@@ -438,6 +439,10 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
+         <Next
+                name="Onstage music live-streaming"
+                link={"/onstage/"}
+            />
       </ProjectLayout>
    )
 }
