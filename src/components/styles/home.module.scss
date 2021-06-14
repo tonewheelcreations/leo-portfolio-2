@@ -35,8 +35,8 @@
         a {
             -webkit-text-stroke: 1px colors.$active;
             color: colors.$background;
-            text-shadow: 1.5px 1.5px 0 colors.$active, -1px -1px 0 colors.$active, 1px -1px 0 colors.$active,
-                -1px 1px 0 colors.$active, 1px 1px 0 colors.$active;
+            text-shadow: 0.75px 0.75px 0 colors.$active, -0.75px -0.75px 0 colors.$active,
+                0.75px -0.75px 0 colors.$active, -0.75px 0.75px 0 colors.$active, 0.75px 0.75px 0 colors.$active;
         }
     }
 
