@@ -11,6 +11,7 @@ import Lofi from "../assets/c2-lofi-test.mp4"
 import Hifi from "../assets/c2-hifi-test.mp4"
 import Final from "../assets/c2-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
+import Next from "../components/next-project"
 
 const Keeps = () => {
     return (
@@ -421,7 +422,7 @@ const Keeps = () => {
                 </Image>
 
                 <CenterCol>
-                    <p>I made the follwing revisions:</p>
+                    <p>I made the following revisions:</p>
 
                     <ul>
                         <li>3: I added an account label for each subscription to indicate that it was imported from and tied to that payment source. I also added a “monthly” label under the grand total for clarity.</li>
@@ -466,6 +467,10 @@ const Keeps = () => {
 
                 </CenterCol>
             </Grid >
+            <Next
+                name="Beating decision anxiety on a budget"
+                link={"/house2home/"}
+            />
         </ProjectLayout >
     )
 }

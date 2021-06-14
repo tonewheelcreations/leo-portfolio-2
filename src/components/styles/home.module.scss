@@ -2,6 +2,8 @@
 @use 'colors';
 @use 'global';
 
+/*** Hero ***/
+
 .top-module {
     display: flex;
     flex-flow: column wrap;
@@ -29,6 +31,15 @@
             1px 1px 0 colors.$default;
     }
 
+    @media (hover: none) {
+        a {
+            -webkit-text-stroke: 1px colors.$active;
+            color: colors.$background;
+            text-shadow: 1.5px 1.5px 0 colors.$active, -1px -1px 0 colors.$active, 1px -1px 0 colors.$active,
+                -1px 1px 0 colors.$active, 1px 1px 0 colors.$active;
+        }
+    }
+
     a:link {
         color: colors.$background;
     }
@@ -47,6 +58,8 @@
     }
 }
 
+/*** Project Cards ***/
+
 .projectInfo {
     h2 {
         padding-top: var(--space-xxxs);
@@ -56,11 +69,6 @@
     p {
         margin: var(--space-xxxxs) 0;
     }
-}
-
-a {
-    text-decoration: none;
-    color: colors.$default;
 }
 
 .projects {
@@ -77,6 +85,19 @@ a {
 
 .container {
     position: relative;
+}
+
+@media (hover: hover) {
+    .container:hover {
+        .overlay {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95));
+            opacity: 1;
+
+            .hover-title {
+                color: white;
+            }
+        }
+    }
 }
 
 .overlay {
@@ -108,18 +129,12 @@ a {
     height: auto;
 }
 
-@media (hover: hover) {
-    .container:hover {
-        .overlay {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95));
-            opacity: 1;
-
-            .hover-title {
-                color: white;
-            }
-        }
-    }
+a {
+    text-decoration: none;
+    color: colors.$default;
 }
+
+/*** Breakpoints ***/
 
 @include breakpoints.breakpoint(lg) {
     .article {

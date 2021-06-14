@@ -4,8 +4,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header.js"
 import Footer from "./footer.js"
 import "./styles/global.scss"
-import { scrollTop, svg } from "./styles/scroll.module.scss"
-import up from "../svg/chevron-up.svg"
+// import { scrollTop, svg } from "./styles/scroll.module.scss"
+// import up from "../svg/chevron-up.svg"
+
 
 const ProjectLayout = ({ children }) => {
   const data = useStaticQuery(graphql`  
@@ -25,11 +26,11 @@ const ProjectLayout = ({ children }) => {
         <main className="main-projects">
           {children}
         </main>
-        <div className={scrollTop}>
+        {/* <div className={scrollTop}>
           <a href="#top">
             <img className={svg} src={up} alt="to top of page" />
           </a>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div >

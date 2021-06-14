@@ -14,6 +14,7 @@ import FinalPrototype from "../assets/onstage-final-prototype-v4.mp4"
 import Styleguide from "../components/styleguide"
 import Personas from "../components/personas"
 import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
+import Next from "../components/next-project"
 
 const Onstage = () => {
     return (
@@ -50,7 +51,7 @@ const Onstage = () => {
                         Live-streaming has taken over the way we consume media. Only 25 percent of the population in the U.S. had live-streamed online content back in 2017. At the time of writing this project, in 2020, that number approached 80 percent. This massive increase was due in part to the COVID-19 pandemic, which forced people to move many real-world experiences into the digital. One of these experiences was attending a live concert. I wanted to explore the music live-streaming space and see how concertgoers were faring during the pandemic.</p>
                     <h2>The challenge</h2>
                     <p>
-                        Live music was on pause due to COVID-19 and concertgoers could no longer go out to get their concert fix. While live-streaming doubled between 2019 and 2020 due to COVD-19, fans of live music performances accounted for only a fraction of viewership.
+                        Live music was on pause due to COVID-19 and concertgoers could no longer go out to get their concert fix. While live-streaming doubled between 2019 and 2020 due to COVID-19, fans of live music performances accounted for only a fraction of viewership.
                      </p>
                     <p>My high level goals were to:</p>
                     <ul>
@@ -448,7 +449,7 @@ const Onstage = () => {
                     <p>There were also some important lessons to address: </p>
 
                     <ul>
-                        <li>Modeling the concert venue:it’s challenging to model the concert venue, an essential part of the vibe of live concerts, in the digital space. “Watch” worked as a spot to house the purchased tickets and video player but not everybody imagined that to be the structure in the app for finally “attending” the concert virtually.</li>
+                        <li>Modeling the concert venue: It’s challenging to model the concert venue, an essential part of the vibe of live concerts, in the digital space. “Watch” worked as a spot to house the purchased tickets and video player but not everybody imagined that to be the structure in the app for finally “attending” the concert virtually.</li>
 
                         <li>Handling the infinite scrolling edge case: It’s particularly hard to address this edge case in a design. While it’s possible to set an Instagram-as-of-2018 limit to the endless scroll, there still needs to be sufficient content to make the prototype convey that it offers extensive personalized musical content.</li>
                     </ul>
@@ -457,6 +458,10 @@ const Onstage = () => {
                     <p>I would certainly like to develop a working product in the future and hope that the virtual concerts of tomorrow will support live music fans and artists alike. Let’s see what happens. </p>
                 </CenterCol>
             </Grid>
+            <Next
+                name="Subscription tracking made easy"
+                link={"/keeps/"}
+            />
         </ProjectLayout >
     )
 }
