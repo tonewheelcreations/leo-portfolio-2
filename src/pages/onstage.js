@@ -15,6 +15,8 @@ import Styleguide from "../components/styleguide"
 import Personas from "../components/personas"
 import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
 import Next from "../components/next-project"
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const Onstage = () => {
     return (
@@ -52,7 +54,7 @@ const Onstage = () => {
                     <h2>The challenge</h2>
                     <p>
                         Live music was on pause due to COVID-19 and concertgoers could no longer go out to get their concert fix. While live-streaming doubled between 2019 and 2020 due to COVID-19, fans of live music performances accounted for only a fraction of viewership.
-                     </p>
+                    </p>
                     <p>My high level goals were to:</p>
                     <ul>
                         <li>Identify experience gaps for music live-streaming services.</li>
@@ -79,29 +81,32 @@ const Onstage = () => {
                 </CenterCol>
 
                 <CenterCol>
-                    <StaticImage
-                        src="../images/c1/c1-twitch-metrics.png"
-                        alt="Music and Performances ranked #20 on Twitch"
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-twitch-metrics.png"
+                            alt="Music and Performances ranked #20 on Twitch"
+                        />
+                    </Zoom>
                 </CenterCol>
+
                 <CenterCol>
                     <p>And while <a href="https://gobranded.com/branded-poll-millennials-driving-growth-in-live-music-industry/#:~:text=Roughly%2089%20percent%20of%20Millennials,Silent%20Generation%20(age%2070%2B)." target="_blank" rel="noreferrer noopener">studies</a> proved that millennials — Twitch's largest demographic — were also the largest group of concertgoers, there was still an entire range of people over 40 to account for. Only 20 percent of people over 40 even had a live-streaming subscription of some kind. Statistics like these suggested that there was a problem with engaging concertgoers through current live-streaming offerings.</p>
                 </CenterCol>
 
                 <LeftCol>
-
                     <h4>Getting to know concertgoers</h4>
 
                     <p>I sent out a survey to find out about general music preferences, live concert attendance, and experience with regular streaming and live-streaming. 38 fans of live music responded, ranging from people in their early 20s to those in their 70s. Their top genres were jazz, classical, pop, rock, and world music. People were surprisingly experienced — nearly 80 percent had live-streamed music before. A larger sample might’ve resulted in a different set of top genres and live-streaming know-how.</p>
-
                 </LeftCol>
 
                 <RightCol>
-                    <StaticImage
-                        src="../images/c1/c1-screener-data.png"
-                        alt="Live-streaming growth from 2019 to 2020"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-screener-data.png"
+                            alt="Live-streaming growth from 2019 to 2020"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                 </RightCol>
 
                 <CenterCol>
@@ -196,12 +201,14 @@ const Onstage = () => {
                     <p>Exploring a bunch of ideas was inspiring but staying true to the interview insights and personas was still the primary goal. So, I set out to map only the features that users needed with a set of user stories.</p>
                 </CenterCol>
                 <Image>
-                    <StaticImage
-                        src="../images/c1/c1-user-stories.png"
-                        alt="User stories showing basic features of the design"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-user-stories.png"
+                            alt="User stories showing basic features of the design"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
                 <CenterCol>
                     <p>This added focus but also helped break down the major needs into the individual features that they were made of. Now I had a rough design blueprint for a minimum viable product. The critical features were:</p>
@@ -228,31 +235,39 @@ const Onstage = () => {
 
             <GridLarge>
                 <One>
-                    <StaticImage
-                        src="../images/c1/c1-user-flow-1.png"
-                        alt="'Personalize account' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-user-flow-1.png"
+                            alt="'Personalize account' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>Personalize account</i> addressed people’s needs to be able to create a profile and set music preferences
                     </p>
                 </One>
+
                 <Two>
-                    <StaticImage
-                        src="../images/c1/c1-user-flow-2.png"
-                        alt="'Buy a concert ticket' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-user-flow-2.png"
+                            alt="'Buy a concert ticket' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>Buy a concert ticket</i> included searching for concerts, getting concert info, and buying the tickets
                     </p>
                 </Two>
+
                 <Three>
-                    <StaticImage
-                        src="../images/c1/c1-user-flow-3.png"
-                        alt="'Watch a concert' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-user-flow-3.png"
+                            alt="'Watch a concert' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>Watch a concert</i> allowed people to live-stream the concert in immersive audio and video
                     </p>
@@ -273,25 +288,32 @@ const Onstage = () => {
 
                 <Image>
                     <h5>Sign Up</h5>
-                    <StaticImage
-                        src="../images/c1/c1-sketch-personalize-centered.png"
-                        alt="Sign Up"
-                        placeholder='blurred'
-                    />
-
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-sketch-personalize-centered.png"
+                            alt="Sign Up"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                     <h5>Find and purchase a concert</h5>
-                    <StaticImage
-                        src="../images/c1/c1-sketch-buy-centered.png"
-                        alt="Find and purchase a concert"
-                        placeholder='blurred'
-                    />
-
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-sketch-buy-centered.png"
+                            alt="Find and purchase a concert"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                     <h5>Watch a concert</h5>
-                    <StaticImage
-                        src="../images/c1/c1-sketch-watch-centered.png"
-                        alt="Watch a concert"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-sketch-watch-centered.png"
+                            alt="Watch a concert"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>
@@ -306,8 +328,8 @@ const Onstage = () => {
                     type="video/mp4"
                 />
             </VideoFullWhite>
-            <Grid>
 
+            <Grid>
                 <CenterCol>
                     <p>I got five unsuspecting  participants to take the prototype for a test-drive. I’m glad I was able to test this early in the visual design stage — the results revealed some serious flaws. First, the app seemed like it was for buying tickets to actual live concerts instead of live-streams. Second, it wasn’t clear how the search functionality would work. Finally, participants weren’t sure when the concerts were “going live.” This was a good time for improvement and there were still several opportunities ahead to hone the design.</p>
 
@@ -318,35 +340,38 @@ const Onstage = () => {
 
                 <Image>
                     <h5>Sign Up</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-wireframe-1.png"
-                        alt="Wireframe of &quot;Sign Up&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-wireframe-1.png"
+                            alt="Wireframe of &quot;Sign Up&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Find and purchase a concert</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-wireframe-2.png"
-                        alt="Wireframe of &quot;Find and purchase a concert&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-wireframe-2.png"
+                            alt="Wireframe of &quot;Find and purchase a concert&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Watch a concert</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-wireframe-3.png"
-                        alt="Wireframe of &quot;Watch a concert&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-wireframe-3.png"
+                            alt="Wireframe of &quot;Watch a concert&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>
@@ -386,31 +411,34 @@ const Onstage = () => {
 
                 <Image>
                     <h5>Sign Up</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-hi-fi-1.png"
-                        alt="High fidelity screen of &quot;Sign Up&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-hi-fi-1.png"
+                            alt="High fidelity screen of &quot;Sign Up&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
 
                     <h5>Find and purchase a concert</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-hi-fi-2.png"
-                        alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-hi-fi-2.png"
+                            alt="High fidelity screen of &quot;Find and purchase a concert&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
 
                     <h5>Watch a concert</h5>
-
-                    <StaticImage
-                        src="../images/c1/c1-hi-fi-3.png"
-                        alt="High fidelity screen of &quot;Watch a concert&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c1/c1-hi-fi-3.png"
+                            alt="High fidelity screen of &quot;Watch a concert&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>

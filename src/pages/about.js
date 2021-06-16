@@ -6,11 +6,13 @@ import IFrame from "../components/iframe.js"
 import { containerBio, textBio, containerMusic, textAlbum, h2, album, video, profile, containerVideo } from "../components/styles/about.module.scss"
 import "../components/styles/global.scss"
 
+
 const About = () => {
     return (
         <Layout>
             <SEO title="About" />
             <section id="design" className={containerBio}>
+
                 <div className={profile}>
                     <StaticImage
                         src="../images/about-2.png"
@@ -22,10 +24,10 @@ const About = () => {
                 <div className={textBio}>
                     <h1>I'm a UX Designer who believes in the power of a story.</h1>
                     <p> As a musician turned designer, I believe that connecting people to a story leads to the most meaningful experiences — it creates community.
-                    I’ve always wanted to be a storyteller throughout my childhood. This led me to become a jazz musician. For nearly 12 years, I wrote my own story in New York City. There, I learned how to connect emotionally with diverse groups of people, in many a smoky jazz club (minus the smoke).</p>
+                        I’ve always wanted to be a storyteller throughout my childhood. This led me to become a jazz musician. For nearly 12 years, I wrote my own story in New York City. There, I learned how to connect emotionally with diverse groups of people, in many a smoky jazz club (minus the smoke).</p>
 
                     <p>In addition to music, I’ve worked as a videographer and sound designer, helping artists and organizations increase their social media metrics by over 200% and gain nearly 10,000 unique viewers. My audiovisual work has been featured by audio industry giants like Moog Synthesizers and popular events platforms like Fever.
-                    Other than that, I enjoy traveling, mushroom foraging, and photography — all fueled by coffee.</p>
+                        Other than that, I enjoy traveling, mushroom foraging, and photography — all fueled by coffee.</p>
                 </div>
             </section>
 
