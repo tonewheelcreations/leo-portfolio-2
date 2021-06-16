@@ -10,27 +10,29 @@ import Usability from "../assets/ds-usability-test.mp4"
 import Prototype from "../assets/ds-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
 import Next from "../components/next-project"
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const House2Home = () => {
    return (
       <ProjectLayout>
          <SEO title="House2Home" />
-         
+
          <Title>
             <h1>Beating decision anxiety on a budget</h1>
             <h2>Simplifying home decor with House2Home starter kits</h2>
          </Title>
          <Grid>
-         <Image>
+            <Image>
                <StaticImage
-               src="../images/design-sprint/ds-header-image2.png"
-               alt="home decor landing page on laptop"
-               placeholder="blurred"
-               quality={100} />       
-         </Image>
+                  src="../images/design-sprint/ds-header-image2.png"
+                  alt="home decor landing page on laptop"
+                  placeholder="blurred"
+                  quality={100} />
+            </Image>
          </Grid>
-       <FlexInfo>
-          <div>
+         <FlexInfo>
+            <div>
                <h3>When was it?</h3>
                <p>February 2021</p>
                <h3>What did I do?</h3>
@@ -38,20 +40,20 @@ const House2Home = () => {
                <h3>What did I use?</h3>
                <p>Figma, Miro, Adobe Photoshop, Premiere</p>
             </div>
-              <div>
+            <div>
                <h2>What is House2Home?</h2>
                <p>
                   House2Home is an e-commerce site that sells small home decor and accessories. Most of the items fall in the $10-50 range, which is perfect for their younger customer base of college graduates. Many of their customers were moving to new apartments but were struggling to find the look they wanted — on a small budget — after moving.</p>
-                  
+
                <h2>The challenge</h2>
                <p>
                   Customers knew the look they wanted but felt overwhelmed by the shopping process. House2Home saw an opportunity to
                   make the shopping process easier with pre-built starter kits of items. How might we help customers overcome their
                   anxiety and easily find that perfect look they desired while meeting House2Home’s requirements of selling starter
                   kits on their desktop platform?
-            </p>
+               </p>
             </div>
-       </FlexInfo>
+         </FlexInfo>
          <Grid>
             <CenterCol>
                <h2>Understanding the problem</h2>
@@ -60,9 +62,9 @@ const House2Home = () => {
                   The first day of the sprint was all about understanding the problem. I started by looking at existing customers. The
                   research team at House2Home provided initial marketing data and interview insights about customers’ experiences
                   shopping for home decor.
-            </p>
+               </p>
             </CenterCol>
-         
+
             <CenterCol>
                <StaticImage
                   src="../images/design-sprint/ds-user-deena.png"
@@ -95,9 +97,9 @@ const House2Home = () => {
 
                </ul>
             </CenterCol>
-      
+
             <CenterCol>
-            <h4>Empathizing with the common shopper</h4>
+               <h4>Empathizing with the common shopper</h4>
                <p>
                   There was a common shopper among all of these customers and that person had a clear goal — to find all of the home
                   decor items that fit their desired look and fell within a tight budget, without the accompanying decision anxiety.
@@ -108,16 +110,16 @@ const House2Home = () => {
                   real-world context for what the shopper wanted to accomplish and who or what was influencing them. The overall goal
                   would ensure that I stayed aligned with the shopper’s mission.
                </p>
-            </CenterCol>       
+            </CenterCol>
 
-         <Image>
-            <StaticImage
-               src="../images/design-sprint/ds-empathy-map.png"
-               alt="Empathy map showing the persona's tasks, influences, feelings, pain points, and overall goal"
-               placeholder="blurred"
-            />
-         </Image>
-      
+            <Image>
+               <StaticImage
+                  src="../images/design-sprint/ds-empathy-map.png"
+                  alt="Empathy map showing the persona's tasks, influences, feelings, pain points, and overall goal"
+                  placeholder="blurred"
+               />
+            </Image>
+
             <CenterCol>
 
                <h4>Defining a persona</h4>
@@ -131,17 +133,17 @@ const House2Home = () => {
                   Meet Ally:
                </p>
             </CenterCol>
-         
 
-         <Image>
-            <StaticImage
-               src="../images/design-sprint/ds-persona-ally.png"
-               alt="Ally, the customer persona"
-               quality={100}
-               placeholder="blurred"
-            />
-         </Image>
-       
+
+            <Image>
+               <StaticImage
+                  src="../images/design-sprint/ds-persona-ally.png"
+                  alt="Ally, the customer persona"
+                  quality={100}
+                  placeholder="blurred"
+               />
+            </Image>
+
             <CenterCol>
                <p>
                   She was eager to decorate her new place but uncertain about how to get her dream look on a small budget remaining
@@ -166,7 +168,7 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
-           <ImageFull>
+         <ImageFull>
             <StaticImage
                src="../images/design-sprint/ds-ux-map-2.jpg"
                alt="Ally's user experience map"
@@ -174,8 +176,8 @@ const House2Home = () => {
                layout="fullWidth"
                quality={100}
             />
-         </ImageFull> 
-       
+         </ImageFull>
+
 
          <Grid>
             <CenterCol>
@@ -189,14 +191,16 @@ const House2Home = () => {
                   would make it easiest for Ally to find the items she wanted:
                </p>
             </CenterCol>
-        
+
             <LeftCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-pinterest.png"
-                     alt="Pinterest UI"
-                     placeholder="blurred"
-                  />
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-pinterest.png"
+                        alt="Pinterest UI"
+                        placeholder="blurred"
+                     />
+                  </Zoom>
                   <p>
                      With Pinterest, you can see an entire interior decoration and the item-by-item breakdown. Ally was used to this
                      layout and it would be a great way to present a starter kit of items all at once.
@@ -206,12 +210,13 @@ const House2Home = () => {
 
             <RightCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-living-spaces.png"
-                     alt="Living Spaces UI"
-                     placeholder="blurred"
-                  />
-
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-living-spaces.png"
+                        alt="Living Spaces UI"
+                        placeholder="blurred"
+                     />
+                  </Zoom>
                   <p>
                      Living Spaces has a step-by-step 3D room builder that gives you an immersive look at what room styles look like.
                      This provided inspiration for what an empty room with AR-populated items could look like.
@@ -221,12 +226,14 @@ const House2Home = () => {
 
             <LeftCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-modsy.png"
-                     alt="Modsy UI"
-                     placeholder="blurred"
-                  />
-
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-modsy.png"
+                        alt="Modsy UI"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
                   <p>
                      Modsy uses a visually engaging style quiz to help decorate your home. It’s simple because it’s so heavily
                      image-based, a great way to ensure that Ally doesn’t get overwhelmed when selecting her style.
@@ -236,20 +243,22 @@ const House2Home = () => {
 
             <RightCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-mailchimp.png"
-                     alt="Mailchimp UI"
-                     placeholder="blurred"
-                  />
-
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-mailchimp.png"
+                        alt="Mailchimp UI"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
                   <p>
                      Mailchimp was the outlier but I was inspired by the clarity of the progress bar during onboarding. This was another
                      way to make the style selection process easy for the shopper.
                   </p>
-                  </div>
+               </div>
             </RightCol>
-        
-           
+
+
             <LeftCol>
                <h4>Crazy 8’s</h4>
                <p>
@@ -261,14 +270,16 @@ const House2Home = () => {
                   apartment. I then created a 3-panel board with that screen, adding a photo upload screen to show how the AR would
                   work and a checkout screen indicating that Ally was happy with the items provided to her.
                </p>
-                </LeftCol>
-                <RightCol>
-               <StaticImage
-                  src="../images/design-sprint/ds-crazy-8s.png"
-                  alt="8 sketches of the most critical screen of Ally's user experience"
-                  placeholder="blurred"
-               />
-               </RightCol>
+            </LeftCol>
+            <RightCol>
+               <Zoom>
+                  <StaticImage
+                     src="../images/design-sprint/ds-crazy-8s.png"
+                     alt="8 sketches of the most critical screen of Ally's user experience"
+                     placeholder="blurred"
+                  />
+               </Zoom>
+            </RightCol>
             <CenterCol>
                <h2>Image to story</h2>
                <h3>Deciding and storyboarding</h3>
@@ -279,23 +290,23 @@ const House2Home = () => {
                <p>
                   I started by laying out the plot of Ally’s user experience to complete her goal. Then I turned the written plot into a storyboard, below. This was easier because the plot was clear before sketching.
                </p>
-               </CenterCol>
-            <CenterCol> 
+            </CenterCol>
+            <CenterCol>
                <StaticImage
                   src="../images/design-sprint/ds-storyboard-steps2.png"
                   alt="Post-it notes providing the written plot of Ally's user experience"
                   placeholder="blurred"
                />
             </CenterCol>
-        
-         <Image>
-            <StaticImage
-               src="../images/design-sprint/ds-storyboard.png"
-               alt="A 13-panel storyboard showing Ally's user experience"
-               placeholder="blurred"
-            />
-         </Image>
- 
+
+            <Image>
+               <StaticImage
+                  src="../images/design-sprint/ds-storyboard.png"
+                  alt="A 13-panel storyboard showing Ally's user experience"
+                  placeholder="blurred"
+               />
+            </Image>
+
             <CenterCol>
 
                <p>
@@ -308,10 +319,10 @@ const House2Home = () => {
                   <li>The call to action screen showing Ally the new feature to find home decor items
                   </li>
                   <li>A “style results” screen giving Ally a short description of her taste in home decor and that recommended items
-                  would be based on this
+                     would be based on this
                   </li>
                   <li>Screens showing the process of selecting photos from her computer and uploading them to the site
-                   </li>
+                  </li>
                </ul>
                <h2>Bringing the story to life</h2>
                <h3>Prototyping</h3>
@@ -320,14 +331,17 @@ const House2Home = () => {
                   with a prototype. Below are some of the main screens; the full prototype is available at the end of the case study.
                </p>
             </CenterCol>
-       
+
             <LeftCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-prototype-room.png"
-                     alt="Choose a room to decorate"
-                     placeholder="blurred"
-                  />
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-prototype-room.png"
+                        alt="Choose a room to decorate"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
                   <p>
                      I started with room selection, using a simple dropdown over a clean background image.
                   </p>
@@ -336,46 +350,54 @@ const House2Home = () => {
 
             <RightCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-prototype-style.png"
-                     alt="Choose three images of styles you like"
-                  />
-                     <p>
-                        Then I moved on to a set of images Ally would choose from to visually determine her style.
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-prototype-style.png"
+                        alt="Choose three images of styles you like"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
+                  <p>
+                     Then I moved on to a set of images Ally would choose from to visually determine her style.
                   </p>
                </div>
             </RightCol>
             <LeftCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-prototype-photos.png"
-                     alt="Upload photos of your empty rooms"
-                     placeholder="blurred"
-                  />
-                 
-                     <p>
-                        Ally would upload images of the room she wanted to decorate from her computer to activate the AR functionality.
-               
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-prototype-photos.png"
+                        alt="Upload photos of your empty rooms"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
+                  <p>
+                     Ally would upload images of the room she wanted to decorate from her computer to activate the AR functionality.
                   </p>
                </div>
             </LeftCol>
 
             <RightCol>
                <div>
-                  <StaticImage
-                     src="../images/design-sprint/ds-prototype-results-2.png"
-                     alt="Empty rooms populated with decor items using AR"
-                     placeholder="blurred"
-                  />
-                     <p>
-                        Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s
-                        style. The user would get to choose a “look” with multiple items — essentially a starter kit — and see it in the
-                        very room they uploaded.
-            
+                  <Zoom>
+                     <StaticImage
+                        src="../images/design-sprint/ds-prototype-results-2.png"
+                        alt="Empty rooms populated with decor items using AR"
+                        placeholder="blurred"
+                        quality={100}
+                     />
+                  </Zoom>
+                  <p>
+                     Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s
+                     style. The user would get to choose a “look” with multiple items — essentially a starter kit — and see it in the
+                     very room they uploaded.
+
                   </p>
                </div>
             </RightCol>
-         
+
             <CenterCol>
 
                <h2>Getting feedback</h2>
@@ -386,9 +408,9 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
-            <VideoFullBlack>
-                <source src={Usability} type="video/mp4" />
-            </VideoFullBlack>
+         <VideoFullBlack>
+            <source src={Usability} type="video/mp4" />
+         </VideoFullBlack>
          <Grid>
             <CenterCol>
 
@@ -410,10 +432,10 @@ const House2Home = () => {
                </p>
             </CenterCol>
          </Grid>
-         
+
          <VideoFullBlack>
-                <source src={Prototype} type="video/mp4" />
-            </VideoFullBlack>
+            <source src={Prototype} type="video/mp4" />
+         </VideoFullBlack>
 
          <Grid>
             <CenterCol>
@@ -421,15 +443,15 @@ const House2Home = () => {
                <p>
                   People who viewed the second iteration responded positively, saying that the AR-populated images felt convincing. You can try it out for yourself <a href="https://www.figma.com/proto/mbTK2kr6ruGYEm5z0W3U2E/House2Home?page-id=185%3A8&node-id=185%3A9&viewport=564%2C368%2C0.21305200457572937&scaling=min-zoom" target="_blank" rel="noreferrer noopener">here</a>.
                </p>
-               </CenterCol>
-               
-               <FullCol>
-                    <blockquote>
-                        <em>“These items look like they belong inside of the photo of my apartment living room!”</em>
-                    </blockquote>
-                </FullCol>
-                  
-                <CenterCol>
+            </CenterCol>
+
+            <FullCol>
+               <blockquote>
+                  <em>“These items look like they belong inside of the photo of my apartment living room!”</em>
+               </blockquote>
+            </FullCol>
+
+            <CenterCol>
                <h4>Next steps</h4>
 
                <p>
@@ -440,9 +462,9 @@ const House2Home = () => {
             </CenterCol>
          </Grid>
          <Next
-                name="Onstage music live-streaming"
-                link={"/onstage/"}
-            />
+            name="Onstage music live-streaming"
+            link={"/onstage/"}
+         />
       </ProjectLayout>
    )
 }

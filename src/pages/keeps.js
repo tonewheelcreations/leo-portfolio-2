@@ -12,6 +12,8 @@ import Hifi from "../assets/c2-hifi-test.mp4"
 import Final from "../assets/c2-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
 import Next from "../components/next-project"
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 const Keeps = () => {
     return (
@@ -77,11 +79,13 @@ const Keeps = () => {
                     </p>
                 </CenterCol>
                 <Image>
-                    <StaticImage
-                        src="../images/c2/c2-project-plan.png"
-                        alt="Project plan"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-project-plan.png"
+                            alt="Project plan"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>
@@ -104,12 +108,14 @@ const Keeps = () => {
                     </p>
                 </CenterCol>
                 <Image>
-                    <StaticImage
-                        src="../images/c2/c2-affinity-map.jpg"
-                        alt="Affinity map of user interview notes"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-affinity-map.jpg"
+                            alt="Affinity map of user interview notes"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
                 <CenterCol>
                     <p>
@@ -133,7 +139,7 @@ const Keeps = () => {
                 <CenterCol>
                     <p>
                         There were two types of users emerging: busy multitaskers lacking time to manage even a few subscriptions and an automator-type looking to simplify managing lots of subscriptions and reduce unnecessary communication. I created primary and secondary personas to reflect this.
-                        </p>
+                    </p>
                     <p>Meet Jorge, the primary persona:</p>
                 </CenterCol>
                 <Image>
@@ -175,33 +181,39 @@ const Keeps = () => {
 
             <GridLarge>
                 <One>
-                    <StaticImage
-                        src="../images/c2/c2-flow-1.png"
-                        alt="'View susbcriptions and spending' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-flow-1.png"
+                            alt="'View susbcriptions and spending' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>View subscriptions and spending</i> allowed users to see their subscriptions and spending in one place
                     </p>
                 </One>
 
                 <Two>
-                    <StaticImage
-                        src="../images/c2/c2-flow-2.png"
-                        alt="'Get notified' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-flow-2.png"
+                            alt="'Get notified' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>Get notified</i> included setting and receiving reminders about upcoming subscription renewals
                     </p>
                 </Two>
 
                 <Three>
-                    <StaticImage
-                        src="../images/c2/c2-flow-3.png"
-                        alt="'Cancel subscription' user flow"
-                        placeholder='blurred'
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-flow-3.png"
+                            alt="'Cancel subscription' user flow"
+                            placeholder='blurred'
+                        />
+                    </Zoom>
                     <p>
                         <i>Cancel subscription</i> allowed users to definitively cancel a subscription and no longer get charged
                     </p>
@@ -218,37 +230,41 @@ const Keeps = () => {
                     </p>
                 </CenterCol>
 
+
                 <Image>
                     <h5>View all subscriptions and spending</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-wireframe-1.png"
-                        alt="Wireframe of &quot;View all subscriptions and spending&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom>
+                        <StaticImage
+                            src="../images/c2/c2-wireframe-1.png"
+                            alt="Wireframe of &quot;View all subscriptions and spending&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Get notified about a subscription auto-renewing</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-wireframe-2.png"
-                        alt="Wireframe of &quot;Get notified about a subscription auto-renewing&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-wireframe-2.png"
+                            alt="Wireframe of &quot;Get notified about a subscription auto-renewing&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Cancel a subscription</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-wireframe-3.png"
-                        alt="Wireframe of &quot;Cancel a subscription&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-wireframe-3.png"
+                            alt="Wireframe of &quot;Cancel a subscription&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
                 <CenterCol>
                     <h2>Validating the initial structure</h2>
@@ -298,49 +314,53 @@ const Keeps = () => {
 
                     <p>
                         In addition to addressing the prioritized recommendations for the low-fidelity testing, I had to move forward and create a light-weight style guide for the mobile design. This included a baseline color theme, typography, and core UI components. Keeps already had a brand platform, which I extended with logo design. I felt the castle imparted a sense of trustworthiness and care. To ensure that the design followed <a href="https://material.io/design/guidelines-overview" target="_blank" rel="noreferrer noopener">Material Guidelines</a>, I used the official <a href="https://www.figma.com/community/file/778763161265841481/Material-Baseline-Design-Kit" target="_blank" rel="noreferrer noopener">Material Baseline Design Kit</a> in Figma.
-                        </p>
+                    </p>
                 </CenterCol>
                 <LeftCol>
-
-                    <StaticImage
-                        src="../images/c2/c2-brand.png"
-                        alt="Keeps brand platform"
-                        placeholder="blurred"
-                    />
-
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-brand.png"
+                            alt="Keeps brand platform"
+                            placeholder="blurred"
+                            quality={100}
+                        />
+                    </Zoom>
 
                 </LeftCol>
 
                 <RightCol>
-
-                    <StaticImage
-                        src="../images/c2/c2-colors.png"
-                        alt="Keeps color theme"
-                        placeholder="blurred"
-                    />
-
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-colors.png"
+                            alt="Keeps color theme"
+                            placeholder="blurred"
+                            quality={100}
+                        />
+                    </Zoom>
 
                 </RightCol>
 
                 <LeftCol>
-
-                    <StaticImage
-                        src="../images/c2/c2-fonts.png"
-                        alt="Keeps typography"
-                        placeholder="blurred"
-                    />
-
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-fonts.png"
+                            alt="Keeps typography"
+                            placeholder="blurred"
+                            quality={100}
+                        />
+                    </Zoom>
 
                 </LeftCol>
 
                 <RightCol>
-
-                    <StaticImage
-                        src="../images/c2/c2-components.png"
-                        alt="Keeps UI components"
-                        placeholder="blurred"
-                    />
-
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-components.png"
+                            alt="Keeps UI components"
+                            placeholder="blurred"
+                            quality={100}
+                        />
+                    </Zoom>
                 </RightCol>
 
                 <CenterCol>
@@ -353,35 +373,38 @@ const Keeps = () => {
 
                 <Image>
                     <h5>View all subscriptions and spending</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-hifi-1.png"
-                        alt="Hi-fi mockup of &quot;View all subscriptions and spending&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-hifi-1.png"
+                            alt="Hi-fi mockup of &quot;View all subscriptions and spending&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Get notified about a subscription auto-renewing</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-hifi-2.png"
-                        alt="Hi-fi mockup of &quot;Get notified about a subscription auto-renewing&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-hifi-2.png"
+                            alt="Hi-fi mockup of &quot;Get notified about a subscription auto-renewing&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <Image>
                     <h5>Cancel a subscription</h5>
-
-                    <StaticImage
-                        src="../images/c2/c2-hifi-3.png"
-                        alt="Hi-fi mockup of &quot;Cancel a subscription&quot;"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-hifi-3.png"
+                            alt="Hi-fi mockup of &quot;Cancel a subscription&quot;"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>
@@ -413,12 +436,14 @@ const Keeps = () => {
                 </CenterCol>
 
                 <Image>
-                    <StaticImage
-                        src="../images/c2/c2-hifi-revised.png"
-                        alt="Revised screens from the first round of hi-fi mockups"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Zoom >
+                        <StaticImage
+                            src="../images/c2/c2-hifi-revised.png"
+                            alt="Revised screens from the first round of hi-fi mockups"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
                 </Image>
 
                 <CenterCol>
@@ -439,7 +464,7 @@ const Keeps = () => {
 
                     <p>
                         After making all of the revisions from the two usability tests, I wired together the final prototype, below. You can try it out yourself <a href="https://www.figma.com/proto/GSs8ri8C4hw3U7QbQ4PNR2/Material-Baseline-Design-Kit-Keeps?page-id=54%3A5829&amp;node-id=54%3A13775&amp;viewport=1258%2C618%2C0.08787628263235092&amp;scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. People enjoyed using the prototype and, above all, praised it for its simplicity. While this mobile version of the Keeps app met all of the company’s business requirements, there were still some challenges to address going forward.
-                        </p>
+                    </p>
                 </CenterCol>
             </Grid>
 
