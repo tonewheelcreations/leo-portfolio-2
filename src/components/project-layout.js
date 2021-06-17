@@ -4,6 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header.js"
 import Footer from "./footer.js"
 import "./styles/global.scss"
+
+// import "animate.css/animate.min.css"
 // import { scrollTop, svg } from "./styles/scroll.module.scss"
 // import up from "../svg/chevron-up.svg"
 

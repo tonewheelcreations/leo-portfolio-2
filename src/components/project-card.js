@@ -6,7 +6,9 @@ import { article, container, overlay, hoverTitle, projectInfo } from "../compone
 
 export default function Project(props) {
   return (
-    <article className={article}>
+    <article className={article} data-sal="slide-up"
+      data-sal-duration="300"
+      data-sal-easing="ease-out-sine">
       <Link to={props.link}>
         <div className={container}>
           {props.children}

@@ -400,7 +400,6 @@ const Onstage = () => {
 
                 <Image>
                     <Styleguide />
-
                 </Image>
 
                 <CenterCol>

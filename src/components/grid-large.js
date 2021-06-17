@@ -20,19 +20,25 @@ export const GridLarge = ({ children }) => (
 // )
 
 export const One = ({ children }) => (
-    <div className={one}>
+    <div className={one} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
 
 export const Two = ({ children }) => (
-    <div className={two}>
+    <div className={two} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
 
 export const Three = ({ children }) => (
-    <div className={three}>
+    <div className={three} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
