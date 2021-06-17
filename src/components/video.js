@@ -2,7 +2,9 @@ import React from "react"
 import { containerBlack, containerWhite, video, videoFull } from "./styles/video.module.scss"
 
 export const Video = ({ children }) => (
-    <div>
+    <div data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         <video className={video}
             autoPlay muted loop controls controlsList="nodownload"
         >
@@ -12,7 +14,9 @@ export const Video = ({ children }) => (
 )
 
 export const VideoFullBlack = ({ children }) => (
-    <div className={containerBlack}>
+    <div className={containerBlack} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         <video className={videoFull}
             autoPlay muted loop controls controlsList="nodownload"
         >
@@ -22,7 +26,9 @@ export const VideoFullBlack = ({ children }) => (
 )
 
 export const VideoFullWhite = ({ children }) => (
-    <div className={containerWhite}>
+    <div className={containerWhite} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         <video className={videoFull}
             autoPlay muted loop controls controlsList="nodownload"
         >

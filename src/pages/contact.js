@@ -55,7 +55,9 @@ const Contact = () => {
             <SEO title="Contact" />
             <div className={container}>
 
-                <div className={image}>
+                <div className={image} data-sal="slide-left"
+                    data-sal-duration="300"
+                    data-sal-easing="ease-out-sine">
                     <StaticImage
                         src="../images/contact.png"
                         alt="Me again, Leo"
@@ -63,26 +65,28 @@ const Contact = () => {
                         quality={80}
                     />
                 </div>
-                <section className={form}>
+                <section className={form} data-sal="slide-right"
+                    data-sal-duration="300"
+                    data-sal-easing="ease-out-sine">
 
                     <h1>Let's make contact</h1>
                     <GoogleReCaptchaProvider reCaptchaKey="6LdX2IQaAAAAAJ22R0U8gRXzKlDHBBiH0lmPbF6O">
                         <form onSubmit={handleOnSubmit}>
                             <label className={form}>
                                 Name
-                            <input type="text" name="name" required />
+                                <input type="text" name="name" required />
                             </label>
                             <label className={form}>
                                 Email
-                            <input type="email" name="email" required />
+                                <input type="email" name="email" required />
                             </label>
                             <label className={form}>
                                 Subject
-                            <input type="text" name="subject" required />
+                                <input type="text" name="subject" required />
                             </label>
                             <label className={form}>
                                 Message
-                            <textarea name="message" rows="5" required />
+                                <textarea name="message" rows="5" required />
                             </label>
                             <div className={form}>
                                 <button type="submit">Send</button>

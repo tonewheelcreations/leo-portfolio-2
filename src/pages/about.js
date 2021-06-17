@@ -12,8 +12,9 @@ const About = () => {
         <Layout>
             <SEO title="About" />
             <section id="design" className={containerBio}>
-
-                <div className={profile}>
+                <div className={profile} data-sal="slide-left"
+                    data-sal-duration="300"
+                    data-sal-easing="ease-out-sine">
                     <StaticImage
                         src="../images/about-2.png"
                         alt="Me, Leo Sherman"
@@ -21,7 +22,9 @@ const About = () => {
                         quality={80}
                     />
                 </div>
-                <div className={textBio}>
+                <div className={textBio} data-sal="slide-right"
+                    data-sal-duration="300"
+                    data-sal-easing="ease-out-sine">
                     <h1>I'm a UX Designer who believes in the power of a story.</h1>
                     <p> As a musician turned designer, I believe that connecting people to a story leads to the most meaningful experiences — it creates community.
                         I’ve always wanted to be a storyteller throughout my childhood. This led me to become a jazz musician. For nearly 12 years, I wrote my own story in New York City. There, I learned how to connect emotionally with diverse groups of people, in many a smoky jazz club (minus the smoke).</p>
@@ -33,7 +36,9 @@ const About = () => {
 
             <section id="music">
                 <div className={containerMusic}>
-                    <div className={textAlbum}>
+                    <div className={textAlbum} data-sal="slide-left"
+                        data-sal-duration="300"
+                        data-sal-easing="ease-out-sine">
                         <h2 className={h2}>I like to compose jazz</h2>
                         <p> In 2019, I released my debut album, <i>Tonewheel</i>. After years of writing music, I decided it was time to bring it to life. <i>Tonewheel</i> is a collection of observations and experiences of immigrating to and growing up in the U.S. Each song is based on a story, ranging from escaping the Soviet Union to witnessing the challenges of growing up in an urban neighborhood. </p>
 
@@ -41,7 +46,9 @@ const About = () => {
 
                         <p>I'm proud to say that the album has received wide acclaim, with over 1 million listeners as of 2020. You can check it out by following the album cover link, if you'd like.</p>
                     </div>
-                    <div className={album}>
+                    <div className={album} data-sal="slide-right"
+                        data-sal-duration="300"
+                        data-sal-easing="ease-out-sine">
                         <a href="https://tonewheel.bandcamp.com/album/tonewheel" target="_blank" rel="noreferrer noopener">
                             <StaticImage
                                 src="../images/tonewheel.jpg"
@@ -54,7 +61,9 @@ const About = () => {
                 </div>
             </section>
 
-            <section id="video" className={containerVideo}>
+            <section id="video" className={containerVideo} data-sal="slide-up"
+                data-sal-duration="300"
+                data-sal-easing="ease-out-sine">
                 <h2 className={h2}>and create videos.</h2>
                 <div className={video}>
                     <IFrame

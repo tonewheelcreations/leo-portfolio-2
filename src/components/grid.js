@@ -8,25 +8,33 @@ export const Grid = ({ children }) => (
 )
 
 export const LeftCol = ({ children }) => (
-    <div className={leftCol}>
+    <div className={leftCol} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
 
 export const RightCol = ({ children }) => (
-    <div className={rightCol}>
+    <div className={rightCol} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
 
 export const CenterCol = ({ children }) => (
-    <div className={centerCol}>
+    <div className={centerCol} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
 
 export const FullCol = ({ children }) => (
-    <div className={fullCol}>
+    <div className={fullCol} data-sal="slide-up"
+        data-sal-duration="300"
+        data-sal-easing="ease-out-sine">
         {children}
     </div>
 )
