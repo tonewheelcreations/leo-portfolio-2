@@ -89,7 +89,13 @@ const Contact = () => {
                                 <textarea name="message" rows="5" required />
                             </label>
                             <div className={form}>
-                                <button type="submit">Send</button>
+                                <button type="submit" disabled={serverState.submitting}>Send
+                                </button>
+                                {serverState.status && (
+                                    <p className={!serverState.status.ok ? "errorMsg" : ""}>
+                                        {serverState.status.msg}
+                                    </p>
+                                )}
                             </div>
                             <GoogleReCaptcha
                                 onVerify={token => {
