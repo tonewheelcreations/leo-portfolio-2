@@ -1,3 +1,5 @@
+
+
 import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
@@ -39,7 +41,11 @@ const Onstage = () => {
             </Grid>
 
             <FlexInfo>
-                <div>
+                <div
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out"
+                >
                     <h3>When was it?</h3>
                     <p>October 2020 - January 2021</p>
                     <h3>What did I do?</h3>
@@ -47,7 +53,11 @@ const Onstage = () => {
                     <h3>What did I use?</h3>
                     <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, Miro </p>
                 </div>
-                <div>
+                <div
+                    data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out"
+                >
                     <h2>State of live-streaming</h2>
                     <p>
                         Live-streaming has taken over the way we consume media. Only 25 percent of the population in the U.S. had live-streamed online content back in 2017. At the time of writing this project, in 2020, that number approached 80 percent. This massive increase was due in part to the COVID-19 pandemic, which forced people to move many real-world experiences into the digital. One of these experiences was attending a live concert. I wanted to explore the music live-streaming space and see how concertgoers were faring during the pandemic.</p>
