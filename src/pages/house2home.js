@@ -32,7 +32,10 @@ const House2Home = () => {
             </Image>
          </Grid>
          <FlexInfo>
-            <div>
+            <div data-sal="slide-up"
+               data-sal-delay="300"
+               data-sal-easing="ease-out"
+            >
                <h3>When was it?</h3>
                <p>February 2021</p>
                <h3>What did I do?</h3>
@@ -40,7 +43,10 @@ const House2Home = () => {
                <h3>What did I use?</h3>
                <p>Figma, Miro, Adobe Photoshop, Premiere</p>
             </div>
-            <div>
+            <div data-sal="slide-up"
+               data-sal-delay="300"
+               data-sal-easing="ease-out"
+            >
                <h2>What is House2Home?</h2>
                <p>
                   House2Home is an e-commerce site that sells small home decor and accessories. Most of the items fall in the $10-50 range, which is perfect for their younger customer base of college graduates. Many of their customers were moving to new apartments but were struggling to find the look they wanted — on a small budget — after moving.</p>

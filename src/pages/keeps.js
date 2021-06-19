@@ -37,7 +37,10 @@ const Keeps = () => {
             </Grid>
 
             <FlexInfo>
-                <div>
+                <div data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out"
+                >
                     <h3>When was it?</h3>
                     <p>April - May 2021</p>
                     <h3>What did I do?</h3>
@@ -45,7 +48,10 @@ const Keeps = () => {
                     <h3>What did I use?</h3>
                     <p>Miro, Figma, Adobe Photoshop, Premiere</p>
                 </div>
-                <div>
+                <div data-sal="slide-up"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out"
+                >
                     <h2>All about Keeps</h2>
                     <p>
                         A startup had a product on the market called Keeps, which helped users keep track of all of their recurring subscription payments. Most of their users were over 30, middle class, and trying to be more budget conscious. Unlike its competitors, Keeps focused on subscriptions to products and services and didn’t include bills, utilities, or financial instruments. It provided basic information like a list of subscription names, billing cycles, and a calendar view of payment dates.
