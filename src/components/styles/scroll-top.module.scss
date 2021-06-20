@@ -99,8 +99,8 @@
 @include breakpoints.breakpoint(lg) {
     .scrollToTopBtn {
         // font-size: var(--type-lg);
-        width: var(--space-lg);
-        height: var(--space-lg);
+        width: var(--space-xl);
+        height: var(--space-xl);
         right: var(--space-lg);
     }
 
