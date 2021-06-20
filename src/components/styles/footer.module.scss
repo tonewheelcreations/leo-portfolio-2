@@ -29,8 +29,14 @@
     .svg {
         width: var(--type-lg);
         // height: var(--type-md);
-        margin-bottom: 0;
-        margin-right: var(--space-xxs);
+        margin: auto;
+    }
+
+    .tap-target {
+        display: flex;
+        align-items: center;
+        min-width: 48px;
+        min-height: 48px;
     }
 }
 
