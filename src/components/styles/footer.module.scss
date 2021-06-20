@@ -33,10 +33,18 @@
         // margin: auto;
     }
 
-    .tap-target {
+    .tap-target-one {
         display: flex;
         // align-items: baseline;
         justify-content: flex-start;
+        min-width: 48px;
+        min-height: 48px;
+    }
+
+    .tap-target-two {
+        display: flex;
+        // align-items: baseline;
+        justify-content: flex-end;
         min-width: 48px;
         min-height: 48px;
     }
