@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { scrollToTopBtn } from "./styles/scroll-top.module.scss"
+import { scrollToTopBtn, svg } from "./styles/scroll-top.module.scss"
+import up from "../svg/arrow-up.svg"
 
 const ScrollToTop = () => {
 
@@ -32,7 +33,7 @@ const ScrollToTop = () => {
         <>
             {isVisible && (
                 <button className={scrollToTopBtn} onClick={scrollToTop}>
-                    &#8679;
+                    <img className={svg} src={up} alt="to top of page" />
                 </button>
             )}
         </>
