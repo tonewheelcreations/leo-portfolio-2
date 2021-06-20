@@ -51,7 +51,7 @@ const Onstage = () => {
                     <h3>What did I do?</h3>
                     <p>Discovery, ideation, visual design, prototyping, usability testing</p>
                     <h3>What did I use?</h3>
-                    <p>Figma, Adobe Photoshop, Illustrator, Photoshop, Premiere, Logic Pro X (audio production), Marvel, Miro </p>
+                    <p>Figma, Photoshop, Illustrator, Premiere, Logic Pro X (audio production), Marvel, Miro </p>
                 </div>
                 <div
                     data-sal="slide-up"

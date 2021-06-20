@@ -41,7 +41,7 @@ const House2Home = () => {
                <h3>What did I do?</h3>
                <p>User research, storyboarding, visual design, prototyping, usability testing</p>
                <h3>What did I use?</h3>
-               <p>Figma, Miro, Adobe Photoshop, Premiere</p>
+               <p>Figma, Miro, Photoshop, Premiere</p>
             </div>
             <div data-sal="slide-up"
                data-sal-delay="300"

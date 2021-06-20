@@ -46,7 +46,7 @@ const Keeps = () => {
                     <h3>What did I do?</h3>
                     <p>Discovery, ideation, information architecture, wireframing, hi-fi mockups, prototyping, usability testing</p>
                     <h3>What did I use?</h3>
-                    <p>Miro, Figma, Adobe Photoshop, Premiere</p>
+                    <p>Miro, Figma, Photoshop, Premiere</p>
                 </div>
                 <div data-sal="slide-up"
                     data-sal-delay="300"
