@@ -11,8 +11,9 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header.js"
 import Footer from "./footer.js"
 import "./styles/global.scss"
-import { scrollTop, svg } from "./styles/scroll.module.scss"
-import up from "../svg/chevron-up.svg"
+// import { scrollTop, svg } from "./styles/scroll.module.scss"
+// import up from "../svg/chevron-up.svg"
+import ScrollToTop from "./scroll-top.js"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,13 +29,15 @@ const Layout = ({ children }) => {
   return (
     <div className="page-container">
       <Header id="top" siteTitle={data.site.siteMetadata?.title || `Title`} />
-
-      <main className="main">{children}</main>
-      <div className={scrollTop}>
+      <main className="main">
+        {children}
+        <ScrollToTop />
+      </main>
+      {/* <div className={scrollTop}>
         <a href="#top">
           <img className={svg} src={up} alt="to top of page" />
         </a>
-      </div>
+      </div> */}
       <Footer />
     </div >
   )

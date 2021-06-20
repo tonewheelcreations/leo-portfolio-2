@@ -4,6 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header.js"
 import Footer from "./footer.js"
 import "./styles/global.scss"
+import ScrollToTop from "./scroll-top.js"
+
 
 // import "animate.css/animate.min.css"
 // import { scrollTop, svg } from "./styles/scroll.module.scss"
@@ -27,6 +29,7 @@ const ProjectLayout = ({ children }) => {
       <div>
         <main className="main-projects">
           {children}
+          <ScrollToTop />
         </main>
         {/* <div className={scrollTop}>
           <a href="#top">
