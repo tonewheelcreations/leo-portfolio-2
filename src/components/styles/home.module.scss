@@ -61,6 +61,10 @@
 /*** Project Cards ***/
 
 .projectInfo {
+    div {
+        background-color: colors.$background;
+    }
+
     h2 {
         padding-top: var(--space-xxxs);
         font-size: var(--type-sm);
