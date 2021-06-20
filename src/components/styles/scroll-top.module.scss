@@ -9,8 +9,8 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: var(--space-xxl);
-    height: var(--space-xxl);
+    width: var(--space-xxxxl);
+    height: var(--space-xxxxl);
     position: fixed;
     bottom: var(--space-xxl);
     right: var(--space-xxxs);
@@ -99,8 +99,8 @@
 @include breakpoints.breakpoint(lg) {
     .scrollToTopBtn {
         // font-size: var(--space-lg);
-        // width: var(--space-xxl);
-        // height: var(--space-xxl);
+        width: var(--space-xxxl);
+        height: var(--space-xxxl);
         right: var(--space-lg);
     }
 
