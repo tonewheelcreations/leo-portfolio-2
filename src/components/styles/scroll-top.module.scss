@@ -7,9 +7,8 @@
     border-radius: 50%;
     color: colors.$default;
     cursor: pointer;
-    font-size: var(--type-md);
-    line-height: 0;
-    text-align: center;
+    display: flex;
+    align-items: center;
     min-width: 48px;
     min-height: 48px;
     position: fixed;
@@ -89,6 +88,12 @@
         border: none;
         color: colors.$background;
     }
+}
+
+.svg {
+    width: var(--type-lg);
+    // height: var(--type-md);
+    margin: auto;
 }
 
 @include breakpoints.breakpoint(lg) {
