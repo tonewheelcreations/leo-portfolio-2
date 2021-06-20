@@ -7,10 +7,11 @@
     border-radius: 50%;
     color: colors.$default;
     cursor: pointer;
-    font-size: var(--type-lg);
+    font-size: var(--type-md);
     line-height: 0;
-    width: var(--space-xxl);
-    height: var(--space-xxl);
+    text-align: center;
+    min-width: 48px;
+    min-height: 48px;
     position: fixed;
     bottom: var(--space-xxl);
     right: var(--space-xxxs);
@@ -92,7 +93,7 @@
 
 @include breakpoints.breakpoint(lg) {
     .scrollToTopBtn {
-        font-size: var(--type-lg);
+        // font-size: var(--type-lg);
         width: var(--space-lg);
         height: var(--space-lg);
         right: var(--space-lg);
