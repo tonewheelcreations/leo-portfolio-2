@@ -28,13 +28,15 @@
 
     .svg {
         width: var(--type-lg);
+        margin-bottom: 0;
         // height: var(--type-md);
-        margin: auto;
+        // margin: auto;
     }
 
     .tap-target {
         display: flex;
-        align-items: center;
+        // align-items: baseline;
+        justify-content: flex-start;
         min-width: 48px;
         min-height: 48px;
     }
