@@ -9,8 +9,8 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: var(--type-xl);
-    height: var(--type-xl);
+    width: var(--space-xl);
+    height: var(--space-xl);
     position: fixed;
     bottom: var(--space-xxl);
     right: var(--space-xxxs);
@@ -91,22 +91,22 @@
 }
 
 .svg {
-    width: var(--type-sm);
-    height: var(--type-sm);
+    width: var(--space-lg);
+    height: var(--space-lg);
     margin: auto;
 }
 
 @include breakpoints.breakpoint(lg) {
     .scrollToTopBtn {
-        // font-size: var(--type-lg);
+        // font-size: var(--space-lg);
         width: var(--space-xxl);
         height: var(--space-xxl);
         right: var(--space-lg);
     }
 
-    .svg {
-        width: var(--type-lg);
-        height: var(--type-lg);
-        // height: var(--type-md);
-    }
+    // .svg {
+    //     width: var(--space-lg);
+    //     height: var(--space-lg);
+    //     // height: var(--space-md);
+    // }
 }
