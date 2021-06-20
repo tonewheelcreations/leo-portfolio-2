@@ -9,11 +9,11 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: var(--space-xxxxl);
-    height: var(--space-xxxxl);
+    width: var(--space-xxxxxl);
+    height: var(--space-xxxxxl);
     position: fixed;
     bottom: var(--space-xxl);
-    right: var(--space-xxxs);
+    right: var(--space-xs);
     z-index: 100;
     animation: fadeIn ease 0.2s;
     -webkit-animation: fadeIn ease 0.2s;
@@ -91,22 +91,32 @@
 }
 
 .svg {
-    width: var(--space-lg);
-    height: var(--space-lg);
+    width: var(--space-xxl);
+    height: var(--space-xxl);
     margin: auto;
 }
 
 @include breakpoints.breakpoint(lg) {
     .scrollToTopBtn {
-        // font-size: var(--space-lg);
         width: var(--space-xxxl);
         height: var(--space-xxxl);
         right: var(--space-lg);
     }
 
-    // .svg {
-    //     width: var(--space-lg);
-    //     height: var(--space-lg);
-    //     // height: var(--space-md);
-    // }
+    .svg {
+        width: var(--space-xl);
+        height: var(--space-xl);
+    }
+}
+
+@include breakpoints.breakpoint(xl) {
+    .scrollToTopBtn {
+        width: var(--space-xxl);
+        height: var(--space-xxl);
+    }
+
+    .svg {
+        width: var(--space-lg);
+        height: var(--space-lg);
+    }
 }
