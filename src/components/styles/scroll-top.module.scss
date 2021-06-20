@@ -1,0 +1,100 @@
+@use 'colors';
+@use 'breakpoints';
+
+.scrollToTopBtn {
+    background-color: colors.$background;
+    border-color: colors.$default;
+    border-radius: 50%;
+    color: colors.$default;
+    cursor: pointer;
+    font-size: var(--type-lg);
+    line-height: 0;
+    width: var(--space-xxl);
+    height: var(--space-xxl);
+    position: fixed;
+    bottom: var(--space-xxl);
+    right: var(--space-xxxs);
+    z-index: 100;
+    animation: fadeIn ease 0.2s;
+    -webkit-animation: fadeIn ease 0.2s;
+    -moz-animation: fadeIn ease 0.2s;
+    -o-animation: fadeIn ease 0.2s;
+    -ms-animation: fadeIn ease 0.2s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.scrollToTopBtn:hover {
+    background-color: colors.$active;
+    border: none;
+    color: colors.$background;
+}
+
+@media (hover: none) {
+    .scrollToTopBtn {
+        background-color: colors.$active;
+        border: none;
+        color: colors.$background;
+    }
+}
+
+@include breakpoints.breakpoint(lg) {
+    .scrollToTopBtn {
+        font-size: var(--type-lg);
+        width: var(--space-lg);
+        height: var(--space-lg);
+        right: var(--space-lg);
+    }
+}
