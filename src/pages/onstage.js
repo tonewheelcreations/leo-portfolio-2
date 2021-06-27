@@ -33,7 +33,7 @@ const Onstage = () => {
             <Grid>
                 <Image>
                     <StaticImage
-                        src="../images/c1/c1-cover.png"
+                        src="../images/c1/c1-final-screens.png"
                         alt="Onstage app login page"
                         placeholder='blurred'
                     />
