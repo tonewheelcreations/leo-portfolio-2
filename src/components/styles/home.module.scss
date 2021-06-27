@@ -68,10 +68,12 @@
     h2 {
         padding-top: var(--space-xxxs);
         font-size: var(--type-sm);
+        color: colors.$default;
     }
 
     p {
         margin: var(--space-xxxxs) 0;
+        color: colors.$default;
     }
 }
 
