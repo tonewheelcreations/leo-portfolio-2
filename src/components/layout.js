@@ -33,11 +33,6 @@ const Layout = ({ children }) => {
         {children}
         <ScrollToTop />
       </main>
-      {/* <div className={scrollTop}>
-        <a href="#top">
-          <img className={svg} src={up} alt="to top of page" />
-        </a>
-      </div> */}
       <Footer />
     </div >
   )

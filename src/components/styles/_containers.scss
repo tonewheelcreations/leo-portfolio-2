@@ -8,11 +8,20 @@
 .page-container {
     max-width: 1440px;
     margin: auto;
+    display: flex;
+
+    /*vertically stack children*/
+    flex-direction: column;
+
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh;
 }
 
 .main {
     margin: var(--space-xxxl) var(--space-xxxl) 0 var(--space-xxxl);
     padding-top: var(--space-xxxxs);
+    flex-grow: 1;
 }
 
 .main-projects {
@@ -20,14 +29,15 @@
     padding-top: var(--space-xxxxs);
 }
 
+.footer-projects {
+    margin: auto;
+    max-width: 1440px;
+}
+
 // .content {
 //     flex: 1 0 auto;
 //     margin-bottom: var(--space-xxl);
 // }
-
-.footer {
-    flex-shrink: 0;
-}
 
 // @include breakpoints.breakpoint(md) {
 //     .content {

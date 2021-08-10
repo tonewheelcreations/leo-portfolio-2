@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header.js"
 import Footer from "./footer.js"
 import "./styles/global.scss"
+import { footerProjects } from "./styles/footer.module.scss"
 import ScrollToTop from "./scroll-top.js"
 
 
@@ -31,13 +32,10 @@ const ProjectLayout = ({ children }) => {
           {children}
           <ScrollToTop />
         </main>
-        {/* <div className={scrollTop}>
-          <a href="#top">
-            <img className={svg} src={up} alt="to top of page" />
-          </a>
-        </div> */}
       </div>
-      <Footer />
+      <div className={footerProjects}>
+        <Footer />
+      </div>
     </div >
   )
 }

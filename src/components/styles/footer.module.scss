@@ -5,7 +5,7 @@
 @use 'colors';
 
 .footer {
-    margin: auto;
+    // margin: auto;
     max-width: 1440px;
 
     .footer-container {
@@ -58,6 +58,8 @@
 @include breakpoints.breakpoint(md) {
     .footer {
         // margin: auto;
+        justify-content: space-between;
+
         .footer-container {
             flex-direction: row;
         }
