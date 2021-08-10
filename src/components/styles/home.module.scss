@@ -68,12 +68,12 @@
     h2 {
         padding-top: var(--space-xxxs);
         font-size: var(--type-sm);
-        color: colors.$default;
+        margin-bottom: var(--space-xxxxs);
     }
 
     p {
-        margin: var(--space-xxxxs) 0;
-        color: colors.$default;
+        margin: 0;
+        font-style: italic;
     }
 }
 
@@ -124,8 +124,14 @@
     bottom: var(--space-xxl);
     left: var(--space-xxl);
 
+    h2,
+    p {
+        color: colors.$on-dark;
+    }
+
     p {
         margin-bottom: 0;
+        font-style: italic;
     }
 }
 

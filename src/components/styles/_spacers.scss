@@ -18,6 +18,7 @@
     --space-xxs: calc(var(--space-xs) / var(--space-ratio));
     --space-xxxs: calc(var(--space-xxs) / var(--space-ratio));
     --space-xxxxs: calc(var(--space-xxxs) / var(--space-ratio));
+    --space-xxxxxs: calc(var(--space-xxxxs) / var(--space-ratio));
 
     --width: 90%;
 }

@@ -1,0 +1,16 @@
+@use 'colors';
+
+.quote-container {
+    text-align: center;
+
+    em {
+        font-size: var(--type-md);
+        color: colors.$blockquote;
+    }
+
+    .svg {
+        width: var(--type-xl);
+        margin-bottom: var(--space-xxxxs);
+        margin-right: calc(-1 * var(--space-xxs));
+    }
+}

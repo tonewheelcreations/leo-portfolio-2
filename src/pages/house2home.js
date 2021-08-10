@@ -9,6 +9,7 @@ import Title from "../components/title.js"
 import Usability from "../assets/ds-usability-test.mp4"
 import Prototype from "../assets/ds-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
+import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -452,9 +453,9 @@ const House2Home = () => {
             </CenterCol>
 
             <FullCol>
-               <blockquote>
-                  <em>“These items look like they belong inside of the photo of my apartment living room!”</em>
-               </blockquote>
+               <Blockquote>
+                  <em>These items look like they belong inside of the photo of my apartment living room!</em>
+               </Blockquote>
             </FullCol>
 
             <CenterCol>

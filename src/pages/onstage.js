@@ -1,5 +1,3 @@
-
-
 import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
@@ -16,6 +14,7 @@ import FinalPrototype from "../assets/onstage-final-prototype-v4.mp4"
 import Styleguide from "../components/styleguide"
 import Personas from "../components/personas"
 import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
+import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -128,9 +127,9 @@ const Onstage = () => {
                     <p>Participants were passionate and outspoken. The responses to my interview questions were powerful. When asked what being at a live concert felt like, one person responded, "just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</p>
                 </CenterCol>
                 <FullCol>
-                    <blockquote>
-                        <em>"Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling."</em>
-                    </blockquote>
+                    <Blockquote>
+                        <em>Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling.</em>
+                    </Blockquote>
                 </FullCol>
                 <CenterCol>
                     <h4>With music live-streaming, people had a lot in common</h4>

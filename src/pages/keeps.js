@@ -11,6 +11,7 @@ import Lofi from "../assets/c2-lofi-test.mp4"
 import Hifi from "../assets/c2-hifi-test.mp4"
 import Final from "../assets/c2-final-prototype.mp4"
 import { VideoFullBlack } from "../components/video"
+import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
@@ -138,9 +139,10 @@ const Keeps = () => {
                     </p>
                 </CenterCol>
                 <FullCol>
-                    <blockquote>
-                        <em>"It’s hard to have the energy to do things right away when you’re busy.”</em>
-                    </blockquote>
+                    <Blockquote>
+                        <em>It’s hard to have the energy to do things right away when you’re busy.
+                        </em>
+                    </Blockquote>
                 </FullCol>
                 <CenterCol>
                     <p>

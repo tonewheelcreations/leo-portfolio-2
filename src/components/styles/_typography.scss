@@ -1,4 +1,5 @@
 @use 'breakpoints';
+@use 'colors';
 
 :root {
   // font family
@@ -31,6 +32,7 @@ h1 {
   font-weight: 800;
   margin-top: var(--space-xxxs);
   margin-bottom: var(--space-xxxs);
+  color: colors.$default;
 }
 
 h2 {
@@ -42,6 +44,7 @@ h2 {
   font-weight: 600;
   margin-top: var(--space-lg);
   margin-bottom: var(--space-xxs);
+  color: colors.$default;
 }
 
 h3 {
@@ -53,6 +56,7 @@ h3 {
   font-weight: 500;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
+  color: colors.$default;
 }
 
 h4 {
@@ -64,6 +68,7 @@ h4 {
   font-weight: 600;
   margin-top: var(--space-xl);
   margin-bottom: var(--space-xs);
+  color: colors.$default;
 }
 
 h5 {
@@ -75,6 +80,7 @@ h5 {
   font-weight: 600;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
+  color: colors.$default;
 }
 
 h6 {
@@ -86,6 +92,7 @@ h6 {
   font-weight: 600;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
+  color: colors.$default;
 }
 
 body {
@@ -95,10 +102,13 @@ body {
   font-family: var(--font-primary);
   line-height: 1.6;
   font-weight: 500;
+  color: colors.$default;
 }
 
 p {
   margin: var(--space-md) 0;
+  font-family: var(--font-primary);
+  color: colors.$default;
 }
 
 /*** Media Queries ***/

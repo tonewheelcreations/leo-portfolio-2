@@ -19,7 +19,7 @@ const IndexPage = () => {
         <Project
           link={"/onstage/"}
           title={"Onstage music live-streaming"}
-          description={"Read case study"}
+          description={"Product design"}
         >
           <StaticImage
             src="../images/c1/c1-cover.png"
@@ -33,7 +33,7 @@ const IndexPage = () => {
         <Project
           link={"/keeps/"}
           title={"Subscription tracking made easy"}
-          description={"Read case study"}
+          description={"Android design"}
         >
           <StaticImage
             src="../images/c2/c2-home.png"
@@ -47,7 +47,7 @@ const IndexPage = () => {
         <Project
           link={"/house2home/"}
           title={"Beating decision anxiety on a budget"}
-          description={"Read case study"}
+          description={"Design sprint"}
         >
           <StaticImage
             src="../images/design-sprint/ds-cover.jpg"
