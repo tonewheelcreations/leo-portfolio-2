@@ -18,6 +18,8 @@ import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+// import { ReactCompareSlider } from 'react-compare-slider'
+
 
 const Onstage = () => {
     return (
@@ -154,6 +156,18 @@ const Onstage = () => {
 
                 <Image>
                     <Personas />
+                    {/* <ReactCompareSlider
+                        itemOne={<StaticImage
+                            src="../images/c1/personas/james.png"
+                            alt="Live-streaming growth from 2019 to 2020"
+                            placeholder='blurred'
+                        />}
+                        itemTwo={<StaticImage
+                            src="../images/c1/personas/jessie.png"
+                            alt="Live-streaming growth from 2019 to 2020"
+                            placeholder='blurred'
+                        />}
+                    /> */}
                 </Image>
 
                 <CenterCol>

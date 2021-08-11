@@ -1,9 +1,9 @@
 import React, { useState } from "react"
 import { GatsbyImage } from 'gatsby-plugin-image'
 import { useStaticQuery, graphql } from "gatsby"
-import { container, image, overlay, previous, next } from "./styles/carousel.module.scss"
-import arrowLeft from "../svg/arrow-left.svg"
-import arrowRight from "../svg/arrow-right.svg"
+import { container, image, overlay, previous, next, svg } from "./styles/carousel.module.scss"
+import left from "../svg/arrow-left.svg"
+import right from "../svg/arrow-right.svg"
 
 const Personas = () => {
   const [index, setIndex] = useState(0)
@@ -50,13 +50,13 @@ const Personas = () => {
       />
 
       <div className={overlay}>
-        <a href="#previous" id="saveChanges" tabindex="0" role="button" aria-pressed="false" onKeyDown={handlePrevious} onClick={handlePrevious}>
-          <img alt="Left arrow" src={arrowLeft} className={previous} />
-        </a>
+        <button className={previous} type="button" onKeyDown={handlePrevious} onClick={handlePrevious}>
+          <img className={svg} alt="Left arrow" src={left} />
+        </button>
 
-        <a href="#next" id="saveChanges" tabindex="0" role="button" aria-pressed="false" onKeyDown={handleNext} onClick={handleNext}>
-          <img alt="Right arrow" src={arrowRight} className={next} />
-        </a>
+        <button className={next} type="button" onKeyDown={handleNext} onClick={handleNext}>
+          <img className={svg} alt="Right arrow" src={right} />
+        </button>
       </div>
       <p>
         {index + 1} / {length + 1}

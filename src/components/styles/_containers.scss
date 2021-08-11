@@ -1,20 +1,16 @@
 @use 'breakpoints';
 @use 'spacers';
 
-// html {
-//     scroll-behavior: smooth;
-// }
-
 .page-container {
     max-width: 1440px;
     margin: auto;
     display: flex;
 
-    /*vertically stack children*/
+    // vertically stack children
     flex-direction: column;
 
-    /* expand to take full height of page */
-    /* min-height overrides both height & max-height */
+    // expand to take full height of page
+    // min-height overrides both height & max-height
     min-height: 100vh;
 }
 
@@ -33,15 +29,3 @@
     margin: auto;
     max-width: 1440px;
 }
-
-// .content {
-//     flex: 1 0 auto;
-//     margin-bottom: var(--space-xxl);
-// }
-
-// @include breakpoints.breakpoint(md) {
-//     .content {
-//         margin-left: var(--space-xxxl);
-//         margin-right: var(--space-xxxl);
-//     }
-// }

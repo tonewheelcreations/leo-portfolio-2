@@ -6,7 +6,6 @@ import IFrame from "../components/iframe.js"
 import { containerBio, textBio, containerMusic, textAlbum, h2, album, video, profile, containerVideo } from "../components/styles/about.module.scss"
 import "../components/styles/global.scss"
 
-
 const About = () => {
     return (
         <Layout>

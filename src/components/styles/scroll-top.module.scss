@@ -92,11 +92,15 @@
         border: none;
         color: colors.$background;
     }
+
+    .svg {
+        filter: invert(100%) sepia(94%) saturate(285%) hue-rotate(292deg) brightness(103%) contrast(88%);
+    }
 }
 
 .svg {
-    width: var(--space-xxl);
-    height: var(--space-xxl);
+    width: var(--space-xxxl);
+    height: var(--space-xxxl);
     margin: auto;
 }
 
