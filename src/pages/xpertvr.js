@@ -7,6 +7,7 @@ import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
 import Title from "../components/title.js"
+import { sliderImage } from "../components/styles/slider-image.module.scss"
 import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
@@ -23,24 +24,25 @@ const XpertVR = () => {
                 <h2>Subtitle</h2>
             </Title>
 
-            <Grid>
-                <Image>
-                    <ReactCompareSlider
-                        itemOne={<StaticImage
-                            src="../images/xpertvr/xpertvr-home-after-2.png"
-                            alt="The XpertVR homepage after web redesign"
-                            placeholder='blurred'
-                            quality={100}
-                        />}
-                        itemTwo={<StaticImage
-                            src="../images/xpertvr/xpertvr-home-before-2.png"
-                            alt="The XpertVR homepage before web redesign"
-                            placeholder='blurred'
-                            quality={100}
-                        />}
-                    />
-                </Image>
-            </Grid>
+
+            <div className={sliderImage}>
+                <ReactCompareSlider
+                    itemOne={<StaticImage
+                        src="../images/xpertvr/xpertvr-home-after.png"
+                        alt="The XpertVR homepage after web redesign"
+                        placeholder='blurred'
+                        quality={100}
+                    />}
+                    itemTwo={<StaticImage
+                        src="../images/xpertvr/xpertvr-home-before.png"
+                        alt="The XpertVR homepage before web redesign"
+                        placeholder='blurred'
+                        quality={100}
+                    />}
+                />
+                <p>before &#8672;&#8674; after</p>
+            </div>
+
 
             <FlexInfo>
                 <div
