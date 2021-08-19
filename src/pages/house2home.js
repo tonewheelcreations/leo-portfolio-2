@@ -26,8 +26,8 @@ const House2Home = () => {
          <Grid>
             <Image>
                <StaticImage
-                  src="../images/design-sprint/ds-header-image2.png"
-                  alt="home decor landing page on laptop"
+                  src="../images/design-sprint/ds-hero.png"
+                  alt="home decor landing page"
                   placeholder="blurred"
                   quality={100} />
             </Image>
