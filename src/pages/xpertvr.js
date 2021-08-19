@@ -7,7 +7,7 @@ import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
 import Title from "../components/title.js"
-import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
+import { Video, VideoFullBlack } from "../components/video"
 import XpertvrEvanJourney from "../assets/xpertvr-evan-journey.mp4"
 import XpertvrUsabilityTestWeb from "../assets/xpertvr-usability-test-web.mp4"
 import { sliderImage } from "../components/styles/slider-image.module.scss"
@@ -218,13 +218,13 @@ const XpertVR = () => {
 
                         <li>Background questions exploring a participant’s experiences, goals, and frustrations while learning with VR</li>
 
-                        <li>A contextual inquiry testing the XpertVR site for each of the three user types -- researchers, trainers, and participants -- in order to see how they interact with the website touchpoint of their customer journey</li>
+                        <li>A contextual inquiry testing the XpertVR site for each of the three user types — researchers, trainers, and participants — in order to see how they interact with the website touchpoint of their customer journey</li>
 
-                        <li>Competitor analysis testing overall usability with two sites the XpertVR team identified as direct competitors -- <a href="https://www.talespin.com/">Talespin</a> and <a href="https://pixovr.com/">PixoVR</a></li>
+                        <li>Competitor analysis testing overall usability with two sites the XpertVR team identified as direct competitors — <a href="https://www.talespin.com/" target="_blank" rel="noreferrer noopener">Talespin</a> and <a href="https://pixovr.com/" target="_blank" rel="noreferrer noopener">PixoVR</a></li>
                     </ul>
 
                     <p>
-                        I tested six participants, with each interview lasting about an hour. In hindsight, I would’ve opted for a larger testing group -- 15 participants. For one, usability testing would be more focused for each user type, providing more substantial results. Also, the tests could be shorter, around 30 minutes, alleviating some of the exhaustion participants experienced toward the end of the hour.
+                        I tested six participants, with each interview lasting about an hour. In hindsight, I would’ve opted for a larger testing group — 15 participants. For one, usability testing would be more focused for each user type, providing more substantial results. Also, the tests could be shorter, around 30 minutes, alleviating some of the exhaustion participants experienced toward the end of the hour.
                     </p>
                 </CenterCol>
             </Grid>
@@ -265,9 +265,8 @@ const XpertVR = () => {
                         I used all of these findings to create complete customer journey maps, showing the entire path the users took from discovering XpertVR to conversion. For researchers and trainers, there were opportunities to simplify landing page content and reduce cognitive load. For participants, the main opportunity was to give control of the system back to the user in the research portal. All users would benefit from clear value propositions in the copy and prominent CTA’s leading to the services for their particular journey.
                     </p>
                 </CenterCol>
-            </Grid>
-            <GridLarge>
-                <One>
+
+                <Image>
                     <Zoom>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-journey-research.jpg"
@@ -276,42 +275,30 @@ const XpertVR = () => {
                             quality={100}
                         />
                     </Zoom>
-                </One>
+                </Image>
 
-                <Two>
-                    <Zoom>
-                        <StaticImage
-                            src="../images/xpertvr/xpertvr-journey-participate.jpg"
-                            alt="A customer journey map for Xavier, a college student looking to make extra money in a VR study"
-                            placeholder='blurred'
-                            quality={100}
-                        />
-                    </Zoom>
-                </Two>
-
-                <Three>
-                    <Zoom>
-                        <StaticImage
-                            src="../images/xpertvr/xpertvr-journey-elearning.jpg"
-                            alt="A customer journey map for Junille, a pyrotechnics instructor looking to build a VR eLearning simulation"
-                            placeholder='blurred'
-                            quality={100}
-                        />
-                    </Zoom>
-                </Three>
-            </GridLarge>
-            <Grid>
                 <CenterCol>
                     <h2>Creating the website structure</h2>
 
                     <h3>Information architecture</h3>
 
                     <p>
-                        With the customer journeys defined, I started working on a sitemap that would easily fit the users’ mental models. This was a balancing act with the marketing and branding research that was happening simultaneously. The sitemaps had to include branding content for four behavioral profiles -- cautious competence, optimistic belonging, cautious engagement, and cautious autonomy -- while remaining concise and easy to navigate.
+                        With the customer journeys defined, I started working on a sitemap that would easily fit the users’ mental models. This was a balancing act with the marketing and branding research that was happening simultaneously. The sitemap had to include branding content for four behavioral profiles — cautious competence, optimistic belonging, cautious engagement, and cautious autonomy — while remaining concise and easy to navigate.
                     </p>
+                </CenterCol>
 
-                    {/* sitemap */}
+                <Image>
+                    <Zoom>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-sitemap.png"
+                            alt="The XpertVR sitemap, with branding and customer journeys incorporated"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
+                </Image>
 
+                <CenterCol>
                     <p>
                         Since users would view the site from left to right, I made the <em>Homepage</em>, <em>Our Story</em>, <em>Meet the Team</em>, and <em>What We Do</em> tabs the first four items, in that order. The homepage had to be a sort of navigation itself, providing clear entry points for the three customer journeys and their corresponding information and services. For the most critical section at the top, above the fold, I started with the branding tagline followed by <em>our story</em>. This would provide “why” messaging early on, inspiring trust in XpertVR.
                     </p>
@@ -319,7 +306,7 @@ const XpertVR = () => {
                     <h4>Visualizing through wireframes</h4>
 
                     <p>
-                        Now that the site map was in place, I could begin to visually arrange all of the content in the customer journeys. I started with three pages:
+                        Now that the site map was in place, I could begin to visually arrange all of the content in the customer journeys. I started with the three most important pages which would validate XpertVR for their customers:
                     </p>
 
                     <ul>
@@ -328,7 +315,7 @@ const XpertVR = () => {
 
                         <li>Our story</li>
 
-                        <li>A services subpage -- VR Training & eLearning</li>
+                        <li>A services subpage — VR Training & eLearning</li>
 
                     </ul>
                 </CenterCol>
@@ -338,13 +325,13 @@ const XpertVR = () => {
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-homepage.jpg"
-                            alt="A customer journey map for Xavier, a college student looking to make extra money in a VR study"
+                            alt="A wireframe of the XpertVR homepage"
                             placeholder='blurred'
                             quality={100}
                         />
                     </Overflow>
                     <p>
-                        The homepage was the most substantial and, as mentioned before, had to initiate the three users’ customer journeys. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/">within three seconds</a> of viewing to ensure a lower bounce rate.
+                        The homepage was the most substantial. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/" target="_blank" rel="noreferrer noopener">within three seconds</a> of viewing to ensure a lower bounce rate.
                     </p>
                 </One>
 
@@ -352,13 +339,13 @@ const XpertVR = () => {
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-our-story.jpg"
-                            alt="A customer journey map for Xavier, a college student looking to make extra money in a VR study"
+                            alt="A wireframe for the XpertVR 'Our Story' page"
                             placeholder='blurred'
                             quality={100}
                         />
                     </Overflow>
                     <p>
-                        The homepage was the most substantial and, as mentioned before, had to initiate the three users’ customer journeys. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/">within three seconds</a> of viewing to ensure a lower bounce rate.
+                        The <em>Our Story</em> page followed. It was second in the top nav and a crucial part of the <em>why</em>-based messaging to inspire trust in XpertVR. Like nearly every page on the site, <em>Our Story</em> ended with a contact form to simplify engagement with the XpertVR team and to personalize the experience based on the page content.
                     </p>
                 </Two>
 
@@ -366,49 +353,23 @@ const XpertVR = () => {
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-training-elearning.jpg"
-                            alt="A customer journey map for Xavier, a college student looking to make extra money in a VR study"
+                            alt="A wireframe for the XpertVR 'Training & eLearning' service subpage"
                             placeholder='blurred'
                             quality={100}
                         />
                     </Overflow>
-                    <p>
-                        The homepage was the most substantial and, as mentioned before, had to initiate the three users’ customer journeys. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/">within three seconds</a> of viewing to ensure a lower bounce rate.
-                    </p>
-                </Three>
-            </GridLarge>
-
-
-            <Grid>
-                <CenterCol>
-
-
-                    {/* Our Story */}
-
-                    <p>
-                        The <em>Our Story</em> page followed. It was second in the top nav and a crucial part of the <em>why</em>-based messaging to inspire trust in XpertVR. Like nearly every page on the site, <em>Our Story</em> ended with a contact form to simplify engagement with the XpertVR team and to personalize the experience based on the page content.
-                    </p>
-
-                    {/* VR Training & eLearning */}
 
                     <p>
                         The final static page I wireframed was the <em>VR Training & eLearning </em>subpage. This essentially provided a template for the other service pages and ensured that the service was clear, there was validation through selected case studies, and it was easy to get in touch with a team efficiently through a service-specific contact form.
                     </p>
+                </Three>
+            </GridLarge>
 
-                    {/* Case studies and team members */}
-
+            <Grid>
+                <CenterCol>
                     <p>
                         Since dynamic content was a large part of XpertVR’s SEO strategy and overall growth, I finished by making templates for case studies and team members. The company would easily be able to access these in the Wordpress CMS and quickly create modular content.
                     </p>
-
-                    <h2>Jumping to high fidelity</h2>
-
-                    <h3>Visual design</h3>
-
-                    <p>
-                        Hugo, our design lead, took over for the high fidelity mockups. Here are a few of his beautiful designs for the static pages:
-                    </p>
-
-                    {/* Homepage, Our Story, VR Training & eLearning */}
 
                     <h2>Building the XpertVR site</h2>
 
@@ -417,22 +378,64 @@ const XpertVR = () => {
                     <p>
                         Scope creep is a common culprit in any project and it definitely came up toward the end. The initial XpertVR site had six main pages and eight subpages; the new one would have 11 main pages and 10 subpages. This didn’t include blog posts or case studies. The Stradea team needed an extra hand in web design.
                     </p>
+                </CenterCol>
 
-                    {/* Elementor image */}
+                <LeftCol>
+                    <Zoom>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-blog-1.jpg"
+                            alt="The final web design for an article blog post template"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
+                </LeftCol>
 
+                <RightCol>
+                    <Zoom>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-blog-2.jpg"
+                            alt="The final web design for a book listing blog post template"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
+                </RightCol>
+
+                <LeftCol>
+                    <Zoom>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-blog-3.jpg"
+                            alt="The final web design for an article blog post template"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
+                </LeftCol>
+
+                <RightCol>
+                    <Zoom>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-blog-4.jpg"
+                            alt="The final web design for a product review blog post template"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                    </Zoom>
+                </RightCol>
+
+                <CenterCol>
                     <p>
                         Using Elementor, I created the web designs for the bulk of the blog posts. There were ultimately four blog post templates: two article formats, a product review, and a book listing. You can see a bit of this visual environment below. Overall, Elementor is a powerful tool that greatly speeds up the development workflow. It’s based on basic HTML, CSS, and JavaScript principles, making it fairly easy and intuitive to use.
                     </p>
 
-                    <h2>Completing the site</h2>
+                    <h2>Ready to launch</h2>
 
                     <h3>Outcomes and lessons</h3>
 
                     <p>
-                        At the time of writing this case study, the new XpertVR website was in the final stages of QA. You’ll be able to see the final product <a href="https://xpertvr.ca/">here</a>. While it would take several months to see the impact of the redesign, we reached XpertVR’s goals in a deeply user-centered way. For one, we uncovered serious usability issues through contextual and competitor analysis. Now, the layout of content and customer journeys are more efficient. Most importantly, we made sure that the three user types could easily complete the flow to get the information and services they needed. The site matched these users’ mental models more closely than before.
+                        At the time of writing this case study, the new XpertVR website was in the final stages of QA. You’ll be able to see the final product <a href="https://xpertvr.ca/" target="_blank" rel="noreferrer noopener">here</a>. While it would take several months to see the impact of the redesign, we reached XpertVR’s goals in a deeply user-centered way. For one, we uncovered serious usability issues through contextual and competitor analysis. Now, the layout of content and customer journeys are more efficient. Most importantly, we made sure that the three user types could easily complete the flow to get the information and services they needed. The site matched these users’ mental models more closely than before.
                     </p>
-
-                    {/* perhaps a video of the site in action? */}
 
                     <h4>Lessons learned</h4>
 
@@ -440,7 +443,7 @@ const XpertVR = () => {
                         This is all a big win for the users and the XpertVR team, but it was certainly a challenging process. There were some important lessons learned.
                     </p>
 
-                    <h5>Managing research scope</h5>
+                    <h5>Managing user research scope</h5>
 
                     <p>
                         As I mentioned earlier, conducting a three-part user interview with background questions, contextual analysis, and competitor usability testing created excessive cognitive load. Participants were exhausted by the end of the hour-long interviews. This might have affected the accuracy of the findings. It would’ve been better to have a larger sample size and explore each user type and their journey with a separate group of 3-5 participants.
@@ -468,8 +471,8 @@ const XpertVR = () => {
             </Grid >
 
             <Next
-                name="Subscription tracking made easy"
-                link={"/keeps/"}
+                name="Onstage music live-streaming"
+                link={"/onstage/"}
             />
         </ProjectLayout >
     )

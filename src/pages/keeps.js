@@ -302,11 +302,11 @@ const Keeps = () => {
                         It was great to do usability testing this early in the project because there were several critical issues that emerged.
                     </p>
 
-
                     <p>
                         Perhaps the most existential of these was that it was not clear where to add new subscriptions to track or where existing ones came from on the Overview page. The core mechanism for viewing subscriptions appeared not to be user friendly. Part of this confusion might’ve resulted from the wording of the task, asking to import subscriptions from a new account when the goal was essentially just to link the new account to the app. Still, this issue, along with the others, prevented Jorge from completing his goals. This meant Keeps was not meeting its business requirements.
                     </p>
                 </CenterCol>
+
                 <CenterCol>
                     <StaticImage
                         src="../images/c2/c2-prioritized-recs.png"
@@ -316,6 +316,7 @@ const Keeps = () => {
                     />
 
                 </CenterCol>
+
                 <CenterCol>
                     <h2>Foundations for a prototype</h2>
                     <h3>High-fidelity design</h3>
