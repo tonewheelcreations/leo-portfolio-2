@@ -17,6 +17,20 @@ const IndexPage = () => {
 
       <div className={projects}>
         <Project
+          link={"/xpertvr/"}
+          title={"XpertVR reboot"}
+          description={"Web design, branding"}
+        >
+          <StaticImage
+            src="../images/xpertvr/xpertvr-cover.jpg"
+            alt="XpertVR website redesign case study"
+            className={image}
+            style={{ display: "block" }}
+            placeholder="blurred"
+          />
+        </Project>
+
+        <Project
           link={"/onstage/"}
           title={"Onstage music live-streaming"}
           description={"Product design"}

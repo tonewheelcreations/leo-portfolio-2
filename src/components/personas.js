@@ -33,9 +33,13 @@ const Personas = () => {
   const { node } = data.allFile.edges[index]
   const length = data.allFile.edges.length - 1
 
+  // go forward 1 image in array
+
   const handleNext = () => {
     index === length ? setIndex(0) : setIndex(index + 1)
   }
+
+  // go back 1 image in array
 
   const handlePrevious = () => {
     index === 0 ? setIndex(length) : setIndex(index - 1)
@@ -58,9 +62,6 @@ const Personas = () => {
           <img className={svg} alt="Right arrow" src={right} />
         </button>
       </div>
-      <p>
-        {index + 1} / {length + 1}
-      </p>
     </div>
   )
 }

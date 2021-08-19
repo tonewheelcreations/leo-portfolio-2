@@ -11,7 +11,7 @@
 
     p {
         font-size: var(--type-xs);
-        text-align: center;
+        // text-align: center;
     }
 
     .one,
@@ -19,7 +19,7 @@
     .three {
         padding: 0 var(--space-xxxl);
         grid-column: span 12;
-        align-self: end;
+        align-self: start;
     }
 
     .one {
