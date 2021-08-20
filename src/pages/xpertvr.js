@@ -473,7 +473,7 @@ const XpertVR = () => {
                     <h3>Outcomes and lessons</h3>
 
                     <p>
-                        At the time of writing this case study, the new XpertVR website was in the final stages of QA. You’ll be able to see the final product <a href="https://xpertvr.ca/" target="_blank" rel="noreferrer noopener">here</a>. While it would take several months to see the impact of the redesign, we reached XpertVR’s goals in a deeply user-centered way. For one, we uncovered serious usability issues through contextual and competitor analysis. Now, the layout of content and customer journeys are more efficient. Most importantly, we made sure that the three user types could easily complete the flow to get the information and services they needed. The site matched these users’ mental models more closely than before.
+                        At the time of writing this case study, the site was in the final stages of QA. You’ll be able to see the <a href="https://xpertvr.ca/" target="_blank" rel="noreferrer noopener">new XpertVR site here</a>. While it would take several months to see the impact of the redesign, we reached XpertVR’s goals in a deeply user-centered way. For one, we uncovered serious usability issues through contextual and competitor analysis. Now, the layout of content and customer journeys are more efficient. Most importantly, we made sure that the three user types could easily complete the flow to get the information and services they needed. The site matched these users’ mental models more closely than before.
                     </p>
 
                     <h4>Lessons learned</h4>
