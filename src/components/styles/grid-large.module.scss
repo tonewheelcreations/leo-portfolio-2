@@ -9,10 +9,10 @@
     grid-row-gap: var(--space-xxxl);
     background-color: white;
 
-    p {
-        font-size: var(--type-xs);
-        // text-align: center;
-    }
+    // p {
+    //     font-size: var(--type-xs);
+    //     // text-align: center;
+    // }
 
     .one,
     .two,
@@ -35,14 +35,6 @@
     .grid-large {
         grid-column-gap: var(--space-xl);
         grid-row-gap: var(--space-xxxl);
-
-        // .left {
-        //     grid-column: 1 / 7;
-        // }
-
-        // .right {
-        //     grid-column: 7 / 13;
-        // }
 
         .one,
         .two,
