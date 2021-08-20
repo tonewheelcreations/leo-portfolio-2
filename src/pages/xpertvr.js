@@ -25,7 +25,7 @@ const XpertVR = () => {
 
             <Title>
                 <h1>XpertVR reboot</h1>
-                <h2>Designing a user-centered web experience for VR development</h2>
+                <h2>Designing a customer-centered web experience for VR development</h2>
             </Title>
 
 
