@@ -8,6 +8,7 @@ import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
 import Title from "../components/title.js"
 import { Video, VideoFullBlack } from "../components/video"
+import Figure from "../components/figure"
 import XpertvrEvanJourney from "../assets/xpertvr-evan-journey.mp4"
 import XpertvrUsabilityTestWeb from "../assets/xpertvr-usability-test-web.mp4"
 import { sliderImage } from "../components/styles/slider-image.module.scss"
@@ -113,12 +114,17 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <Image>
-                    <Video>
-                        <source
-                            src={XpertvrEvanJourney}
-                            type="video/mp4"
-                        />
-                    </Video>
+                    <Figure>
+                        <Video>
+                            <source
+                                src={XpertvrEvanJourney}
+                                type="video/mp4"
+                            />
+                        </Video>
+                        <figcaption>
+                            Discussing XpertVR's customer journeys during the discovery kickoff
+                        </figcaption>
+                    </Figure>
                 </Image>
 
                 <CenterCol>
@@ -152,21 +158,25 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <Image>
-                    <Zoom>
-                        <StaticImage
-                            src="../images/xpertvr/xpertvr-analytics-1.jpg"
-                            alt="Google Analytics for the initial XpertVR site"
-                            placeholder='blurred'
-                            quality={100}
-                        />
-                    </Zoom>
+                    <Figure>
+                        <Zoom>
+                            <StaticImage
+                                src="../images/xpertvr/xpertvr-analytics-1.jpg"
+                                alt="Google Analytics for the initial XpertVR site"
+                                placeholder='blurred'
+                                quality={100}
+                            />
+                        </Zoom>
+                        <figcaption>
+                            Google Analytics showing site traffic, SEO, and load times for the initial XpertVR site
+                        </figcaption>
+                    </Figure>
                 </Image>
 
                 <CenterCol>
                     <p>
                         As for traffic, the website audience was 1276 people in April. Of these, only 417 were return users. We looked at this discrepancy through the lenses of on-page SEO, SERP ranking (placement in search engine results pages), and the overall domain authority score. The SEO was low, 50/100, and there were no SERP rankings. This was definitely impeding site traffic and causing the domain authority score to be lower, although a score of 22 was still decent for a fairly new B2B site.
                     </p>
-
 
                     <h4>Who learns with VR?</h4>
 
@@ -176,12 +186,18 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <CenterCol>
-                    <StaticImage
-                        src="../images/xpertvr/xpertvr-experience-level.jpg"
-                        alt="Pie chart showing most people are beginners with VR"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Figure>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-experience-level.jpg"
+                            alt="Pie chart showing people's experience level with VR"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                        <figcaption>
+                            Screener results showed most people were beginners with VR
+                        </figcaption>
+                    </Figure>
+
                 </CenterCol>
 
                 <CenterCol>
@@ -191,12 +207,17 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <CenterCol>
-                    <StaticImage
-                        src="../images/xpertvr/xpertvr-go-learn.jpg"
-                        alt="Pie chart showing most people to websites and social media to learn about VR"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Figure>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-go-learn.jpg"
+                            alt="Pie chart showing most people to websites and social media to learn about VR"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                        <figcaption>
+                            Screener results showed most people learned about VR through social media or product/service websites
+                        </figcaption>
+                    </Figure>
                 </CenterCol>
 
                 <CenterCol>
@@ -224,7 +245,7 @@ const XpertVR = () => {
                     </ul>
 
                     <p>
-                        I tested six participants, with each interview lasting about an hour. In hindsight, I would’ve opted for a larger testing group — 15 participants. For one, usability testing would be more focused for each user type, providing more substantial results. Also, the tests could be shorter, around 30 minutes, alleviating some of the exhaustion participants experienced toward the end of the hour.
+                        I tested six participants, with each interview lasting about an hour. You can see a snippet from a usability test below.
                     </p>
                 </CenterCol>
             </Grid>
@@ -238,6 +259,9 @@ const XpertVR = () => {
 
             <Grid>
                 <CenterCol>
+                    <p>
+                        In hindsight, I would’ve opted for a larger testing group — 15 participants. For one, usability testing would be more focused for each user type, providing more substantial results. Also, the tests could be shorter, around 30 minutes, alleviating some of the exhaustion participants experienced toward the end of the hour.
+                    </p>
 
                     <h2>Understanding XpertVR through the users</h2>
 
@@ -251,12 +275,17 @@ const XpertVR = () => {
                     </p>
                 </CenterCol>
                 <Image>
-                    <StaticImage
-                        src="../images/xpertvr/xpertvr-messaging.png"
-                        alt="A web chart showing the qualities of prevention and promotional messaging"
-                        placeholder='blurred'
-                        quality={100}
-                    />
+                    <Figure>
+                        <StaticImage
+                            src="../images/xpertvr/xpertvr-messaging.png"
+                            alt="A web chart showing the qualities of prevention and promotional messaging"
+                            placeholder='blurred'
+                            quality={100}
+                        />
+                        <figcaption>
+                            Preventive messaging played a large role in developing the customer experience for the new XpertVR site (image courtesy of Stradea Design Labs)
+                        </figcaption>
+                    </Figure>
                 </Image>
                 <CenterCol>
                     <h4>Customer journeys</h4>
@@ -267,14 +296,19 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <Image>
-                    <Zoom>
-                        <StaticImage
-                            src="../images/xpertvr/xpertvr-journey-research.jpg"
-                            alt="A customer journey map for Michael, a researcher using VR in a study"
-                            placeholder='blurred'
-                            quality={100}
-                        />
-                    </Zoom>
+                    <Figure>
+                        <Zoom>
+                            <StaticImage
+                                src="../images/xpertvr/xpertvr-journey-research.jpg"
+                                alt="A customer journey map"
+                                placeholder='blurred'
+                                quality={100}
+                            />
+                        </Zoom>
+                        <figcaption>
+                            A customer journey map for Michael, a researcher using VR in a study
+                        </figcaption>
+                    </Figure>
                 </Image>
 
                 <CenterCol>
@@ -288,14 +322,19 @@ const XpertVR = () => {
                 </CenterCol>
 
                 <Image>
-                    <Zoom>
-                        <StaticImage
-                            src="../images/xpertvr/xpertvr-sitemap.png"
-                            alt="The XpertVR sitemap, with branding and customer journeys incorporated"
-                            placeholder='blurred'
-                            quality={100}
-                        />
-                    </Zoom>
+                    <Figure>
+                        <Zoom>
+                            <StaticImage
+                                src="../images/xpertvr/xpertvr-sitemap.png"
+                                alt="The XpertVR sitemap"
+                                placeholder='blurred'
+                                quality={100}
+                            />
+                        </Zoom>
+                        <figcaption>
+                            The XpertVR sitemap, with branding and customer journeys incorporated
+                        </figcaption>
+                    </Figure>
                 </Image>
 
                 <CenterCol>
