@@ -469,8 +469,9 @@ const House2Home = () => {
             </CenterCol>
          </Grid>
          <Next
-            name="Onstage music live-streaming"
-            link={"/onstage/"}
+            name="XpertVR reboot"
+            link={"/xpertvr/"}
+            medium="Web design, CX design"
          />
       </ProjectLayout>
    )

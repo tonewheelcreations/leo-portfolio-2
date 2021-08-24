@@ -18,25 +18,33 @@
     // align-items: center;
     justify-content: space-between;
 
-    h2,
-    h3 {
-        margin: 0;
-        padding: var(--space-sm) 0;
-        text-align: center;
-    }
-
     h2 {
-        grid-column: 1 / 13;
+        // font-size: var(--type-md);
+        flex: 1 1 40%;
+        text-align: center;
         color: colors.$background;
         text-shadow: -1px -1px 0 colors.$default, 1px -1px 0 colors.$default, -1px 1px 0 colors.$default,
             1px 1px 0 colors.$default;
         // font-size: var(--type-xl);
     }
 
+    .project-description {
+        h3,
+        p {
+            grid-column: 1 / 13;
+            margin: 0;
+            padding: var(--space-sm) 0;
+            text-align: center;
+        }
+
+        p {
+            font-style: italic;
+        }
+    }
+
     h3 {
-        grid-column: 1 / 13;
         color: colors.$default;
-        // font-size: var(--type-lg);
+        // font-size: var(--type-sm);
         font-weight: 600;
     }
 }
@@ -48,23 +56,49 @@
         text-shadow: 3px 3px 0 colors.$active, -1px -1px 0 colors.$active, 1px -1px 0 colors.$active,
             -1px 1px 0 colors.$active, 1px 1px 0 colors.$active;
     }
-
-    // h3 {
-    //     color: colors.$active;
-    // }
 }
 
 @include breakpoints.breakpoint(lg) {
+    .container {
+        h2 {
+            font-size: var(--type-md);
+        }
+    }
+
     .text {
         flex-direction: row;
         align-items: baseline;
+        justify-content: space-evenly;
 
-        h2 {
-            grid-column: 4 / 7;
+        // h2 {
+        //     grid-column: 4 / 7;
+        // }
+
+        h3,
+        p {
+            grid-column: 8 / 11;
         }
 
+        .project-description {
+            h3,
+            p {
+                padding-bottom: 0;
+                text-align: left;
+            }
+        }
+    }
+}
+
+@include breakpoints.breakpoint(xl) {
+    .container {
+        h2 {
+            font-size: var(--type-lg);
+        }
+    }
+
+    .text {
         h3 {
-            grid-column: 8 / 11;
+            font-size: var(--type-sm);
         }
     }
 }

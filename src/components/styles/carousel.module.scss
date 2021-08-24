@@ -7,8 +7,8 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    width: var(--type-lg);
-    height: var(--type-lg);
+    width: var(--type-xl);
+    height: var(--type-xl);
     border: 0 transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -24,8 +24,8 @@
 }
 
 .svg {
-    width: var(--type-lg);
-    height: var(--type-md);
+    width: var(--type-xl);
+    height: var(--type-xl);
     margin: 0;
     align-self: center;
     opacity: 0.5;
@@ -58,6 +58,16 @@
 }
 
 .container:hover {
+    .overlay {
+        opacity: 1;
+
+        .hover-title {
+            color: white;
+        }
+    }
+}
+
+@media (hover: none) {
     .overlay {
         opacity: 1;
 
