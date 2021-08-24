@@ -7,8 +7,8 @@
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    width: var(--type-xl);
-    height: var(--type-xl);
+    width: var(--space-xxxxxl);
+    height: var(--space-xxxxxl);
     border: 0 transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -24,8 +24,8 @@
 }
 
 .svg {
-    width: var(--type-xxl);
-    height: var(--type-xxl);
+    width: var(--type-xxxl);
+    height: var(--type-xxxl);
     margin: 0;
     align-self: center;
     opacity: 0.5;
@@ -44,6 +44,7 @@
     height: 100%;
     width: 100%;
     opacity: 1;
+    z-index: 99;
 }
 
 .image {
@@ -72,18 +73,15 @@
     }
 }
 
-@include breakpoints.breakpoint(md) {
-    .previous,
-    .next {
-        width: var(--type-xxl);
-        height: var(--type-xxl);
-    }
-}
-
 @include breakpoints.breakpoint(lg) {
     .previous,
     .next {
-        width: var(--type-xxxl);
-        height: var(--type-xxxl);
+        width: var(--space-xxxxl);
+        height: var(--space-xxxxl);
+    }
+
+    .svg {
+        width: var(--space-xxl);
+        height: var(--space-xxl);
     }
 }
