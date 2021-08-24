@@ -504,6 +504,7 @@ const Keeps = () => {
             <Next
                 name="Beating decision anxiety on a budget"
                 link={"/house2home/"}
+                medium="Design sprint"
             />
         </ProjectLayout >
     )

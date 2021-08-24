@@ -497,6 +497,7 @@ const Onstage = () => {
             <Next
                 name="Subscription tracking made easy"
                 link={"/keeps/"}
+                medium="Android design"
             />
         </ProjectLayout >
     )
