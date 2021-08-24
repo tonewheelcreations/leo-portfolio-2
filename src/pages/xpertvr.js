@@ -512,6 +512,7 @@ const XpertVR = () => {
             <Next
                 name="Onstage music live-streaming"
                 link={"/onstage/"}
+                medium="Product design"
             />
         </ProjectLayout >
     )
