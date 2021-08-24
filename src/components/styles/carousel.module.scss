@@ -24,8 +24,8 @@
 }
 
 .svg {
-    width: var(--type-xl);
-    height: var(--type-xl);
+    width: var(--type-xxl);
+    height: var(--type-xxl);
     margin: 0;
     align-self: center;
     opacity: 0.5;
@@ -33,11 +33,6 @@
 
 .container {
     position: relative;
-
-    p {
-        float: right;
-        font-weight: 600;
-    }
 }
 
 .overlay {
@@ -48,7 +43,7 @@
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
 }
 
 .image {
@@ -67,9 +62,9 @@
     }
 }
 
-@media (hover: none) {
+@media (hover: hover) {
     .overlay {
-        opacity: 1;
+        opacity: 0;
 
         .hover-title {
             color: white;
