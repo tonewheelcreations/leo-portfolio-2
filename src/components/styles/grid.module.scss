@@ -44,6 +44,12 @@
     }
 
     h3 {
+        font-family: var(--font-tertiary);
+        font-size: var(--base-size);
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: 600;
+        color: colors.$process;
         margin-top: 0;
         margin-bottom: var(--space-md);
     }
