@@ -43,9 +43,12 @@
     }
 
     h3 {
-        color: colors.$default;
-        // font-size: var(--type-sm);
+        font-family: var(--font-secondary);
+        font-size: var(--type-sm);
+        text-transform: none;
+        font-style: normal;
         font-weight: 600;
+        color: colors.$default;
     }
 }
 

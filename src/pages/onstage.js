@@ -287,7 +287,7 @@ const Onstage = () => {
                 <CenterCol>
                     <h2>Creating the music live-streaming experience</h2>
 
-                    <h3>Design</h3>
+                    <h3>Visual design</h3>
 
                     <h4>Refining critical features into red routes</h4>
 
