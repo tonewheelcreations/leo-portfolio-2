@@ -2,7 +2,7 @@ import React from "react"
 import ProjectLayout from "../components/project-layout"
 import SEO from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
-import { Grid, LeftCol, RightCol, CenterCol, FullCol } from "../components/grid.js"
+import { Grid, CenterCol, FullCol } from "../components/grid.js"
 import { GridLarge, One, Two, Three } from "../components/grid-large.js"
 import { FlexInfo } from "../components/flex.js"
 import { Image } from "../components/image.js"
@@ -33,19 +33,19 @@ const XpertVR = () => {
             <div className={sliderImage}>
                 <ReactCompareSlider
                     itemOne={<StaticImage
-                        src="../images/xpertvr/xpertvr-home-after.png"
-                        alt="The XpertVR homepage after web redesign"
-                        placeholder='blurred'
-                        quality={100}
-                    />}
-                    itemTwo={<StaticImage
                         src="../images/xpertvr/xpertvr-home-before.png"
                         alt="The XpertVR homepage before web redesign"
                         placeholder='blurred'
                         quality={100}
                     />}
+                    itemTwo={<StaticImage
+                        src="../images/xpertvr/xpertvr-home-after.png"
+                        alt="The XpertVR homepage after web redesign"
+                        placeholder='blurred'
+                        quality={100}
+                    />}
                 />
-                <p>before &#8672;&#8674; after</p>
+                <p>before / after</p>
             </div>
 
 
@@ -410,7 +410,7 @@ const XpertVR = () => {
                         Since dynamic content was a large part of XpertVR’s SEO strategy and overall growth, I finished by making templates for case studies and team members. The company would easily be able to access these in the Wordpress CMS and quickly create modular content.
                     </p>
 
-                    <h2>Building the XpertVR site</h2>
+                    {/* <h2>Building the XpertVR site</h2>
 
                     <h3>Development</h3>
 
@@ -466,7 +466,7 @@ const XpertVR = () => {
                 <CenterCol>
                     <p>
                         Using Elementor, I created the web designs for the bulk of the blog posts. There were ultimately four blog post templates: two article formats, a product review, and a book listing. You can see a bit of this visual environment below. Overall, Elementor is a powerful tool that greatly speeds up the development workflow. It’s based on basic HTML, CSS, and JavaScript principles, making it fairly easy and intuitive to use.
-                    </p>
+                    </p> */}
 
                     <h2>Ready to launch</h2>
 
