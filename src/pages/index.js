@@ -11,8 +11,8 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <div className={topModule}>
-        <h1>Hi, I'm Leo</h1>
-        <h2>I'm a <Link to="/about/">UX Designer</Link> with roots in <Link to="/about/#music">jazz composition</Link> and <Link to="/about/#video">video production</Link>.</h2>
+        <h1>Hi, I’m Leo</h1>
+        <h2>I’m a <Link to="/about/">UX Designer</Link> with roots in <Link to="/about/#music">jazz composition</Link> and <Link to="/about/#video">video production</Link>.</h2>
       </div>
 
       <div className={projects}>

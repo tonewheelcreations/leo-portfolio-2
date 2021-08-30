@@ -24,7 +24,7 @@ const About = () => {
                 <div className={textBio} data-sal="slide-right"
                     data-sal-duration="300"
                     data-sal-easing="ease-out-sine">
-                    <h1>I'm a UX Designer who believes in the power of a story.</h1>
+                    <h1>I’m a UX Designer who believes in the power of a story.</h1>
                     <p> As a musician turned designer, I believe that connecting people to a story leads to the most meaningful experiences — it creates community.
                         I’ve always wanted to be a storyteller throughout my childhood. This led me to become a jazz musician. For nearly 12 years, I wrote my own story in New York City. There, I learned how to connect emotionally with diverse groups of people, in many a smoky jazz club (minus the smoke).</p>
 
@@ -41,9 +41,9 @@ const About = () => {
                         <h2 className={h2}>I like to compose jazz</h2>
                         <p> In 2019, I released my debut album, <i>Tonewheel</i>. After years of writing music, I decided it was time to bring it to life. <i>Tonewheel</i> is a collection of observations and experiences of immigrating to and growing up in the U.S. Each song is based on a story, ranging from escaping the Soviet Union to witnessing the challenges of growing up in an urban neighborhood. </p>
 
-                        <p>The idea for the name came from <a href="https://en.wikiversity.org/wiki/Motivation_and_emotion/Book/2014/Plutchik%27s_wheel_of_emotions" target="_blank" rel="noreferrer noopener">Plutchik's Wheel of Emotions</a>. But, a tonewheel can be a mechanical gear or even a color wheel. As far as the album goes, it symbolizes the detailed plot and emotional journey of each story.</p>
+                        <p>The idea for the name came from <a href="https://en.wikiversity.org/wiki/Motivation_and_emotion/Book/2014/Plutchik%27s_wheel_of_emotions" target="_blank" rel="noreferrer noopener">Plutchik’s Wheel of Emotions</a>. But, a tonewheel can be a mechanical gear or even a color wheel. As far as the album goes, it symbolizes the detailed plot and emotional journey of each story.</p>
 
-                        <p>I'm proud to say that the album has received wide acclaim, with over 1 million listeners as of 2020. You can check it out by following the album cover link, if you'd like.</p>
+                        <p>I’m proud to say that the album has received wide acclaim, with over 1 million listeners as of 2020. You can check it out by following the album cover link, if you’d like.</p>
                     </div>
                     <div className={album} data-sal="slide-right"
                         data-sal-duration="300"

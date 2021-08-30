@@ -122,7 +122,7 @@ const XpertVR = () => {
                             />
                         </Video>
                         <figcaption>
-                            Discussing XpertVR's customer journeys during the discovery kickoff
+                            Discussing XpertVR’s customer journeys during the discovery kickoff
                         </figcaption>
                     </Figure>
                 </Image>
