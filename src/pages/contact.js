@@ -69,7 +69,7 @@ const Contact = () => {
                     data-sal-duration="300"
                     data-sal-easing="ease-out-sine">
 
-                    <h1>Let's make contact</h1>
+                    <h1>Let’s make contact</h1>
                     <GoogleReCaptchaProvider reCaptchaKey="6LdX2IQaAAAAAJ22R0U8gRXzKlDHBBiH0lmPbF6O">
                         <form onSubmit={handleOnSubmit}>
                             <label className={form}>

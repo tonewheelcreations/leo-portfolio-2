@@ -59,7 +59,7 @@ const Keeps = () => {
                     </p>
                     <h2>The challenge</h2>
                     <p>
-                        At the time, the product was a web application that wasn't mobile-friendly. The company knew that half of their potential users were on mobile and wanted to increase their market reach. The goal was to develop an Android mobile app that addressed three business requirements:
+                        At the time, the product was a web application that wasn’t mobile-friendly. The company knew that half of their potential users were on mobile and wanted to increase their market reach. The goal was to develop an Android mobile app that addressed three business requirements:
                     </p>
 
                     <ul>
@@ -82,7 +82,7 @@ const Keeps = () => {
                     <h3>Project planning</h3>
 
                     <p>
-                        In order to stick to the 90-hour timeline, I started with a project plan. This outlined the phases, deliverables, and design rationale throughout the project. After I completed each phase, I presented the deliverables at stakeholder meetings to show progress toward the final prototype. A lot of time was spent in the discovery phase. It was important to understand the industry and its consumers in order to translate Keeps's business requirements to mobile in the most simple and effective way.
+                        In order to stick to the 90-hour timeline, I started with a project plan. This outlined the phases, deliverables, and design rationale throughout the project. After I completed each phase, I presented the deliverables at stakeholder meetings to show progress toward the final prototype. A lot of time was spent in the discovery phase. It was important to understand the industry and its consumers in order to translate Keeps’s business requirements to mobile in the most simple and effective way.
                     </p>
                 </CenterCol>
                 <Image>
