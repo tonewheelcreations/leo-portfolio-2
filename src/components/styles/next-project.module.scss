@@ -2,7 +2,7 @@
 @use 'breakpoints';
 
 .container {
-    background-color: colors.$next;
+    background-color: colors.$up-next-background;
     padding: var(--space-xxxxl) 0;
     margin-top: var(--space-xxxl);
 }
@@ -23,8 +23,8 @@
         flex: 1 1 40%;
         text-align: center;
         color: colors.$background;
-        text-shadow: -1px -1px 0 colors.$default, 1px -1px 0 colors.$default, -1px 1px 0 colors.$default,
-            1px 1px 0 colors.$default;
+        text-shadow: -1px -1px 0 colors.$on-background, 1px -1px 0 colors.$on-background,
+            -1px 1px 0 colors.$on-background, 1px 1px 0 colors.$on-background;
         // font-size: var(--type-xl);
     }
 
@@ -48,7 +48,7 @@
         text-transform: none;
         font-style: normal;
         font-weight: 600;
-        color: colors.$default;
+        color: colors.$on-background;
     }
 }
 

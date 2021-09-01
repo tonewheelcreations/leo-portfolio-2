@@ -3,9 +3,9 @@
 
 .scrollToTopBtn {
     background-color: colors.$background;
-    border-color: colors.$default;
+    border-color: colors.$on-background;
     border-radius: 50%;
-    color: colors.$default;
+    color: colors.$on-background;
     cursor: pointer;
     display: flex;
     align-items: center;

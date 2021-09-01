@@ -75,7 +75,7 @@
 
                 a:visited {
                     text-decoration: none;
-                    color: colors.$default;
+                    color: colors.$on-background;
                 }
 
                 a:hover {
@@ -92,7 +92,7 @@
 
                 a.selected {
                     border-bottom: 2px solid;
-                    color: colors.$default;
+                    color: colors.$on-background;
                 }
             }
 

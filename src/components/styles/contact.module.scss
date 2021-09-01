@@ -20,18 +20,22 @@
     textarea {
         resize: vertical;
         line-height: 1.8;
+        background: colors.$on-dark;
+        border: 1px solid colors.$on-background;
     }
 
     button {
         background-color: colors.$primary;
         border-color: colors.$primary;
-        color: white;
+        color: colors.$on-dark;
         margin-top: var(--space-xs);
         padding: var(--space-xxxxs) 0;
     }
 
     input {
         line-height: 1.8;
+        background: colors.$on-dark;
+        border: 1px solid colors.$on-background;
     }
 }
 
