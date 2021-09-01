@@ -28,10 +28,26 @@ p:first-child {
 
 /*** Media Queries ***/
 
+@include breakpoints.breakpoint(lg) {
+    .title {
+        .headings {
+            h2 {
+                margin-top: var(--space-xxxxs);
+            }
+        }
+    }
+}
+
 @include breakpoints.breakpoint(xl) {
     .title {
-        h1 {
-            font-size: var(--type-xxxl);
+        .headings {
+            h1 {
+                font-size: var(--type-xxxl);
+            }
+
+            h2 {
+                margin-top: var(--space-xxxxxs);
+            }
         }
     }
 }
