@@ -77,7 +77,7 @@
 }
 
 .scrollToTopBtn:hover {
-    background-color: colors.$active;
+    background-color: colors.$primary;
     border: none;
     color: colors.$background;
 
@@ -88,7 +88,7 @@
 
 @media (hover: none) {
     .scrollToTopBtn {
-        background-color: colors.$active;
+        background-color: colors.$primary;
         border: none;
         color: colors.$background;
     }

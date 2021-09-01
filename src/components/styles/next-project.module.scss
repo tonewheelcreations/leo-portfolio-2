@@ -2,7 +2,7 @@
 @use 'breakpoints';
 
 .container {
-    background-color: #dcd0cb;
+    background-color: colors.$next;
     padding: var(--space-xxxxl) 0;
     margin-top: var(--space-xxxl);
 }
@@ -54,10 +54,10 @@
 
 .container:hover {
     h2 {
-        -webkit-text-stroke: 1px colors.$active;
+        -webkit-text-stroke: 1px colors.$primary;
         color: colors.$background;
-        text-shadow: 3px 3px 0 colors.$active, -1px -1px 0 colors.$active, 1px -1px 0 colors.$active,
-            -1px 1px 0 colors.$active, 1px 1px 0 colors.$active;
+        text-shadow: 3px 3px 0 colors.$primary, -1px -1px 0 colors.$primary, 1px -1px 0 colors.$primary,
+            -1px 1px 0 colors.$primary, 1px 1px 0 colors.$primary;
     }
 }
 
