@@ -33,7 +33,7 @@ h1 {
   font-weight: 800;
   margin-top: var(--space-xxxs);
   margin-bottom: var(--space-xxxs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 h2 {
@@ -45,7 +45,7 @@ h2 {
   font-weight: 600;
   margin-top: var(--space-lg);
   margin-bottom: var(--space-xxs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 h3 {
@@ -57,7 +57,7 @@ h3 {
   font-weight: 500;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 h4 {
@@ -69,7 +69,7 @@ h4 {
   font-weight: 600;
   margin-top: var(--space-xl);
   margin-bottom: var(--space-xs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 h5 {
@@ -81,7 +81,7 @@ h5 {
   font-weight: 600;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 h6 {
@@ -93,7 +93,7 @@ h6 {
   font-weight: 600;
   margin-top: var(--space-xxxxs);
   margin-bottom: var(--space-xxxxs);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 body {
@@ -103,14 +103,14 @@ body {
   font-family: var(--font-primary);
   line-height: 1.6;
   font-weight: 400;
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 p {
   margin: var(--space-md) 0;
   font-size: var(--base-size);
   font-family: var(--font-primary);
-  color: colors.$default;
+  color: colors.$on-background;
 }
 
 /*** Media Queries ***/
