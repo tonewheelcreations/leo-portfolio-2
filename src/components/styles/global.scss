@@ -7,3 +7,14 @@
 html {
     background-color: colors.$background;
 }
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: colors.$on-dark;
+    background: colors.$primary;
+}
+
+::selection {
+    color: colors.$on-dark;
+    background: colors.$primary;
+}

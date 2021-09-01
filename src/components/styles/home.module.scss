@@ -33,10 +33,10 @@
 
     @media (hover: none) {
         a {
-            -webkit-text-stroke: 1px colors.$active;
+            -webkit-text-stroke: 1px colors.$primary;
             color: colors.$background;
-            text-shadow: 0.75px 0.75px 0 colors.$active, -0.75px -0.75px 0 colors.$active,
-                0.75px -0.75px 0 colors.$active, -0.75px 0.75px 0 colors.$active, 0.75px 0.75px 0 colors.$active;
+            text-shadow: 0.75px 0.75px 0 colors.$primary, -0.75px -0.75px 0 colors.$primary,
+                0.75px -0.75px 0 colors.$primary, -0.75px 0.75px 0 colors.$primary, 0.75px 0.75px 0 colors.$primary;
         }
     }
 
@@ -45,15 +45,15 @@
     }
 
     a:focus {
-        color: colors.$active;
+        color: colors.$primary;
     }
 
     @media (hover: hover) {
         a:hover {
-            -webkit-text-stroke: 1px colors.$active;
+            -webkit-text-stroke: 1px colors.$primary;
             color: colors.$background;
-            text-shadow: 3px 3px 0 colors.$active, -1px -1px 0 colors.$active, 1px -1px 0 colors.$active,
-                -1px 1px 0 colors.$active, 1px 1px 0 colors.$active;
+            text-shadow: 3px 3px 0 colors.$primary, -1px -1px 0 colors.$primary, 1px -1px 0 colors.$primary,
+                -1px 1px 0 colors.$primary, 1px 1px 0 colors.$primary;
         }
     }
 }

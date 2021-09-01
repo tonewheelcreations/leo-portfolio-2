@@ -8,7 +8,7 @@
   --font-tertiary: "Graphik", sans-serif;
 
   // type scale
-  --base-size: 1em; // based on minor 2nd ratio
+  --base-size: 1em;
   --scale-ratio: 1.25; // based on major 3rd ratio
 
   // type sizes
@@ -102,12 +102,13 @@ body {
   font-size: var(--base-size);
   font-family: var(--font-primary);
   line-height: 1.6;
-  font-weight: 500;
+  font-weight: 400;
   color: colors.$default;
 }
 
 p {
   margin: var(--space-md) 0;
+  font-size: var(--base-size);
   font-family: var(--font-primary);
   color: colors.$default;
 }
