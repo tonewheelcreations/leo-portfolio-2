@@ -19,7 +19,9 @@
 
     p {
         text-align: right;
-        font-size: var(--type-xs);
+        font-size: var(--base-size);
+        font-family: var(--font-secondary);
+        font-weight: 400;
     }
 
     .svg-container {
