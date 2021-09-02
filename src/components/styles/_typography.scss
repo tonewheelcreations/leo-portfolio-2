@@ -3,7 +3,7 @@
 
 :root {
   // font family
-  --font-primary: "Open Sans", sans-serif;
+  --font-primary: "Open Serif", serif;
   --font-secondary: "Noto Sans JP", sans-serif;
   --font-tertiary: "Graphik", sans-serif;
 
@@ -79,7 +79,7 @@ h5 {
   font-size: var(--base-size);
   line-height: 1.4;
   font-weight: 600;
-  margin-top: var(--space-xxxxs);
+  margin-top: var(--space-xxs);
   margin-bottom: var(--space-xxxxs);
   color: colors.$on-background;
 }
@@ -101,17 +101,18 @@ body {
   min-width: 0;
   font-size: var(--base-size);
   font-family: var(--font-primary);
-  line-height: 1.6;
-  font-weight: 400;
+  line-height: 1.5;
+  font-weight: 500;
+  // letter-spacing: 0.005rem;
   color: colors.$on-background;
 }
 
-p {
-  margin: var(--space-md) 0;
-  font-size: var(--base-size);
-  font-family: var(--font-primary);
-  color: colors.$on-background;
-}
+// p {
+//   margin: var(--space-md) 0;
+//   font-size: var(--base-size);
+//   font-family: var(--font-primary);
+//   color: colors.$on-background;
+// }
 
 /*** Media Queries ***/
 
@@ -208,29 +209,21 @@ p {
   font-display: swap;
 }
 
-// Open Sans
+// Open Serif
 
 @font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Regular"), url("../../fonts/OpenSans-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "Open Serif";
+  src: local("Open Serif Regular"), url("../../fonts/OpenSerif-Regular.woff2") format("woff2");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Italic"), url("../../fonts/OpenSans-Italic.woff") format("woff");
-  font-weight: normal;
+  font-family: "Open Serif";
+  src: local("Open Serif Italic"), url("../../fonts/OpenSerif-Italic.woff2") format("woff2");
+  font-weight: 500;
   font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Bold"), url("../../fonts/OpenSans-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
   font-display: swap;
 }
 

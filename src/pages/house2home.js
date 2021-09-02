@@ -350,7 +350,7 @@ const House2Home = () => {
                      />
                   </Zoom>
                   <p>
-                     I started with room selection, using a simple dropdown over a clean background image.
+                     1) I started with room selection, using a simple dropdown over a clean background image.
                   </p>
                </div>
             </LeftCol>
@@ -366,7 +366,7 @@ const House2Home = () => {
                      />
                   </Zoom>
                   <p>
-                     Then I moved on to a set of images Ally would choose from to visually determine her style.
+                     2) Then I moved on to a set of images Ally would choose from to visually determine her style.
                   </p>
                </div>
             </RightCol>
@@ -381,7 +381,7 @@ const House2Home = () => {
                      />
                   </Zoom>
                   <p>
-                     Ally would upload images of the room she wanted to decorate from her computer to activate the AR functionality.
+                     3) Ally would upload images of the room she wanted to decorate from her computer to activate the AR functionality.
                   </p>
                </div>
             </LeftCol>
@@ -397,7 +397,7 @@ const House2Home = () => {
                      />
                   </Zoom>
                   <p>
-                     Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s
+                     4) Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s
                      style. The user would get to choose a “look” with multiple items — essentially a starter kit — and see it in the
                      very room they uploaded.
 

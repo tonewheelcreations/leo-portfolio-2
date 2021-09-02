@@ -15,19 +15,14 @@
         grid-column: 1 /13;
     }
 
-    .left-col,
-    .right-col {
-        div {
-            p {
-                font-size: var(--type-xs);
-            }
-
-            // figcaption {
-            //     font-size: var(--type-xs);
-            //     text-align: center;
-            // }
-        }
-    }
+    // .left-col,
+    // .right-col {
+    //     div {
+    //         p {
+    //             font-size: var(--type-xs);
+    //         }
+    //     }
+    // }
 
     .full-col {
         grid-column: 1 /13;
@@ -51,11 +46,12 @@
         font-weight: 600;
         color: colors.$process-subtitle;
         margin-top: 0;
-        margin-bottom: var(--space-md);
+        margin-bottom: var(--space-xl);
     }
 
     p {
         margin-top: 0;
+        margin-bottom: var(--space-md);
     }
 
     p:last-child {
