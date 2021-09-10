@@ -81,11 +81,11 @@ const XpertVR = () => {
                     </p>
 
                     <p>
-                        XpertVR hired Stradea Design Labs to redesign the website so that it would have more engaging content and a better user experience. Our goals were to identify customer frustrations while onboarding and to understand the individual customer journeys for researchers, trainers, and participants. By mapping the site more closely to these customer journeys, we hoped to increase overall site traffic and engagement by 25-40%.
+                        XpertVR hired Stradea Design Labs to redesign the website. Our goals were to identify customer frustrations while onboarding and to understand the individual customer journeys for researchers, trainers, and participants. In the end, we hoped to increase site traffic and engagement by 25-40%.
                     </p>
 
                     <p>
-                        The redesigned website had a hard launch date of August 14th. This left us with a tight two-month timeline for the entire development cycle. I had to complete all of the user research, site mapping, and wireframing by the end of June so that we would stay on schedule for visual design and development.
+                        The redesigned website had a hard launch date of August 14th. This left us with a tight two-month timeline for the entire development cycle. I had to complete all user research, site mapping, and wireframing by July 1st.
                     </p>
                 </div>
             </FlexInfo>
