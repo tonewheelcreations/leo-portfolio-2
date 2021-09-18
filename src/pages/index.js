@@ -23,7 +23,7 @@ const IndexPage = () => {
         >
           <StaticImage
             src="../images/xpertvr/xpertvr-cover.jpg"
-            alt="XpertVR website redesign case study"
+            alt="Man with activated VR headset and Teslasuit on and misty XpertVR text in the background"
             className={image}
             style={{ display: "block" }}
             placeholder="blurred"
@@ -37,7 +37,7 @@ const IndexPage = () => {
         >
           <StaticImage
             src="../images/c1/c1-cover.png"
-            alt="Onstage Case Study"
+            alt="Onstage music live-streaming app login screen on an iPhone 10 with abstract geometric stage curtains in the background"
             className={image}
             style={{ display: "block" }}
             placeholder="blurred"
@@ -51,7 +51,7 @@ const IndexPage = () => {
         >
           <StaticImage
             src="../images/c2/c2-home.png"
-            alt="Keeps Case Study"
+            alt="A blue castle with green roof and door on a light beige background"
             className={image}
             style={{ display: "block" }}
             placeholder="blurred"
@@ -65,7 +65,7 @@ const IndexPage = () => {
         >
           <StaticImage
             src="../images/design-sprint/ds-cover.jpg"
-            alt="House2Home Case Study"
+            alt="A landing page for a home decor E-commerce site on a radiant purple background"
             className={image}
             style={{ display: "block" }}
             placeholder="blurred"
