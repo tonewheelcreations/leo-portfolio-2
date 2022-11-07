@@ -79,9 +79,10 @@ const Onstage = () => {
 
             <Grid>
                 <CenterCol>
+                <h3>Discovery</h3>
                     <h2>Getting started</h2>
 
-                    <h3>Discovery</h3>
+                    
                     <h4>A look at the industry</h4>
 
                     <p>To better understand what concertgoers were dealing with, I started researching the live-streaming space. How did music live-streaming fit in specifically? The numbers were astounding. According to a <a href="https://www.forbes.com/sites/paultassi/2020/05/16/report-livestream-viewership-grew-99-in-lockdown-microsofts-mixer-grew-02/?sh=33db6cf076cb" target="_blank" rel="noreferrer noopener">report by Forbes</a>, live-streaming increased by 99 percent between 2019 and 2020 — nearly doubling in one year! COVID-19 played a big part in this, accelerating the shift of real world content to digital which had already been happening. </p>
@@ -173,9 +174,10 @@ const Onstage = () => {
 
                     <p>This helped shape the problem space: how might we engage concertgoers with more immersive live-streaming offerings?</p>
 
-                    <h2>Letting the imagination run wild</h2>
-
                     <h3>Ideation</h3>
+                    <h2>Exploring solutions</h2>
+
+                    
 
                     <h4>Turning interview insights into design features</h4>
 
@@ -285,9 +287,9 @@ const Onstage = () => {
             </GridLarge>
             <Grid>
                 <CenterCol>
+                <h3>Visual design</h3>
                     <h2>Creating the music live-streaming experience</h2>
 
-                    <h3>Visual design</h3>
 
                     <h4>Refining critical features into red routes</h4>
 
@@ -476,9 +478,10 @@ const Onstage = () => {
             </VideoFullBlack>
             <Grid>
                 <CenterCol>
+                <h3>Outcome and lessons</h3>
                     <h2>The end of the story, for now</h2>
 
-                    <h3>Outcome and lessons</h3>
+                    
 
                     <p>The project ended with a final prototype of the app, Onstage. You can give it a test-drive <a href="https://www.figma.com/proto/ZUhCngnY6FfXipmS059Ja6/Onstage-Development-File?page-id=367%3A11476&node-id=383%3A1651&viewport=981%2C749%2C0.08178168535232544&scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. Its mission was to provide an immersive live concert experience to music fans, in the comfort of their home. The project was well-received and people hoped it would go into development so that they could view actual concerts.</p>
 

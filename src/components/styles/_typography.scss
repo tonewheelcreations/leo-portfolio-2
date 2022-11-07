@@ -3,13 +3,14 @@
 
 :root {
   // font family
-  --font-primary: "Open Serif", serif;
-  --font-secondary: "Noto Sans JP", sans-serif;
+  --font-primary: "signifier-regular", serif;
+  --font-secondary: "soehne-dreiviertelfett", sans-serif;
+  --font-secondary-light: "soehne-buch", sans-serif;
   --font-tertiary: "Graphik", sans-serif;
 
   // type scale
-  --base-size: 1em;
-  --scale-ratio: 1.25; // based on major 3rd ratio
+  --base-size: 1.23em;
+  --scale-ratio: 1.17; // based on major 3rd ratio
 
   // type sizes
   --type-xxxxl: calc(var(--type-xxl) * var(--scale-ratio));
@@ -42,8 +43,8 @@ h2 {
   font-family: var(--font-secondary);
   font-size: var(--type-md);
   line-height: 1.2;
-  font-weight: 600;
-  margin-top: var(--space-lg);
+  font-weight: 500;
+  // margin-top: var(--space-lg);
   margin-bottom: var(--space-xxs);
   color: colors.$on-background;
 }
@@ -67,7 +68,7 @@ h4 {
   font-size: var(--type-sm);
   line-height: 1.4;
   font-weight: 600;
-  margin-top: var(--space-xl);
+  margin-top: var(--space-md);
   margin-bottom: var(--space-xs);
   color: colors.$on-background;
 }
@@ -107,6 +108,14 @@ body {
   color: colors.$on-background;
 }
 
+// p + h2 {
+//   padding-top: var(--space-xxxxxs);
+// }
+
+p + h3 {
+  padding-top: var(--space-xs);
+}
+
 // p {
 //   margin: var(--space-md) 0;
 //   font-size: var(--base-size);
@@ -136,6 +145,10 @@ body {
   p {
     margin: var(--space-sm) 0;
   }
+
+  p + h2 {
+    margin-top: var(--space-xxl);
+  }
 }
 
 @include breakpoints.breakpoint(lg) {
@@ -147,7 +160,7 @@ body {
   h2 {
     line-height: 1.4;
     font-size: var(--type-lg);
-    margin-top: var(--space-md);
+    // margin-top: var(--space-md);
     margin-bottom: var(--space-xxxs);
   }
 
@@ -162,6 +175,10 @@ body {
   p {
     margin: var(--space-xs) 0;
   }
+
+  p + h2 {
+    margin-top: var(--space-xs);
+  }
 }
 
 @include breakpoints.breakpoint(xl) {
@@ -173,8 +190,8 @@ body {
   h2 {
     line-height: 1.5;
     font-size: var(--type-xl);
-    margin-top: var(--space-sm);
-    margin-bottom: var(--space-xxxxs);
+    // margin-top: var(--space-sm);
+    margin-bottom: var(--space-xxxs);
   }
 
   h3 {
@@ -192,31 +209,68 @@ body {
 
 /*** Fonts ***/
 
-// Noto Sans JP
+// Söhne
 
 @font-face {
-  font-family: "Noto Sans JP";
-  src: local("Noto Sans JP Bold"), url("../../fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff");
+  font-family: "soehne-dreiviertelfett";
+  src: local("soehne-dreiviertelfett"), url("../../fonts/soehne-dreiviertelfett.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Noto Sans JP";
-  src: local("Noto Sans JP Medium"), url("../../fonts/NotoSansJP-Medium-Alphabetic.woff") format("woff");
-  font-weight: 500;
+  font-family: "soehne-buch";
+  src: local("soehne-buch"), url("../../fonts/soehne-buch.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+  font-display: swap;
+}
+
+// Signifier
+
+@font-face {
+  font-family: "signifier-regular";
+  src: local("signifier-regular"), url("../../fonts/signifier-regular.woff2") format("woff2");
+  font-weight: regular;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Noto Sans JP";
-  src: local("Noto Sans JP Regular"), url("../../fonts/NotoSansJP-Regular-Alphabetic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "signifier-light-italic";
+  src: local("signifier-light-italic"), url("../../fonts/signifier-light-italic.woff2") format("woff2");
+  font-weight: light-italic;
+  font-style: italic;
   font-display: swap;
 }
+
+
+// Noto Sans JP
+
+// @font-face {
+//   font-family: "Noto Sans JP";
+//   src: local("Noto Sans JP Bold"), url("../../fonts/NotoSansJP-Bold-Alphabetic.woff") format("woff");
+//   font-weight: bold;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Noto Sans JP";
+//   src: local("Noto Sans JP Medium"), url("../../fonts/NotoSansJP-Medium-Alphabetic.woff") format("woff");
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
+
+// @font-face {
+//   font-family: "Noto Sans JP";
+//   src: local("Noto Sans JP Regular"), url("../../fonts/NotoSansJP-Regular-Alphabetic.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
 // Open Serif
 

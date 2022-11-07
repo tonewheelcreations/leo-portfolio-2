@@ -92,9 +92,9 @@ const XpertVR = () => {
 
             <Grid>
                 <CenterCol>
+                   
+                <h3>Discovery</h3>
                     <h2>The Kickoff Workshop</h2>
-
-                    <h3>Discovery</h3>
 
                     <p>
                         The first UX meeting with the XpertVR team was essentially a discovery workshop. The goal was to understand the specific problems the company was trying to solve and to align everyone behind a common plan for the web design. Evan and Drew, the company founders, felt that researchers, trainers, and participants were lost when they first came to the site. Email enquiries would often read, “We’re starting to work on a VR project at our school and would like to learn more about your company.”
@@ -128,9 +128,9 @@ const XpertVR = () => {
                 </Image>
 
                 <CenterCol>
+                <h3>Research</h3>
                     <h2>A study of the site</h2>
 
-                    <h3>Research</h3>
                     <h4>Planning</h4>
 
                     <p>
@@ -263,9 +263,8 @@ const XpertVR = () => {
                         In hindsight, I would’ve opted for a larger testing group — 15 participants. For one, usability testing would be more focused for each user type, providing more substantial results. Also, the tests could be shorter, around 30 minutes, alleviating some of the exhaustion participants experienced toward the end of the hour.
                     </p>
 
-                    <h2>Understanding XpertVR through the users</h2>
-
                     <h3>Synthesis</h3>
+                    <h2>Understanding XpertVR users</h2>
 
                     <p>
                         The user interviews provided important insights about overall usability. Comparing the XpertVR site to its competitors, users felt frustrated by large amounts of white space separating sections of content. None of the users scrolled below 50 percent of the homepage content. They also felt overwhelmed by large sections of copy without clear CTA’s to guide them toward the information I asked them to find.
@@ -312,9 +311,8 @@ const XpertVR = () => {
                 </Image>
 
                 <CenterCol>
+                <h3>Information architecture</h3>
                     <h2>Creating the website structure</h2>
-
-                    <h3>Information architecture</h3>
 
                     <p>
                         With the customer journeys defined, I started working on a sitemap that would easily fit the users’ mental models. This was a balancing act with the marketing and branding research that was happening simultaneously. The sitemap had to include branding content for four behavioral profiles — cautious competence, optimistic belonging, cautious engagement, and cautious autonomy — while remaining concise and easy to navigate.
@@ -468,9 +466,8 @@ const XpertVR = () => {
                         Using Elementor, I created the web designs for the bulk of the blog posts. There were ultimately four blog post templates: two article formats, a product review, and a book listing. You can see a bit of this visual environment below. Overall, Elementor is a powerful tool that greatly speeds up the development workflow. It’s based on basic HTML, CSS, and JavaScript principles, making it fairly easy and intuitive to use.
                     </p> */}
 
+<h3>Outcomes and lessons</h3>
                     <h2>Ready to launch</h2>
-
-                    <h3>Outcomes and lessons</h3>
 
                     <p>
                         At the time of writing this case study, the site was in the final stages of QA. You’ll be able to see the <a href="https://xpertvr.ca/" target="_blank" rel="noreferrer noopener">new XpertVR site here</a>. While it would take several months to see the impact of the redesign, we reached XpertVR’s goals in a deeply user-centered way. For one, we uncovered serious usability issues through contextual and competitor analysis. Now, the layout of content and customer journeys are more efficient. Most importantly, we made sure that the three user types could easily complete the flow to get the information and services they needed. The site matched these users’ mental models more closely than before.

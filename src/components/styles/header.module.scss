@@ -22,8 +22,8 @@
 }
 
 .svg {
-    width: var(--type-md);
-    height: var(--type-md);
+    width: var(--type-sm);
+    height: var(--type-sm);
 }
 
 .header {
@@ -64,16 +64,20 @@
             list-style-type: none;
             margin-left: 0;
             margin-bottom: 0;
-            font-family: var(--font-secondary);
+            font-family: var(--font-secondary-light);
             font-weight: 400;
+            font-size: var(--type-xxs);
+            
             // letter-spacing: 0.02rem;
 
             li,
             .page-link {
                 display: inline;
+                
 
                 a {
                     text-decoration: none;
+                    
                 }
 
                 a:visited {
@@ -113,10 +117,10 @@
 // }
 
 @include breakpoints.breakpoint(md) {
-    .svg {
-        width: var(--type-lg);
-        height: var(--type-lg);
-    }
+    // .svg {
+    //     width: var(--type-lg);
+    //     height: var(--type-lg);
+    // }
 
     .logo {
         span {
@@ -127,4 +131,11 @@
     // .header-div {
     //     align-items: baseline;
     // }
+}
+
+@include breakpoints.breakpoint(xl) {
+    .svg {
+        width: var(--type-lg);
+        height: var(--type-lg);
+    }
 }

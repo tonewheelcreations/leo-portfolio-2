@@ -12,7 +12,7 @@ p:first-child {
     max-width: 1440px;
 
     .headings {
-        margin: var(--space-xxxl) var(--space-xxxl) 0 var(--space-xxxl);
+        margin: var(--space-xl) var(--space-xxxl) 0 var(--space-xxxl);
 
         h1 {
             margin-bottom: 0;
@@ -21,7 +21,7 @@ p:first-child {
         h2 {
             margin-top: var(--space-xxxs);
             margin-bottom: var(--space-xs);
-            font-weight: 400;
+            font-family: var(--font-secondary-light)
         }
     }
 }

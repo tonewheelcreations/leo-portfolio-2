@@ -78,8 +78,9 @@ const Keeps = () => {
             </FlexInfo>
             <Grid>
                 <CenterCol>
-                    <h2>Planning ahead</h2>
-                    <h3>Project planning</h3>
+                <h3>Project planning</h3>
+                    <h2>Time boxing work</h2>
+                    
 
                     <p>
                         In order to stick to the 90-hour timeline, I started with a project plan. This outlined the phases, deliverables, and design rationale throughout the project. After I completed each phase, I presented the deliverables at stakeholder meetings to show progress toward the final prototype. A lot of time was spent in the discovery phase. It was important to understand the industry and its consumers in order to translate Keeps’s business requirements to mobile in the most simple and effective way.
@@ -96,8 +97,9 @@ const Keeps = () => {
                 </Image>
 
                 <CenterCol>
+                <h3>Discovery</h3>
                     <h2>Exploring the problem space</h2>
-                    <h3>Discovery</h3>
+                    
 
                     <h4>[Blank] as a service</h4>
 
@@ -177,9 +179,9 @@ const Keeps = () => {
                     />
                 </Image>
                 <CenterCol>
-
+                <h3>Information architecture</h3>
                     <h2>Creating a blueprint</h2>
-                    <h3>Information architecture</h3>
+                    
 
                     <p>
                         Now, I had to develop an architecture that would help Jorge accomplish his goals. After consolidating the user epics and determining the user stories needed to accomplish each of Jorge’s tasks, I created three user flows to model his paths through the interface:
@@ -275,8 +277,9 @@ const Keeps = () => {
                     </Zoom>
                 </Image>
                 <CenterCol>
+                <h3>Low-fidelity testing</h3>
                     <h2>Validating the initial structure</h2>
-                    <h3>Low-fidelity testing</h3>
+                    
 
                     <p>
                         Using the wireframes, I created a lo-fi prototype to test the initial structure and flows. I then conducted guerrilla testing with five participants. The context was that the participant was already a Keeps desktop web app user, Jorge in this case, and was trying out the mobile version for the first time. He already had an account and subscriptions linked to a credit card within the app. The tasks were:
@@ -318,8 +321,9 @@ const Keeps = () => {
                 </CenterCol>
 
                 <CenterCol>
+                <h3>High-fidelity design</h3>
                     <h2>Foundations for a prototype</h2>
-                    <h3>High-fidelity design</h3>
+                    
 
                     <p>
                         In addition to addressing the prioritized recommendations for the low-fidelity testing, I had to move forward and create a light-weight style guide for the mobile design. This included a baseline color theme, typography, and core UI components. Keeps already had a brand platform, which I extended with logo design. I felt the castle imparted a sense of trustworthiness and care. To ensure that the design followed <a href="https://material.io/design/guidelines-overview" target="_blank" rel="noreferrer noopener">Material Guidelines</a>, I used the official <a href="https://www.figma.com/community/file/778763161265841481/Material-Baseline-Design-Kit" target="_blank" rel="noreferrer noopener">Material Baseline Design Kit</a> in Figma.
@@ -417,8 +421,9 @@ const Keeps = () => {
                 </Image>
 
                 <CenterCol>
+                <h3>Prototype testing</h3>
                     <h2>The prototype: a draft</h2>
-                    <h3>Prototype testing</h3>
+                   
 
                     <p>
                         It was important to do another round of usability testing after revising the four critical issues. I wanted to validate the placement of the floating action button (FAB) on the Overview page and ensure that the modal bottom sheet it opened simplified the interface for Jorge. I also wanted to address the new icon for opening the comprehensive spending page, the copy for a canceled subscription, and the ease of setting a reminder. I followed essentially the same testing script since the scope of the business requirements hadn’t changed and only added one task — to set price change notifications.
@@ -436,8 +441,9 @@ const Keeps = () => {
                         There were two critical issues this time around: it was not clear where to access notifications nor was it clear where to set reminders. Participants didn’t expect to go to Settings to change their notification preferences. They felt it would be easier if notifications and reminders were grouped together, since reminders were a type of notification. The same applied to setting the reminders themselves. Participants expected to find reminders on the Calendar page since reminders since both were time-related.
                     </p>
 
-                    <h2>The prototype: revised</h2>
                     <h3>Final designs</h3>
+                    <h2>The prototype: revised</h2>
+                    
 
                     <p>
                         I time-boxed the remainder of the project for revisions of the hi-fi prototype. Using the findings from the second usability test, I iterated on 9 of the screens:
@@ -468,8 +474,9 @@ const Keeps = () => {
                         <li>26, 27: I moved reminders out of the Profile page and combined them with Notifications under Settings to reduce cognitive load.</li>
                     </ul>
 
-                    <h2>Project Completion</h2>
                     <h3>Outcomes and lessons</h3>
+                    <h2>Project Completion</h2>
+                    
 
                     <p>
                         After making all of the revisions from the two usability tests, I wired together the final prototype, below. You can try it out yourself <a href="https://www.figma.com/proto/GSs8ri8C4hw3U7QbQ4PNR2/Material-Baseline-Design-Kit-Keeps?page-id=54%3A5829&amp;node-id=54%3A13775&amp;viewport=1258%2C618%2C0.08787628263235092&amp;scaling=scale-down" target="_blank" rel="noreferrer noopener">here</a>. People enjoyed using the prototype and, above all, praised it for its simplicity. While this mobile version of the Keeps app met all of the company’s business requirements, there were still some challenges to address going forward.

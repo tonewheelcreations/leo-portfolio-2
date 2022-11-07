@@ -9,7 +9,7 @@
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    margin-top: var(--space-xxxl);
+    margin-top: var(--space-xl);
     margin-bottom: var(--space-xxxl);
     margin-left: var(--space-xxxl);
     margin-right: var(--space-xxxl);
@@ -76,7 +76,7 @@
     p {
         margin: 0;
         font-style: italic;
-        font-family: var(--font-secondary);
+        font-family: var(--font-secondary-light);
         font-weight: 400;
         color: colors.$on-background;
     }
@@ -136,7 +136,7 @@
 
     p {
         margin-bottom: 0;
-        font-family: var(--font-secondary);
+        font-family: var(--font-secondary-light);
         font-weight: 400;
         font-style: italic;
     }

@@ -63,8 +63,9 @@ const House2Home = () => {
          </FlexInfo>
          <Grid>
             <CenterCol>
+            <h3>Synthesizing research</h3>
                <h2>Understanding the problem</h2>
-               <h3>Synthesizing research</h3>
+               
                <p>
                   The first day of the sprint was all about understanding the problem. I started by looking at existing customers. The
                   research team at House2Home provided initial marketing data and interview insights about customers’ experiences
@@ -188,10 +189,10 @@ const House2Home = () => {
 
          <Grid>
             <CenterCol>
-
+            <h3>Exploring and sketching</h3>
                <h2>Idea to image</h2>
 
-               <h3>Exploring and sketching</h3>
+               
                <p>
                   On Day Two of the sprint, I sketched the core of the design. I started by looking at a bunch of House2Home’s
                   competitors to see how they handled helping customers choose multiple home decor items. There were four examples that felt like they
@@ -288,8 +289,9 @@ const House2Home = () => {
                </Zoom>
             </RightCol>
             <CenterCol>
+            <h3>Deciding and storyboarding</h3>
                <h2>Image to story</h2>
-               <h3>Deciding and storyboarding</h3>
+               
                <p>
                   On Day Three, I turned Ally’s user experience into a visual story. I created a storyboard that narrated the path she
                   would take to complete her goal. This was essentially a light-weight wireframe for the upcoming prototype.
@@ -331,8 +333,10 @@ const House2Home = () => {
                   <li>Screens showing the process of selecting photos from her computer and uploading them to the site
                   </li>
                </ul>
-               <h2>Bringing the story to life</h2>
+
                <h3>Prototyping</h3>
+               <h2>Bringing the story to life</h2>
+               
                <p>
                   It was Day Four, and with a storyboard of Ally completing her goal, I brought her journey of finding home decor to life
                   with a prototype. Below are some of the main screens; the full prototype is available at the end of the case study.
@@ -406,9 +410,9 @@ const House2Home = () => {
             </RightCol>
 
             <CenterCol>
-
+            <h3>Testing</h3>
                <h2>Getting feedback</h2>
-               <h3>Testing</h3>
+               
                <p>
                   On the last day of the sprint, I was ready to test the prototype. I conducted five usability tests, about 15 minutes
                   each. The snipet below shows feedback about the dropdown menu to select which room to decorate, at the beginning of the prototype.
@@ -427,8 +431,9 @@ const House2Home = () => {
                   a title.
                </p>
 
-               <h2>Delivering the solution</h2>
                <h3>Outcomes and lessons</h3>
+               <h2>Delivering the solution</h2>
+               
                <p>
                   I revised the prototype, making the critical issues a priority. Overall, I made the design more image-heavy so that
                   Ally and all of the House2Home customers would have a more concrete and simplified set of choices to make.
