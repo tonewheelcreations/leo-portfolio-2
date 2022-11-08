@@ -3,11 +3,13 @@
 .quote-container {
     text-align: center;
 
-    em {
+    blockquote {
         font-size: var(--type-md);
         letter-spacing: -0.005rem;
         color: colors.$blockquote;
         font-weight: 600;
+        display: inline;
+        margin: 0;
     }
 
     .svg {

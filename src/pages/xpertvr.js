@@ -103,7 +103,7 @@ const XpertVR = () => {
 
                 <FullCol>
                     <Blockquote>
-                        <em>We’re starting to work on a VR project at our school and would like to learn more about your company.</em>
+                        <blockquote>We’re starting to work on a VR project at our school and would like to learn more about your company.</blockquote>
                     </Blockquote>
                 </FullCol>
 

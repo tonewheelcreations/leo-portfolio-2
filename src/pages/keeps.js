@@ -142,8 +142,8 @@ const Keeps = () => {
                 </CenterCol>
                 <FullCol>
                     <Blockquote>
-                        <em>It’s hard to have the energy to do things right away when you’re busy.
-                        </em>
+                        <blockquote>It’s hard to have the energy to do things right away when you’re busy.
+                        </blockquote>
                     </Blockquote>
                 </FullCol>
                 <CenterCol>

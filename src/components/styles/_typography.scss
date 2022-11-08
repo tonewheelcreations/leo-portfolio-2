@@ -108,20 +108,17 @@ body {
   color: colors.$on-background;
 }
 
-// p + h2 {
-//   padding-top: var(--space-xxxxxs);
-// }
+ul, ol {
+  margin-left: 1em;
+}
 
 p + h3 {
   padding-top: var(--space-xs);
 }
 
-// p {
-//   margin: var(--space-md) 0;
-//   font-size: var(--base-size);
-//   font-family: var(--font-primary);
-//   color: colors.$on-background;
-// }
+ul + h3 {
+  padding-top: var(--space-xs);
+}
 
 /*** Media Queries ***/
 

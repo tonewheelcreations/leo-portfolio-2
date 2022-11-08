@@ -59,6 +59,7 @@
         justify-content: space-between;
         align-content: space-around;
         align-items: center;
+        font-size: var(--type-xxxs);
 
         ul {
             list-style-type: none;
@@ -66,7 +67,6 @@
             margin-bottom: 0;
             font-family: var(--font-secondary-light);
             font-weight: 400;
-            font-size: var(--type-xxs);
             
             // letter-spacing: 0.02rem;
 

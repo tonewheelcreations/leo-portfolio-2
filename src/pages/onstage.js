@@ -129,7 +129,7 @@ const Onstage = () => {
                 </CenterCol>
                 <FullCol>
                     <Blockquote>
-                        <em>Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling.</em>
+                        <blockquote>Just being in the actual room with that sound surrounding your whole body is an other-worldly feeling.</blockquote>
                     </Blockquote>
                 </FullCol>
                 <CenterCol>
