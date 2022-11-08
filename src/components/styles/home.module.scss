@@ -18,12 +18,14 @@
         text-align: center;
         margin: 0;
         color: colors.$on-background;
+        font-size: var(--type-lg);
     }
 
     h2 {
         font-weight: 500;
         text-align: center;
         margin-top: var(--space-xxs);
+        font-size: var(--type-sm);
     }
 
     a {
@@ -169,13 +171,23 @@ a {
             font-size: var(--type-md);
         }
     }
+
+    .top-module {
+        h1 { font-size: var(--type-xl);}
+        h2 { font-size: var(--type-md);}
+    }
 }
 
-@include breakpoints.breakpoint(lg) {
+@include breakpoints.breakpoint(xl) {
     .projectInfo {
         h2 {
             font-size: var(--type-lg);
         }
+    }
+
+    .top-module {
+        h1 { font-size: var(--type-xxl);}
+        h2 { font-size: var(--type-lg);}
     }
 }
 
