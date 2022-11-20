@@ -44,8 +44,8 @@ h2 {
   font-size: var(--type-md);
   line-height: 1.2;
   font-weight: 500;
-  // margin-top: var(--space-lg);
-  margin-bottom: var(--space-xxs);
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-xs);
   color: colors.$on-background;
 }
 
@@ -98,7 +98,7 @@ h6 {
 }
 
 body {
-  margin: 0;
+  margin: 0 0 var(--space-xl);
   min-width: 0;
   font-size: var(--base-size);
   font-family: var(--font-primary);
@@ -145,6 +145,7 @@ ul + h3 {
 
   p + h2 {
     margin-top: var(--space-xxl);
+    margin-bottom: var(--space-xxxs);
   }
 }
 
@@ -271,21 +272,21 @@ ul + h3 {
 
 // Open Serif
 
-@font-face {
-  font-family: "Open Serif";
-  src: local("Open Serif Regular"), url("../../fonts/OpenSerif-Regular.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Open Serif";
+//   src: local("Open Serif Regular"), url("../../fonts/OpenSerif-Regular.woff2") format("woff2");
+//   font-weight: 500;
+//   font-style: normal;
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: "Open Serif";
-  src: local("Open Serif Italic"), url("../../fonts/OpenSerif-Italic.woff2") format("woff2");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
+// @font-face {
+//   font-family: "Open Serif";
+//   src: local("Open Serif Italic"), url("../../fonts/OpenSerif-Italic.woff2") format("woff2");
+//   font-weight: 500;
+//   font-style: italic;
+//   font-display: swap;
+// }
 
 // Graphik
 

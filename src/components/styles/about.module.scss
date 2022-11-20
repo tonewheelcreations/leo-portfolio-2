@@ -24,11 +24,7 @@
 .profile,
 .album {
     flex: 1;
-    margin: auto;
-}
-
-.profile {
-    width: 50%;
+    justify-content: flex-end;
 }
 
 .album {
@@ -54,11 +50,11 @@
     h2 {
         font-size: var(--type-lg);
         margin-bottom: var(--space-md);
-        text-align: center;
+        // text-align: center;
     }
 
     p {
-        margin: var(--space-md) 0;
+        margin: var(--space-xl) 0;
     }
 
     a {
@@ -70,7 +66,7 @@
 /*** Video Header ***/
 
 .h2 {
-    text-align: center;
+    // text-align: center;
     font-size: var(--type-lg);
     line-height: 1.25;
     font-weight: 800;
@@ -84,6 +80,11 @@
     .container-video {
         width: 80%;
         margin: auto;
+        padding-top: var(--space-sm);
+    }
+
+    .container-music {
+        padding-bottom: var(--space-sm);
     }
 }
 
@@ -92,7 +93,18 @@
     .container-music,
     .container-video {
         width: 70%;
+        // padding-top: var(--space-lg);
     }
+    .text-bio,
+    .text-album {
+        h1, h2 {
+            margin-bottom: var(--space-xs);
+        }
+        p {
+            margin: var(--space-md) 0;
+        }
+    }
+    
 }
 
 @include breakpoints.breakpoint(xl) {
@@ -114,6 +126,10 @@
         flex-direction: row;
         flex-flow: row-reverse;
         width: 100%;
+    }
+
+    .container-music {
+        padding-bottom: 0;
     }
 
     .profile,

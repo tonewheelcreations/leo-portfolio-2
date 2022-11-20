@@ -34,15 +34,16 @@
 
     h2 {
         // padding-top: var(--space-md);
-        margin-bottom: var(--space-xxxs);
+        margin-top: 0;
+        margin-bottom: var(--space-sm);
         font-weight: 600;
     }
 
     h3 {
-        font-family: var(--font-tertiary);
-        font-size: var(--type-xs);
+        font-family: var(--font-secondary);
+        font-size: var(--type-xxs);
         text-transform: uppercase;
-        font-style: italic;
+        // font-style: italic;
         font-weight: 600;
         color: colors.$process-subtitle;
         margin-top: 0;
@@ -67,12 +68,6 @@
     }
 }
 
-// h3 {
-//     margin-bottom: var(--space-sm);
-//     font-size: var(--type-sm);
-//     font-weight: 500;
-// }
-
 .grid,
 .center-col {
     a {
@@ -85,6 +80,11 @@
 
 @include breakpoints.breakpoint(md) {
     .grid {
+
+        h2 {
+            margin-bottom: var(--space-sm);
+        }
+        
         .center-col {
             h1 {
                 font-size: var(--type-xl);
@@ -100,6 +100,14 @@
 @include breakpoints.breakpoint(lg) {
     .grid {
         grid-column-gap: var(--space-xl);
+
+        h2 {
+            margin-bottom: var(--space-xs);
+        }
+
+        h3 {
+            margin-bottom: 0;
+        }
 
         .left-col {
             grid-column: 1 / 7;
@@ -128,6 +136,12 @@
 
 @include breakpoints.breakpoint(xl) {
     .grid {
+        grid-row-gap: var(--space-xxl);
+
+        h2 {
+            margin-bottom: var(--space-xxs);
+        }
+
         .center-col {
             grid-column: 4 / 10;
         }
