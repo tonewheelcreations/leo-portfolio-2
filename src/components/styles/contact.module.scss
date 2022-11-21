@@ -23,6 +23,7 @@
         line-height: 1.8;
         background: colors.$on-dark;
         border: 1px solid colors.$on-background;
+        border-radius: 4px;
     }
 
     button {
@@ -31,12 +32,26 @@
         color: colors.$on-dark;
         margin-top: var(--space-xs);
         padding: var(--space-xxxxs) 0;
+        border: none;
+        border-radius: 4px;
+    }
+
+    button:hover {
+        background-color: colors.$primary-hover;
+        transition: .25s;
+        cursor: pointer;
     }
 
     input {
         line-height: 1.8;
         background: colors.$on-dark;
         border: 1px solid colors.$on-background;
+        border-radius: 4px;
+    }
+
+    input:focus {  
+        min-height: auto;
+        border-color: hsl(228, 30%, 45%);
     }
 }
 
