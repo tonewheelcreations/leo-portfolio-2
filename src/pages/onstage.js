@@ -17,6 +17,7 @@ import { Video, VideoFullBlack, VideoFullWhite } from "../components/video"
 import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
+import Figure from '../components/figure.js'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const Onstage = () => {
@@ -246,6 +247,7 @@ const Onstage = () => {
 
             <GridLarge>
                 <One>
+                    <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c1/c1-user-flow-1.png"
@@ -253,12 +255,14 @@ const Onstage = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>Personalize account</i> addressed people’s needs to be able to create a profile and set music preferences
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </One>
 
                 <Two>
+                <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c1/c1-user-flow-2.png"
@@ -266,12 +270,14 @@ const Onstage = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>Buy a concert ticket</i> included searching for concerts, getting concert info, and buying the tickets
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Two>
 
                 <Three>
+                <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c1/c1-user-flow-3.png"
@@ -279,9 +285,10 @@ const Onstage = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>Watch a concert</i> allowed people to live-stream the concert in immersive audio and video
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Three>
 
             </GridLarge>

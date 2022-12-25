@@ -12,6 +12,7 @@ import { VideoFullBlack } from "../components/video"
 import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
+import Figure from "../components/figure.js"
 import 'react-medium-image-zoom/dist/styles.css'
 
 const House2Home = () => {
@@ -202,6 +203,7 @@ const House2Home = () => {
 
             <LeftCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-pinterest.png"
@@ -209,15 +211,17 @@ const House2Home = () => {
                         placeholder="blurred"
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      With Pinterest, you can see an entire interior decoration and the item-by-item breakdown. Ally was used to this
                      layout and it would be a great way to present a starter kit of items all at once.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </LeftCol>
 
             <RightCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-living-spaces.png"
@@ -225,15 +229,17 @@ const House2Home = () => {
                         placeholder="blurred"
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      Living Spaces has a step-by-step 3D room builder that gives you an immersive look at what room styles look like.
                      This provided inspiration for what an empty room with AR-populated items could look like.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </RightCol>
 
             <LeftCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-modsy.png"
@@ -242,15 +248,17 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      Modsy uses a visually engaging style quiz to help decorate your home. It’s simple because it’s so heavily
                      image-based, a great way to ensure that Ally doesn’t get overwhelmed when selecting her style.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </LeftCol>
 
             <RightCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-mailchimp.png"
@@ -259,10 +267,11 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      Mailchimp was the outlier but I was inspired by the clarity of the progress bar during onboarding. This was another
                      way to make the style selection process easy for the shopper.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </RightCol>
 
@@ -345,6 +354,7 @@ const House2Home = () => {
 
             <LeftCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-prototype-room.png"
@@ -353,14 +363,16 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      1) I started with room selection, using a simple dropdown over a clean background image.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </LeftCol>
 
             <RightCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-prototype-style.png"
@@ -369,13 +381,15 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      2) Then I moved on to a set of images Ally would choose from to visually determine her style.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </RightCol>
             <LeftCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-prototype-photos.png"
@@ -384,14 +398,16 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      3) Ally would upload images of the room she wanted to decorate from her computer to activate the AR functionality.
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </LeftCol>
 
             <RightCol>
                <div>
+                  <Figure>
                   <Zoom>
                      <StaticImage
                         src="../images/design-sprint/ds-prototype-results-2.png"
@@ -400,12 +416,13 @@ const House2Home = () => {
                         quality={100}
                      />
                   </Zoom>
-                  <p>
+                  <figcaption>
                      4) Finally, the AR decoration algorithm would kick in and populate the room with suggested items based on the user’s
                      style. The user would get to choose a “look” with multiple items — essentially a starter kit — and see it in the
                      very room they uploaded.
 
-                  </p>
+                  </figcaption>
+                  </Figure>
                </div>
             </RightCol>
 

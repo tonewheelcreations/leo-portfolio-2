@@ -1,12 +1,15 @@
+@use 'colors';
+
 .figure {
     margin: 0;
 
     figcaption {
+        color: colors.$caption;
         font-family: var(--font-secondary-light);
         font-weight: 400;
-        font-size: var(--type-xxxxs);
-        font-style: italic;
-        text-align: center;
-        margin-top: var(--space-xxs);
+        font-size: var(--type-xxxs);
+        // font-style: italic;
+        // text-align: center;
+        margin-top: var(--space-md);
     }
 }

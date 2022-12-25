@@ -359,6 +359,7 @@ const XpertVR = () => {
             </Grid>
             <GridLarge>
                 <One>
+                    <Figure>
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-homepage.jpg"
@@ -366,13 +367,15 @@ const XpertVR = () => {
                             placeholder='blurred'
                             quality={100}
                         />
+                        
                     </Overflow>
-                    <p>
-                        The homepage was the most substantial. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/" target="_blank" rel="noreferrer noopener">within three seconds</a> of viewing to ensure a lower bounce rate.
-                    </p>
+                    <figcaption> The homepage was the most substantial. I started with the branding tagline and hero image along with a clear CTA to help researchers, trainers, and participants learn what XpertVR did and why. I then created an <em>Our Story</em> section with a clear “learn more” CTA to make it easier to validate XpertVR. These sections were above the hold and would engage users <a href="https://www.hostingmanual.net/3-seconds-how-website-speed-impacts-visitors-sales/" target="_blank" rel="noreferrer noopener">within three seconds</a> of viewing to ensure a lower bounce rate.
+</figcaption>
+</Figure>
                 </One>
 
                 <Two>
+                    <Figure>
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-our-story.jpg"
@@ -381,12 +384,14 @@ const XpertVR = () => {
                             quality={100}
                         />
                     </Overflow>
-                    <p>
+                    <figcaption>
                         The <em>Our Story</em> page followed. It was second in the top nav and a crucial part of the <em>why</em>-based messaging to inspire trust in XpertVR. Like nearly every page on the site, <em>Our Story</em> ended with a contact form to simplify engagement with the XpertVR team and to personalize the experience based on the page content.
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Two>
 
                 <Three>
+                    <Figure>
                     <Overflow>
                         <StaticImage
                             src="../images/xpertvr/xpertvr-training-elearning.jpg"
@@ -396,9 +401,10 @@ const XpertVR = () => {
                         />
                     </Overflow>
 
-                    <p>
+                    <figcaption>
                         The final static page I wireframed was the <em>VR Training & eLearning </em>subpage. This essentially provided a template for the other service pages and ensured that the service was clear, there was validation through selected case studies, and it was easy to get in touch with a team efficiently through a service-specific contact form.
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Three>
             </GridLarge>
 

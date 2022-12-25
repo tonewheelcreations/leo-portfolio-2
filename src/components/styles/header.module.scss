@@ -47,9 +47,10 @@
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 var(--space-xxxl);
 
     .contents {
-        margin: 0 var(--space-xxxl);
+        // margin: 0 var(--space-xxxl);
         // margin-right: auto;
         // margin-left: auto;
         display: flex;

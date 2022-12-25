@@ -14,6 +14,7 @@ import { VideoFullBlack } from "../components/video"
 import Blockquote from "../components/blockquote"
 import Next from "../components/next-project"
 import Zoom from 'react-medium-image-zoom'
+import Figure from '../components/figure.js'
 import 'react-medium-image-zoom/dist/styles.css'
 
 const Keeps = () => {
@@ -191,6 +192,7 @@ const Keeps = () => {
 
             <GridLarge>
                 <One>
+                    <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c2/c2-flow-1.png"
@@ -198,12 +200,14 @@ const Keeps = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>View subscriptions and spending</i> allowed users to see their subscriptions and spending in one place
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </One>
 
                 <Two>
+                <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c2/c2-flow-2.png"
@@ -211,12 +215,14 @@ const Keeps = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>Get notified</i> included setting and receiving reminders about upcoming subscription renewals
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Two>
 
                 <Three>
+                <Figure>
                     <Zoom>
                         <StaticImage
                             src="../images/c2/c2-flow-3.png"
@@ -224,9 +230,10 @@ const Keeps = () => {
                             placeholder='blurred'
                         />
                     </Zoom>
-                    <p>
+                    <figcaption>
                         <i>Cancel subscription</i> allowed users to definitively cancel a subscription and no longer get charged
-                    </p>
+                    </figcaption>
+                    </Figure>
                 </Three>
             </GridLarge>
 

@@ -21,6 +21,8 @@
   --type-md: calc(var(--type-sm) * var(--scale-ratio));
   --type-sm: calc(var(--base-size) * var(--scale-ratio));
   --type-xs: calc(var(--base-size) / var(--scale-ratio));
+  --type-xxs: calc(var(--type-xs) / var(--scale-ratio));
+  --type-xxxs: calc(var(--type-xxs) / var(--scale-ratio));
 }
 
 /*** Headings and body ***/
@@ -76,8 +78,8 @@ h4 {
 h5 {
   margin: 0;
   min-width: 0;
-  font-family: var(--font-secondary);
-  font-size: var(--base-size);
+  font-family: var(--font-secondary-light);
+  font-size: var(--type-xs);
   line-height: 1.4;
   font-weight: 600;
   margin-top: var(--space-xxs);
@@ -98,7 +100,7 @@ h6 {
 }
 
 body {
-  margin: 0 0 var(--space-xl);
+  // margin: 0 0 var(--space-xl);
   min-width: 0;
   font-size: var(--base-size);
   font-family: var(--font-primary);

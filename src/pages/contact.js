@@ -75,22 +75,22 @@ const Contact = () => {
                             <label className={form}>
                                 Name
                                 <input type="text" name="name" required onInvalid={e => e.target.setCustomValidity('This field is required')} 
-onInput={e => e.target.setCustomValidity('')}  />
+                                onInput={e => e.target.setCustomValidity('')}  />
                             </label>
                             <label className={form}>
                                 Email
                                 <input type="email" name="email" required onInvalid={e => e.target.setCustomValidity('This field is required')} 
-onInput={e => e.target.setCustomValidity('')} />
+                                onInput={e => e.target.setCustomValidity('')} />
                             </label>
                             <label className={form}>
                                 Subject
                                 <input type="text" name="subject" required onInvalid={e => e.target.setCustomValidity('This field is required')} 
-onInput={e => e.target.setCustomValidity('')} />
+                                onInput={e => e.target.setCustomValidity('')} />
                             </label>
                             <label className={form}>
                                 Message
                                 <textarea name="message" rows="5" required onInvalid={e => e.target.setCustomValidity('This field is required')} 
-onInput={e => e.target.setCustomValidity('')} />
+                                onInput={e => e.target.setCustomValidity('')} />
                             </label>
                             <div className={form}>
                                 <button type="submit" disabled={serverState.submitting}>Send
