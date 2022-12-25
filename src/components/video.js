@@ -6,7 +6,7 @@ export const Video = ({ children }) => (
         data-sal-duration="300"
         data-sal-easing="ease-out-sine">
         <video className={video}
-            autoPlay muted loop controls controlsList="nodownload"
+             muted loop controls controlsList="nodownload"
         >
             {children}
         </video>
@@ -18,7 +18,7 @@ export const VideoFullBlack = ({ children }) => (
         data-sal-duration="300"
         data-sal-easing="ease-out-sine">
         <video className={videoFull}
-            autoPlay muted loop controls controlsList="nodownload"
+             muted loop controls controlsList="nodownload"
         >
             {children}
         </video>
@@ -30,7 +30,7 @@ export const VideoFullWhite = ({ children }) => (
         data-sal-duration="300"
         data-sal-easing="ease-out-sine">
         <video className={videoFull}
-            autoPlay muted loop controls controlsList="nodownload"
+             muted loop controls controlsList="nodownload"
         >
             {children}
         </video>

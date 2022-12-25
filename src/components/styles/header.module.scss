@@ -60,7 +60,7 @@
         justify-content: space-between;
         align-content: space-around;
         align-items: center;
-        font-size: var(--type-xxxs);
+        font-size: var(--type-xxs);
 
         ul {
             list-style-type: none;
@@ -132,11 +132,24 @@
     // .header-div {
     //     align-items: baseline;
     // }
+
+    .container .contents {
+            font-size: var(--type-xxs);
+} }
+
+@include breakpoints.breakpoint(lg) {
+    .container .contents {
+        font-size: var(--type-xxs);
+}
 }
 
 @include breakpoints.breakpoint(xl) {
     .svg {
-        width: var(--type-lg);
-        height: var(--type-lg);
+        width: var(--type-md);
+        height: var(--type-md);
     }
+
+    .container .contents {
+        font-size: var(--type-xs);
+}
 }

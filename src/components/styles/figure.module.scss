@@ -1,4 +1,5 @@
 @use 'colors';
+@use 'breakpoints';
 
 .figure {
     margin: 0;
@@ -7,9 +8,21 @@
         color: colors.$caption;
         font-family: var(--font-secondary-light);
         font-weight: 400;
-        font-size: var(--type-xxxs);
+        font-size: var(--type-xxs);
         // font-style: italic;
         // text-align: center;
         margin-top: var(--space-md);
     }
 }
+
+@include breakpoints.breakpoint(md) {
+   .figure figcaption {
+        font-size: var(--type-xxxs);
+    }
+}
+
+// @include breakpoints.breakpoint(lg) {
+//     .figure figcaption {
+//         font-size: var(--type-xxxs);
+//     }
+// }
