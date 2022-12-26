@@ -19,7 +19,8 @@ const About = () => {
                         alt="Me, Leo Sherman"
                         placeholder="blurred"
                         quality={80}
-                        layout="fullWidth"
+                        width={auto}
+                        aspectRatio={9/16}
                     />
                 </div>
                 <div className={textBio} data-sal="slide-right"
